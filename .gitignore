@@ -1,0 +1,54 @@
+# macOS / editor local state
+.DS_Store
+._*
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Credentials and local configuration (keep sanitized templates)
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+secrets/
+credentials/
+configs/*.local.*
+
+# Downloaded/processed research data and local paper copies
+/data/*
+/literature/
+
+# Runs, generated outputs and learned weights
+/runs/
+/outputs/
+/checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.log
+
+# Python environment, cache and build artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+build/
+dist/
+*.egg-info/
+
+# Local experiments
+/docs/*
+/expert_lab/*

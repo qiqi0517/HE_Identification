@@ -1,0 +1,2 @@
+-r requirements-agent.txt
+ruff==0.15.7
