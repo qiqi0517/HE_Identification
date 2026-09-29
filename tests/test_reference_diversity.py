@@ -11,10 +11,11 @@ from pathlib import Path
 from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts/analysis"))
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts/data"))
+from compare_reference_runs import compare
 from reference_diversity import choose_additions, create_diverse_split
 
-from compare_reference_runs import compare
 from reference_split import select_references, validate_split
 
 

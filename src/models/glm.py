@@ -1,14 +1,18 @@
-"""智谱视觉模型适配器：负责鉴权、请求编码、重试和响应归一化。"""
+"""智谱视觉模型适配器：负责鉴权、请求编码、重试和响应归一化。
+
+调用链：generate → build_payload → _post → normalize_response。
+适配器只翻译服务商协议；患病概率的解释和评分留给主流程。
+"""
 
 import base64
 import http.client
 import json
-import os
 import time
 import urllib.error
 import urllib.request
 
 from .base import ImagePart, ModelError, ModelRequest, ModelResponse, TextPart
+from .credentials import read_api_key
 
 ENDPOINT = "https://open.bigmodel.cn/api/paas/v4/chat/completions"
 DEFAULT_MODEL = "glm-5.3-flash"
@@ -19,6 +23,7 @@ class NoRedirect(urllib.request.HTTPRedirectHandler):
     """禁止重定向，避免将鉴权请求转发到其他地址。"""
 
     def redirect_request(self, req, fp, code, msg, headers, newurl):
+        """拒绝 urllib 的跳转请求，让鉴权头和原图只发往既定服务地址。"""
         return None
 
 
@@ -26,6 +31,7 @@ class GLMClient:
     """将统一多模态请求转换为智谱接口格式。"""
 
     def __init__(self, model=None, max_tokens=8192, timeout=180, retries=2):
+        """校验模型白名单、输出预算和重试参数；此时不读密钥、不建立网络连接。"""
         self.model = model or DEFAULT_MODEL
         if self.model not in VISION_MODELS:
             raise ValueError(f"GLM adapter currently supports: {', '.join(sorted(VISION_MODELS))}")
@@ -36,11 +42,8 @@ class GLMClient:
         self.retries = retries
 
     def validate_credentials(self):
-        """仅检查本地环境变量，不将密钥写入实验记录。"""
-        if not os.environ.get("ZHIPU_API_KEY", "").strip():
-            raise ValueError(
-                "Set ZHIPU_API_KEY in your local terminal; do not put it in source code"
-            )
+        """检查环境变量或项目本地密钥；不记录密钥，dry-run不调用此方法。"""
+        read_api_key("glm")
 
     def describe(self):
         """返回可复现的模型参数；不包含 API Key。"""
@@ -114,8 +117,7 @@ class GLMClient:
 
     def _post(self, payload):
         """发送请求并有限重试临时错误；永久性调用错误标记为 fatal。"""
-        self.validate_credentials()
-        key = os.environ["ZHIPU_API_KEY"].strip()
+        key = read_api_key("glm")
         request = urllib.request.Request(
             ENDPOINT,
             data=json.dumps(payload).encode(),

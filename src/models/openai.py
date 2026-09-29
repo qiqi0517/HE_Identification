@@ -1,15 +1,19 @@
-"""OpenAI Responses API 适配器；仅处理传输协议，不解释医学诊断。"""
+"""OpenAI Responses API 适配器；仅处理传输协议，不解释医学诊断。
+
+调用链：generate → build_payload → _post → normalize_response。
+Responses 的 output 可能含 reasoning／refusal，只收集完整 assistant 最终文本。
+"""
 
 import base64
 import http.client
 import json
 import math
-import os
 import time
 import urllib.error
 import urllib.request
 
 from .base import ImagePart, ModelError, ModelRequest, ModelResponse, TextPart
+from .credentials import read_api_key
 
 ENDPOINT = "https://api.openai.com/v1/responses"
 DEFAULT_MODEL = "gpt-5.6-terra"
@@ -20,6 +24,7 @@ class NoRedirect(urllib.request.HTTPRedirectHandler):
     """不向重定向目标转发带鉴权信息的请求。"""
 
     def redirect_request(self, req, fp, code, msg, headers, newurl):
+        """返回 None 禁止自动跳转；鉴权信息不能随重定向转发。"""
         return None
 
 
@@ -27,6 +32,7 @@ class OpenAIClient:
     """用 GPT-5.6 Terra 进行独立图像推理，返回统一 ModelResponse。"""
 
     def __init__(self, model=None, max_tokens=8192, timeout=180, retries=2):
+        """固定受支持模型并校验预算、超时和重试配置；只建立客户端，不调用 API。"""
         self.model = model or DEFAULT_MODEL
         if self.model not in VISION_MODELS:
             raise ValueError(
@@ -47,11 +53,8 @@ class OpenAIClient:
         self.retries = retries
 
     def validate_credentials(self):
-        """只检查环境变量；dry-run 不需要密钥。"""
-        if not os.environ.get("OPENAI_API_KEY", "").strip():
-            raise ValueError(
-                "Set OPENAI_API_KEY in your local terminal; do not put it in source code"
-            )
+        """检查环境变量或项目本地密钥；不记录密钥，dry-run不调用此方法。"""
+        read_api_key("openai")
 
     def describe(self):
         """记录实际请求参数，便于比较服务商差异，不包含凭据。"""
@@ -189,12 +192,12 @@ class OpenAIClient:
 
     def _post(self, payload):
         """发送到官方固定地址；仅对临时错误有限重试，不回显凭据或图片。"""
-        self.validate_credentials()
+        key = read_api_key("openai")
         request = urllib.request.Request(
             ENDPOINT,
             data=json.dumps(payload).encode("utf-8"),
             headers={
-                "Authorization": "Bearer " + os.environ["OPENAI_API_KEY"].strip(),
+                "Authorization": "Bearer " + key,
                 "Content-Type": "application/json",
             },
             method="POST",

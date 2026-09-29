@@ -1,67 +1,69 @@
-# 肝脏超声包虫病概率识别 Agent
+# 肝脏超声包虫病识别
 
-面向本科研究项目的固定工作流：读取有诊断标签的超声原图 → 构造实验输入 → 调用视觉模型 → 校验患病概率 → 保存与评价。支持 **GLM-5.3-Flash / GPT-5.6 Terra × 四种模式**，共八组配置。
+输入带诊断标签的肝脏超声图像，用视觉大模型输出患病概率 `p_he` 与简短依据。支持四种输入模式和可选阴性复核；图像保持原始字节，待测图真值只在本地评分。
 
-已完成 GLM 四模式真实实验，包括旧划分的完整 175 张测试图；GPT 接口已通过离线验证，真实两模型效果比较尚未完成。最新结果、提示词修订和专家模型探索见 [项目进展](docs/project-progress.md)。
+**当前成果：** 已整理 219 张图片；完成 GLM 四模式、参考图数量和阈值实验，以及 GLM／DeepSeek 五种匹配配置的真实对照。OpenAI 接口已实现，尚无真实对照成绩。研究结果见[项目进展](docs/project-progress.md)，对外汇报见 [report/](report/)。
 
-## 快速开始
+## 开始运行
 
-在 Python 3.10+ 环境运行：
+在项目根目录、已激活的 Python 3.10+ 环境中：
 
 ```sh
-cd /Users/qiqi/Research/HE_Identification
 python -m pip install -r requirements-agent.txt
-
-# 无需 API Key，检查组合版的全部固定测试图
-python src/he_agent.py --provider openai --mode reference_knowledge \
-  --split configs/reference_split.json --limit 0 --dry-run
+python src/he_agent.py --provider glm --mode baseline \
+  --split configs/reference_split_balanced.json --seed 42 --limit 3 --dry-run
 ```
 
-真实调用需要在本地配置 `OPENAI_API_KEY` 或 `ZHIPU_API_KEY`；具体操作见 [实验指南](docs/experiment-guide.md)。程序不自动读取 `.env`。运行产生新目录，不覆盖已有实验。
+`--dry-run` 只校验本地数据，不读取密钥或调用 API。真实运行前按[配置说明](configs/README.md)填写本地密钥，然后去掉 `--dry-run`。`--limit 0` 运行划分中的全部 211 张。
 
-## 四种模式
+```sh
+# 8 张参考图；不复核。阈值为开发集候选，不代表临床诊断阈值。
+python src/he_agent.py --provider glm --mode reference \
+  --split configs/reference_split_balanced.json --reference-count 8 \
+  --seed 42 --limit 0 --threshold 0.25
+```
 
-| --mode | 医学知识 | 带标签参考图 | 每次测试图 |
-| --- | --- | ---: | ---: |
-| baseline | 无 | 0 | 1 |
-| reference | 无 | 4 | 1 |
-| knowledge | 有 | 0 | 1 |
-| reference_knowledge | 有 | 4 | 1 |
+换成 `--provider deepseek` 即使用该适配器默认模型。四模式、复核与离线阈值扫描的完整用法只维护在[实验指南](docs/experiment-guide.md)。
 
-统一输出 `p_he`（患包虫病概率），程序计算 `p_non_he=1-p_he`。概率未经校准；无法估计为 `null`。数据真值仍为 0/1。当前划分 v2 为参考池 8 张（4 阳性＋4 阴性）、测试集 211 张。默认仍发送原来的四张示例，可用 `--reference-count 6` 或 `8` 扩展。两模型比较必须使用相同划分；旧 175 张成绩和新 211 张成绩不能直接混比。旧划分保存在 `configs/reference_split_v1.json`，变更依据与复现命令见 [参考池调整](docs/reference-pool-v2.md)。
+## 阅读导航
 
-新增来源覆盖对照 `configs/reference_split_diverse.json`：保留原四张默认示例，将额外两张重复阳性换成 HE_DCNN 原类别 0、1。请显式选择新 split，并在冻结的 209 张共同测试图上比较，不能直接比较两边各自 211 张总体分数。新版本尚无真实效果结论，命令见 [参考选择调整](docs/reference-diversity-adjustment.md)。
+| 要做什么 | 入口 |
+| --- | --- |
+| 看已完成的尝试和结果 | [项目进展](docs/project-progress.md) |
+| 运行、复核、调参考数、读结果 | [实验指南](docs/experiment-guide.md) |
+| 理解代码与函数调用 | [架构导读](docs/agent-architecture.md) → 源码内中文注释 |
+| 追溯医学提示词依据 | [医学阅读记录](docs/medical-knowledge-review.md) |
+| 规划下一阶段研究 | [五项研究提案](docs/next-proposals.md) |
 
-## 项目结构
+## 文件各归其位
 
 ```text
-src/                  Agent、提示词加载、固定划分校验
-  models/             模型契约、注册表、GLM/OpenAI 适配器
-prompts/              两份现用概率提示词及医学来源清单
-configs/              固定参考池/测试集划分
-tests/                概率、模型协议、八组配置和数据隔离测试
-scripts/data/         数据整理与划分生成脚本及说明，供复现
-docs/                项目记录、使用指南、架构、医学依据、后续提案
+src/                   推理入口、概率评价、固定参考选择、模型适配器
+scripts/
+  data/                离线数据整理与划分生成
+  analysis/            参考方案比较、冻结初判和阈值扫描
+configs/               固定划分、共同队列与密钥模板
+prompts/               当前提示词、来源记录及必要历史快照
+tests/                 主项目离线测试
+docs/                  五份核心文档
+report/                对外阶段报告
+experiments/           独立的专家模型与历史 Harness 原型
+outputs/analysis/      核心历史结果的机器可读证据
 ```
 
-本地另有 `data/`、`literature/`、`runs/`，分别存放数据、文献和运行记录，已被 Git 忽略。目录结构中的 `docs/` 与 `src/` 同级。
+本地研究资产另存于 `data/`（图片与标签）、`literature/`（文献）、`runs/<时间>/`（原始运行），不会因文档整理而删掉。`outputs/threshold_sweeps/` 存放离线重评分。密钥、原始数据、权重和生成结果不提交 Git。
 
-## 文档导航
+## 更换数据来源或资源目录
 
-- [项目进展](docs/project-progress.md)：已完成尝试、数据构成、验证状态和文件迁移。
-- [实验指南](docs/experiment-guide.md)：密钥配置、八组命令、输出和指标。
-- [Agent 架构与函数导读](docs/agent-architecture.md)：推荐先读，解释职责分工与调用过程。
-- [医学知识阅读记录](docs/medical-knowledge-review.md)：11 份来源及采用范围。
-- [下一步研究提案](docs/next-proposals.md)：五项可执行 proposal 及阶段进入条件。
-- [数据脚本说明](scripts/data/README.md)：如何复现数据整理，而非重新运行全部历史操作。
+统一修改 [configs/paths.json](configs/paths.json)，例如其中 `dataset` 指向新的统一数据集目录。相对路径按项目根目录解析，绝对路径也可使用；显式命令行参数优先。配置字段、独立本地配置和数据格式要求见 [配置说明](configs/README.md#资源路径pathsjson)。
 
-## 开发检查
+## 维护检查
 
 ```sh
 python -m pip install -r requirements-dev.txt
+python -m unittest discover -s tests -q
 ruff check .
 ruff format --check .
-python -m unittest discover -s tests -v
 ```
 
-运行时只额外依赖 Pillow，网络调用使用 Python 标准库。历史 PDF 整理脚本另需 pypdf。数据和模型参数边界详见实验指南。
+已有统一数据时不必重跑数据脚本。历史原型使用独立依赖，运行主 Agent 不需要 TinyUSFM、PyTorch 或专家权重。

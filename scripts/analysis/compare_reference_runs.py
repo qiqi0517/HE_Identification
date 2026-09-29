@@ -1,17 +1,30 @@
-"""在预先冻结的共同测试集上比较参考选择，不将移入参考池的病例计为提升。"""
+"""在预先冻结的共同测试集上比较参考选择，不将移入参考池的病例计为提升。
+
+read_run 核验完整单次记录；compare 在冻结交集上算配对差值；main 写新结果。
+只读历史预测，不读密钥、不调用 API、不改参考图或测试标签。
+"""
 
 import argparse
 import hashlib
 import json
 import math
+import sys
 from pathlib import Path
 
-from he_agent import dump, metrics
+PROJECT = Path(__file__).resolve().parents[2]
+# 分析脚本复用主 Agent 的指标定义，避免两份公式随维护逐渐分叉。
+sys.path.insert(0, str(PROJECT / "src"))
+from he_agent import dump, metrics  # noqa: E402
 
 
 def read_run(path):
     """读取完整运行并检查配置快照、重复项及概率协议，不接受 dry-run。"""
     config = json.loads((path / "run.json").read_text())
+    if config.get("review", {}).get("enabled"):
+        raise ValueError(
+            "Reference-only comparison does not accept selective-review runs; "
+            "use the paired initial/final metrics in metrics.json"
+        )
     samples = json.loads((path / "samples.json").read_text())
     rows = [json.loads(line) for line in (path / "predictions.jsonl").read_text().splitlines()]
     lookup = {r["image"]: r for r in samples}

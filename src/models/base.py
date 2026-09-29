@@ -1,4 +1,8 @@
-"""定义与服务商无关的多模态请求、响应和模型客户端接口。"""
+"""定义与服务商无关的多模态请求、响应和模型客户端接口。
+
+请求／响应数据类定义模型无关的数据边界；ModelClient 是接口契约，
+ModelError 区分可继续记录的单图失败与需要停止批量调用的致命错误。
+"""
 
 from dataclasses import dataclass, field
 from typing import Any, Protocol
@@ -29,7 +33,7 @@ class ModelRequest:
 
 @dataclass(frozen=True)
 class ModelResponse:
-    # completed means a normal end, not truncation, refusal, or tool invocation.
+    # completed 只表示正常完成，不包括截断、API 拒绝或工具调用。
     """归一化的最终回答及运行元数据，不包含模型隐藏推理。"""
 
     text: str | None
@@ -44,6 +48,7 @@ class ModelError(RuntimeError):
     """模型调用异常；fatal=True 表示应停止后续批量调用。"""
 
     def __init__(self, message: str, fatal: bool = False):
+        """保存已脱敏的错误说明和批量终止标记，由主流程决定是否继续下一张。"""
         super().__init__(message)
         self.fatal = fatal
 
@@ -52,13 +57,13 @@ class ModelClient(Protocol):
     """所有模型适配器遵守的接口，Agent 只依赖此契约。"""
 
     def validate_credentials(self) -> None:
-        """Fail before a live run if required credentials are unavailable."""
+        """在真实调用前核验凭据；缺失时提早失败，不创建无用的付费请求。"""
         ...
 
     def describe(self) -> dict[str, Any]:
-        """Return reproducibility metadata, never keys or other secrets."""
+        """返回可复现的配置元数据，不含密钥或其他凭据。"""
         ...
 
     def generate(self, request: ModelRequest) -> ModelResponse:
-        """Encode, call, and normalize this provider's response."""
+        """编码并调用服务商，将响应转换成统一的最终回答对象。"""
         ...

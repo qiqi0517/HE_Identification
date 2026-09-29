@@ -1,14 +1,23 @@
-"""按固定 UUID 合并已整理图片；未标注图片保存到独立目录。"""
+"""按固定 UUID 合并已整理图片；未标注图片保存到独立目录。
+
+read_labels 读取各来源清单；main 合并并隔离未标注图；write_json/write_jsonl 保存证据。
+UUID 来源于固定命名空间与文件哈希，复制保持原图字节。
+"""
 
 import argparse
 import hashlib
 import json
 import shutil
+import sys
 import uuid
 from collections import Counter, defaultdict
 from pathlib import Path
 
 from PIL import Image
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
+
+from project_paths import display_path, load_paths  # noqa: E402
 
 
 def read_labels(f):
@@ -41,13 +50,15 @@ def main():
     p.add_argument("--output", type=Path, required=True)
     p.add_argument("--unlabeled-output", type=Path, required=True)
     a = p.parse_args()
-    base = a.project / "data/processed"
+    paths = load_paths(project=a.project)
     out = a.output
     assert not out.exists(), f"Refusing overwrite: {out}"
     assert not a.unlabeled_output.exists(), "Refusing overwrite of unlabeled output"
+    # 来源身份固定；更换目录名不应改变样本的来源分组。
     sources = [
-        base / n
-        for n in ["HE_DCNN_binary", "bioengineering_US_binary", "web_liver_ultrasound_20260918"]
+        ("HE_DCNN_binary", paths["processed_he"]),
+        ("bioengineering_US_binary", paths["processed_bio"]),
+        ("web_liver_ultrasound_20260918", paths["processed_web"]),
     ]
     namespace = uuid.UUID("2a665fd0-9d69-4d8c-8a8a-390209baf28d")
     images = {}
@@ -55,7 +66,7 @@ def main():
     excluded = []
     source_counts = {}
 
-    for source in sources:
+    for source_name, source in sources:
         labels = read_labels(source / "labels.txt")
         normal = read_labels(source / "labels_normal_source.txt")
         ce5 = read_labels(source / "labels_ce5.txt")
@@ -76,8 +87,8 @@ def main():
                 excluded_paths.add(old)
                 excluded.append(
                     {
-                        "source_dataset": source.name,
-                        "source_image": str((source / old).relative_to(a.project)),
+                        "source_dataset": source_name,
+                        "source_image": display_path(source / old, a.project),
                         "source_record": r,
                     }
                 )
@@ -88,9 +99,9 @@ def main():
             and f.suffix.lower() in {".jpg", ".jpeg", ".png", ".bmp", ".tif", ".tiff"}
         }
         assert actual == selected | excluded_paths, (
-            f"Unaccounted image files in {source.name}: {actual ^ (selected | excluded_paths)}"
+            f"Unaccounted image files in {source_name}: {actual ^ (selected | excluded_paths)}"
         )
-        source_counts[source.name] = len(selected)
+        source_counts[source_name] = len(selected)
         for old in sorted(selected):
             f = source / old
             data = f.read_bytes()
@@ -120,8 +131,8 @@ def main():
             m = {
                 "uuid": uid,
                 "image": new,
-                "source_dataset": source.name,
-                "old_image": str(f.relative_to(a.project)),
+                "source_dataset": source_name,
+                "old_image": display_path(f, a.project),
                 "sha256": sha,
                 "source_record": source_record,
             }
@@ -145,7 +156,7 @@ def main():
                 "height": h,
                 "source_paths": [m["old_image"]],
                 "copy_from": str(f),
-                "source_dataset": source.name,
+                "source_dataset": source_name,
             }
 
     assert len(mapping) == 256 and len(excluded) == 8

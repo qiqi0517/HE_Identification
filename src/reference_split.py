@@ -1,4 +1,8 @@
-"""推理时校验固定划分并选取参考示例；不生成或改写划分文件。"""
+"""推理时校验固定划分并选取参考示例；不生成或改写划分文件。
+
+validate_split 返回冻结测试图与默认示例；select_references 扩展示例前缀。
+生成与重选划分在 scripts/data/，此文件不能按模型成绩修改参考池。
+"""
 
 import random
 from collections import Counter
@@ -21,6 +25,7 @@ def validate_split(split, samples):
         raise ValueError("Need four distinct pool references")
     if Counter(lookup[x]["label"] for x in refs) != {0: 2, 1: 2}:
         raise ValueError("References must be 2 negative + 2 positive")
+    # v1 是历史不平衡池；新版本才要求池内两类配额相等，仍允许旧实验重放。
     if split.get("version", 1) >= 2:
         quota = split.get("pool_per_class")
         if type(quota) is not int or quota < 2:
@@ -33,6 +38,7 @@ def validate_split(split, samples):
             raise ValueError("Reference order must cover the pool exactly once")
         if order[:4] != refs:
             raise ValueError("Reference order must preserve the default four")
+        # 每个偶数前缀都保持类别均衡，4/6/8 图实验只增示例而不换原有顺序。
         for count in range(4, len(order) + 1, 2):
             if Counter(lookup[x]["label"] for x in order[:count]) != {0: count // 2, 1: count // 2}:
                 raise ValueError("Reference order must have balanced even prefixes")
@@ -40,6 +46,7 @@ def validate_split(split, samples):
         saved = split["samples"][image]
         if saved["sha256"] != s["sha256"] or saved["label"] != s["label"]:
             raise ValueError("Stale split: dataset changed")
+    # 同一患者/来源/重复组不能一部分作参考、一部分被评价。
     if {split["samples"][x]["group_id"] for x in pool} & {
         split["samples"][x]["group_id"] for x in test
     }:

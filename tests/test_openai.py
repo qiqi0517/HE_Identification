@@ -81,7 +81,10 @@ class OpenAITests(unittest.TestCase):
     def test_registry_credentials_and_validation(self):
         self.assertEqual(create_model("openai").model, "gpt-5.6-terra")
         self.assertEqual(create_model().model, "glm-5.3-flash")
-        with patch.dict(os.environ, {}, clear=True):
+        with (
+            patch.dict(os.environ, {}, clear=True),
+            patch("models.credentials.load_local_keys", return_value={}),
+        ):
             with self.assertRaises(ValueError):
                 OpenAIClient().validate_credentials()
         with patch.dict(os.environ, {"OPENAI_API_KEY": "private-placeholder"}):

@@ -1,0 +1,2 @@
+# 固定原图版只需主 Agent 的 Pillow 依赖，无需 torch、TinyUSFM 或权重。
+-r ../../requirements-agent.txt

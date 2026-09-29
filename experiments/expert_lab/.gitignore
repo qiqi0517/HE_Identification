@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+weights/*.pth
+results/**/*.npy
+research/*_tree.json
+research/*_repo.json

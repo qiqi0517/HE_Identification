@@ -1,4 +1,4 @@
-"""对两家真实适配器的八组配置做完整模拟，检查图像、提示词与真值隔离。"""
+"""对三家真实适配器的十二组配置做完整模拟，检查图像、提示词与真值隔离。"""
 
 import base64
 import hashlib
@@ -51,12 +51,12 @@ class MatrixTests(unittest.TestCase):
         path.write_text(json.dumps(split))
         return rows, path
 
-    def test_eight_configurations_end_to_end(self):
+    def test_all_providers_four_modes_end_to_end(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             rows, split = self.fixture(root)
             selected_lists = []
-            for provider in ("glm", "openai"):
+            for provider in ("glm", "openai", "deepseek"):
                 for mode in MODES:
                     with self.subTest(provider=provider, mode=mode):
                         args = SimpleNamespace(
@@ -159,12 +159,12 @@ class MatrixTests(unittest.TestCase):
                         )
             self.assertTrue(all(samples == selected_lists[0] for samples in selected_lists))
 
-    def test_expanded_references_in_both_adapters_and_modes(self):
+    def test_expanded_references_in_all_adapters_and_modes(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             _, split = self.fixture(root, pool_size=8)
             sample_lists = []
-            for provider in ("glm", "openai"):
+            for provider in ("glm", "openai", "deepseek"):
                 for mode in sorted(REFERENCE_MODES):
                     for count in (6, 8):
                         args = SimpleNamespace(
@@ -291,7 +291,7 @@ class MatrixTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             _, split = self.fixture(root)
-            for provider in ("glm", "openai"):
+            for provider in ("glm", "openai", "deepseek"):
                 for mode in MODES:
                     args = SimpleNamespace(
                         dataset=root,

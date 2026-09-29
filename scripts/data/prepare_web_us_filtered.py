@@ -1,12 +1,21 @@
-"""复现指定网络来源的筛选；只有 --apply 才写入项目并删除指定来源目录。"""
+"""复现指定网络来源的筛选；只有 --apply 才写入项目并删除指定来源目录。
+
+main 先在固定临时目录准备筛选结果，再按 --apply 决定是否应用。
+write_json/write_jsonl 保存记录；此为已完成的一次性历史操作，不应重复执行。
+"""
 
 import argparse
 import hashlib
 import json
 import shutil
+import sys
 from pathlib import Path
 
 from PIL import Image
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
+
+from project_paths import display_path, load_paths  # noqa: E402
 
 
 def write_json(path, obj):
@@ -26,9 +35,10 @@ def main():
     p.add_argument("--apply", action="store_true")
     a = p.parse_args()
     root = a.project
-    src = root / "data/external/web_liver_ultrasound_20260918"
-    dst = root / "data/processed/web_liver_ultrasound_20260918"
-    stage = Path("/private/tmp/he_web_filtered_20260918")
+    paths = load_paths(project=root)
+    src = paths["web_source"]
+    dst = paths["processed_web"]
+    stage = paths["web_staging"]
     stage.mkdir(exist_ok=False)
     ext = stage / "external_metadata"
     out = stage / "processed"
@@ -69,7 +79,7 @@ def main():
             ph = hashlib.sha256(str(rgb.size).encode() + rgb.tobytes()).hexdigest()
             assert ph == r["pixel_sha256"] and ph not in pixelhashes
             pixelhashes.add(ph)
-        r["external_path"] = str((src / original["path"]).relative_to(root))
+        r["external_path"] = display_path(src / original["path"], root)
         r["path"] = str(rel)
         r["selection_basis"] = (
             "User retained PMC10047450; three other positive sources excluded for arrow annotations"

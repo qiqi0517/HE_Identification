@@ -1,15 +1,24 @@
-"""核对 PDF 与提取图片，仅整理符合既定规则的肝脏超声及诊断标签。"""
+"""核对 PDF 与提取图片，仅整理符合既定规则的肝脏超声及诊断标签。
+
+sha256_bytes 核原字节，pixel_hash 核解码像素，main 复算纳入规则并输出溯源。
+这是既定 PDF 批次的准备脚本，不在推理中运行；需要额外的 pypdf 依赖。
+"""
 
 import argparse
 import csv
 import hashlib
 import json
 import shutil
+import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
 from PIL import Image
 from pypdf import PdfReader
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
+
+from project_paths import display_path, load_paths  # noqa: E402
 
 
 def sha256_bytes(data):
@@ -32,8 +41,9 @@ def main():
     ap.add_argument("--output", type=Path, required=True)
     args = ap.parse_args()
     project, out = args.project.resolve(), args.output.resolve()
-    raw = project / "data/external/bioengineering-12-00181-s001"
-    extracted = project / "data/external/echinococcosis_US_extracted"
+    paths = load_paths(project=project)
+    raw = paths["bioengineering_source"]
+    extracted = paths["bioengineering_extracted"]
     if out.exists():
         raise FileExistsError(out)
     pdfpath = raw / "Dataset2_US.pdf"
@@ -63,7 +73,7 @@ def main():
         if r["imagefolder_ce5_path"]:
             assert pixel_hash(extracted / r["imagefolder_ce5_path"]) == r["pixel_sha256"]
         groups[r["pixel_sha256"]].append(r)
-    # Recompute exclusions independently from the supplied inclusion flag.
+    # 重新按模态、器官、诊断及重复关系决定纳入，不能直接相信提取表的标记。
     prepared = []
     for r in rows:
         reasons = []
@@ -80,6 +90,7 @@ def main():
             )
         included = not reasons
         assert included == (r["include_in_filtered"] == "True"), r["image_id"]
+        # CE3a/b 可合并为五类分期 CE3；活动性不决定二分类，CE4/5 仍是患病。
         ce5 = "CE3" if r["label_original"].startswith("CE3") else r["label_original"]
         assert ce5 == r["label_ce5"]
         stage = {
@@ -96,21 +107,21 @@ def main():
             label=1 if included else None,
             included=included,
             review_reasons=reasons,
-            source_pdf=str(pdfpath.relative_to(project)),
-            source_extracted_image=str((extracted / r["native_path"]).relative_to(project)),
+            source_pdf=display_path(pdfpath, project),
+            source_extracted_image=display_path(extracted / r["native_path"], project),
             ce5_index={"CE1": 0, "CE2": 1, "CE3": 2, "CE4": 3, "CE5": 4}.get(ce5),
             patient_key_scope="PDF province + local patient number, not verified globally unique patient identity",
         )
         prepared.append(rec)
     clean = [r for r in prepared if r["included"]]
     review = [r for r in prepared if not r["included"]]
-    # Compare exact decoded pixels with the existing HE_DCNN images, without merging datasets.
+    # 与已有 HE 图片比较解码像素，寻找跨来源重复；此处只记录，不合并数据。
     he_index = defaultdict(list)
-    he_dir = project / "data/processed/HE_DCNN_binary/images"
+    he_dir = paths["processed_he"] / "images"
     if he_dir.exists():
         for f in he_dir.iterdir():
             if f.is_file():
-                he_index[pixel_hash(f)].append(str(f.relative_to(project)))
+                he_index[pixel_hash(f)].append(display_path(f, project))
     overlaps = [
         {"image_id": r["image_id"], "matches": he_index[r["pixel_sha256"]]}
         for r in prepared
@@ -120,7 +131,7 @@ def main():
     for p in sorted(raw.glob("*.pdf")):
         sources.append(
             {
-                "path": str(p.relative_to(project)),
+                "path": display_path(p, project),
                 "sha256": sha256_bytes(p.read_bytes()),
                 "pages": len(PdfReader(p).pages),
                 "action": "validated_US_extraction"
@@ -153,7 +164,7 @@ def main():
     )
     summary = {
         "sources": sources,
-        "extracted_source_directory": str(extracted.relative_to(project)),
+        "extracted_source_directory": display_path(extracted, project),
         "pdf_and_extracted_are_same_dataset": True,
         "source_records": len(rows),
         "source_modalities": dict(Counter(r["modality"] for r in rows)),

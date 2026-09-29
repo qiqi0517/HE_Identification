@@ -1,11 +1,11 @@
 {
-  "version": "medical-v3-soft-guidance-probability",
-  "created_on": "2026-09-18",
+  "version": "medical-v4-concise-probability",
+  "created_on": "2026-09-19",
   "prompt_file": "prompts/he_medical.txt",
-  "prompt_sha256": "6f4a3720d19f2ce18f3734173f503d68bac61bbca374c7f48e20d97a6203955e",
+  "prompt_sha256": "c444f2855b729a7d4c1cdb90b884c9c9633b7cf4b9d4e4ffff21ce9019ddcaf0",
   "baseline_prompt_sha256": "0f6b11ddbc0d634b515dcc3e3adb0478c729621012a967782812a8428decc9c1",
   "clinical_validation": "not performed",
-  "model_effectiveness": "Reworded version not yet evaluated; offline validation only.",
+  "model_effectiveness": "Not evaluated with live model calls; concise prompt is an experimental hypothesis.",
   "sources": [
     {
       "id": "S01",
@@ -141,70 +141,36 @@
     {
       "rule_id": "K01",
       "sources": [
-        "S09",
-        "S11"
+        "S01",
+        "S04"
       ],
-      "note": "质量和可观察性限制；具体拒答/多面板处理为本项目操作规则。"
+      "note": "CE形态摘要；非活动仍为阳性是本任务标签定义。"
     },
     {
       "rule_id": "K02",
       "sources": [
-        "S01",
-        "S04",
-        "S08",
-        "S09"
+        "S05",
+        "S06"
       ],
-      "note": "CE 形态；对 CE4/5 使用支持性与不确定措辞，不宣称单张图像必然确诊。"
+      "note": "AE形态模式的摘要，不能替代病因确诊。"
     },
     {
       "rule_id": "K03",
       "sources": [
         "S01",
-        "S02",
-        "S04"
+        "S05",
+        "S06",
+        "S07"
       ],
-      "note": "CL 与早期 CE 定性边界。"
+      "note": "单囊及其他形态的病因重叠，非单征象诊断规则。"
     },
     {
       "rule_id": "K04",
       "sources": [
-        "S03",
-        "S05",
-        "S06"
-      ],
-      "note": "AE 独立路径；EMUC 是形态模式而非 CE 分期。"
-    },
-    {
-      "rule_id": "K05",
-      "sources": [
-        "S06",
-        "S07"
-      ],
-      "note": "鉴别诊断；核对正常解剖结构身份是项目读图检查步骤，不是新增诊断算法。"
-    },
-    {
-      "rule_id": "K06",
-      "sources": [
-        "S01",
-        "S06",
         "S09",
         "S10"
       ],
-      "note": "基于数据模态限制的项目推论：不补造动态、多普勒、造影或其他检查信息。"
-    },
-    {
-      "rule_id": "K07",
-      "sources": [
-        "S08",
-        "S09",
-        "S11"
-      ],
-      "note": "连续患病概率及 null 是项目输出规则，不是指南阈值或已校准风险模型；不推导任意征象到概率的数值映射。"
-    },
-    {
-      "rule_id": "K08",
-      "sources": [],
-      "note": "本项目证据核对与 JSON 输出规则，不声称医学证据已验证模型效果。"
+      "note": "基于单张静态图的项目操作边界；不编造动态或其他检查信息。"
     }
   ],
   "evidence_handling": {
@@ -213,17 +179,26 @@
     "physician_experience": "Published expert reading studies and training studies; no interviews or clinical endorsement claimed.",
     "reading_scope": "7 full-text relevant-section readings, 3 abstract-only readings and 1 indexed-section reading; not a systematic review.",
     "excluded_clinical_workflow": "FASE suspected-case referral rule is not a final binary diagnosis; omitted from model classification rules.",
-    "prompt_revision": "The softened guidance and probability framing are project-level prompting hypotheses, not newly validated clinical rules or feature-to-probability mappings."
+    "prompt_revision": "Concise background is a project-level prompting hypothesis, not calibrated clinical probability guidance."
   },
-  "supersedes": "medical-v2-probability",
+  "supersedes": "medical-v3-soft-guidance-probability",
   "output_schema": "he-probability-v2",
-  "change_note": "医学形态、11份来源及K01–K08结构保留；将医学判断措辞改为条件性辅助观察，减少确诊门槛暗示，区分未显示与不存在，要求替代解释有图像依据；概率协议、基础提示词、拒答标准、参考图和模型参数不变。依据最后四组50张运行形成开发假设，未宣称效果改善。",
-  "updated_on": "2026-09-18",
-  "previous_prompt_sha256": "d838f10b3ecc04a9ca6293e9cf7a202afe39dda9ea7ac992af7e2d39d4dc93b8",
+  "change_note": "保留基础概率协议；将医学背景压缩为CE、AE、病因重叠、观察边界四段，删除逐分期清单和重复概率方向说明。未宣称改善效果。",
+  "updated_on": "2026-09-19",
+  "previous_prompt_sha256": "6f4a3720d19f2ce18f3734173f503d68bac61bbca374c7f48e20d97a6203955e",
   "previous_prompt_snapshots": [
-    "runs/20260918_231554_925810/prompt.txt",
-    "runs/20260918_230219_863051/prompt.txt",
-    "runs/20260918_231723_566439/prompt.txt",
-    "runs/20260918_230445_914054/prompt.txt"
-  ]
+    "prompts/archive/he_medical_v3.txt"
+  ],
+  "revision_verification": {
+    "date": "2026-09-19",
+    "sources": [
+      "S01",
+      "S05"
+    ],
+    "sections": [
+      "WHO 1.2 staging and CL paragraph",
+      "EMUC-US Figures 1-5 and diagnosis/classification"
+    ],
+    "scope": "Rechecked selected sections for the condensed morphology descriptions; other source entries retain their previous reading scope."
+  }
 }

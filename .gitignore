@@ -49,6 +49,9 @@ build/
 dist/
 *.egg-info/
 
-# Local experiments
-/docs/*
-/expert_lab/*
+# Historical experiment sources are versioned; generated assets are local
+/experiments/**/runs/
+/experiments/**/results/
+/experiments/**/indexes/
+/experiments/**/research/
+/experiments/**/weights/

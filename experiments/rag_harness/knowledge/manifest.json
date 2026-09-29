@@ -1,0 +1,10 @@
+{
+  "version": "he-cards-v1",
+  "clinical_validation": "not_performed",
+  "basis": "Existing reviewed K01-K08 material; local summaries, no case captions or test outcomes.",
+  "medical_prompt_sha256": "6f4a3720d19f2ce18f3734173f503d68bac61bbca374c7f48e20d97a6203955e",
+  "files": {
+    "cards.jsonl": "974885b394374d075c279e6fcd00aaeebd6a80c15502e40a9bfef608487b671d",
+    "sources.json": "679bdb7a18a0a14a1078ba5b4fc4cea561f218df874e0ac601c458c67607be4a"
+  }
+}

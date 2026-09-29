@@ -1,4 +1,8 @@
-"""离线按患者、来源和重复图像分组，生成固定参考池与测试集。"""
+"""离线按患者、来源和重复图像分组，生成固定参考池与测试集。
+
+groups_for 构建不可拆分组；balanced_groups 按完整组凑齐配额；
+create_split 生成元数据；main 只写新的划分文件，不处理模型预测。
+"""
 
 import argparse
 import hashlib
@@ -12,7 +16,8 @@ from PIL import Image
 
 # 支持从任意工作目录直接执行脚本，定位项目中的共用数据校验逻辑。
 sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
-from he_agent import PROJECT, dump, load_samples  # noqa: E402
+from he_agent import dump, load_samples  # noqa: E402
+from project_paths import load_paths  # noqa: E402
 from reference_split import validate_split  # noqa: E402
 
 
@@ -112,6 +117,7 @@ def balanced_groups(groups, eligible, mandatory, pool_per_class):
         if g in mandatory:
             continue
         counts = Counter(s["label"] for s in groups[g])
+        # 遍历上一轮状态的副本，防止同一不可拆组被重复选入（0/1 背包思路）。
         for (n0, n1), selected in list(states.items()):
             key = (n0 + counts[0], n1 + counts[1])
             if max(key) <= pool_per_class and key not in states:
@@ -148,7 +154,7 @@ def create_split(dataset, seed=42, pool_per_class=4, base_split=None):
     chosen = balanced_groups(groups, eligible, mandatory, pool_per_class)
     pool = [s for s in samples if ids[s["image"]] in chosen]
     test = [s for s in samples if ids[s["image"]] not in chosen]
-    # Prefer different source/stage examples, without querying a model or test results.
+    # 优先不同来源/阶段，仅使用来源资料，不按模型预测或测试得分挑选。
     provenance = {}
     for line in (dataset / "labels/uuid_mapping.jsonl").read_text().splitlines():
         r = json.loads(line)
@@ -210,12 +216,15 @@ def create_split(dataset, seed=42, pool_per_class=4, base_split=None):
 def main():
     """生成新的固定划分文件；拒绝覆盖已有实验划分。"""
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument("--dataset", type=Path, default=PROJECT / "data/unified")
-    p.add_argument("--output", type=Path, default=PROJECT / "configs/reference_split.json")
+    p.add_argument("--dataset", type=Path, default=None)
+    p.add_argument("--output", type=Path, default=None)
     p.add_argument("--seed", type=int, default=42)
     p.add_argument("--pool-per-class", type=int, default=4, help="Pool images per class (>= 2)")
     p.add_argument("--base-split", type=Path, help="Preserve this split's four default references")
     a = p.parse_args()
+    paths = load_paths()
+    a.dataset = a.dataset or paths["dataset"]
+    a.output = a.output or paths["split_output"]
     if a.output.exists():
         p.error("Refusing to overwrite fixed split")
     result = create_split(a.dataset, a.seed, a.pool_per_class, a.base_split)

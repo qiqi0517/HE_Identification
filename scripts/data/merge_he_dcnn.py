@@ -1,4 +1,8 @@
-"""合并 HE_DCNN 原始图片与逐图标签，保留来源并按文件字节去重。"""
+"""合并 HE_DCNN 原始图片与逐图标签，保留来源并按文件字节去重。
+
+main 收集逐图标签证据、按字节去重并写新目录；原类到二分类的映射显式保留。
+患者文件夹关联只作溯源，不能推导未标注图片的诊断。
+"""
 
 import argparse
 import hashlib
@@ -101,7 +105,7 @@ def main():
                 "label_evidence": ev,
             }
         )
-    # Record patient context for review only, never propagate it to image labels.
+    # 患者上下文只供复查；同一患者有阳性图不等于其全部图片可标成阳性。
     group_labels = defaultdict(set)
     for row in records:
         if row["label"] is not None:

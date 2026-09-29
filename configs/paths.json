@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "paths": {
+    "dataset": "data/unified",
+    "default_split": null,
+    "runs": "runs",
+    "threshold_sweeps": "outputs/threshold_sweeps",
+    "baseline_prompt": "prompts/he_binary.txt",
+    "medical_prompt": "prompts/he_medical.txt",
+    "medical_sources": "prompts/he_medical.sources.json",
+    "review_prompt": "prompts/he_review.txt",
+    "api_keys": "configs/api_keys.local.json",
+    "base_split": "configs/reference-split/reference_split.json",
+    "split_output": "configs/reference-split/reference_split.json",
+    "bioengineering_source": "data/external/bioengineering-12-00181-s001",
+    "bioengineering_extracted": "data/external/echinococcosis_US_extracted",
+    "processed_he": "data/processed/HE_DCNN_binary",
+    "processed_bio": "data/processed/bioengineering_US_binary",
+    "web_source": "data/external/web_liver_ultrasound_20260918",
+    "processed_web": "data/processed/web_liver_ultrasound_20260918",
+    "web_staging": "/private/tmp/he_web_filtered_20260918"
+  }
+}

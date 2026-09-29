@@ -37,10 +37,10 @@ class FakeModel:
 class KnowledgeTests(unittest.TestCase):
     def test_frozen_prompt_and_evidence(self):
         text, meta, sources = prompt_profiles.load_prompt("knowledge")
-        self.assertEqual(meta["prompt_profile"], "medical-v3-soft-guidance-probability")
+        self.assertEqual(meta["prompt_profile"], "medical-v4-concise-probability")
         self.assertEqual(len(sources["sources"]), 11)
         self.assertEqual(
-            {r["rule_id"] for r in sources["rules"]}, {"K%02d" % i for i in range(1, 9)}
+            {r["rule_id"] for r in sources["rules"]}, {"K%02d" % i for i in range(1, 5)}
         )
         self.assertTrue(text.startswith((PROJECT / "prompts/he_binary.txt").read_text()))
         self.assertNotIn("images/", text)

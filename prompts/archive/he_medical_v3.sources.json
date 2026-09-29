@@ -1,0 +1,229 @@
+{
+  "version": "medical-v3-soft-guidance-probability",
+  "created_on": "2026-09-18",
+  "prompt_file": "prompts/he_medical.txt",
+  "prompt_sha256": "6f4a3720d19f2ce18f3734173f503d68bac61bbca374c7f48e20d97a6203955e",
+  "baseline_prompt_sha256": "0f6b11ddbc0d634b515dcc3e3adb0478c729621012a967782812a8428decc9c1",
+  "clinical_validation": "not performed",
+  "model_effectiveness": "Reworded version not yet evaluated; offline validation only.",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "WHO guidelines for the treatment of patients with cystic echinococcosis: Introduction and staging table",
+      "year": "2025",
+      "authors": "WHO",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK616291/",
+      "access_scope": "full relevant web sections",
+      "reviewed_sections": "Introduction; Staging of cystic echinococcosis cysts",
+      "note": "CE1–CE5 形态和 CL 定性限制；不把活动性当二分类标签。",
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "id": "S02",
+      "title": "International classification of ultrasound images in cystic echinococcosis for application in clinical and field epidemiological settings",
+      "year": "2003",
+      "authors": "WHO-IWGE",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12606104/",
+      "access_scope": "abstract only",
+      "reviewed_sections": "PubMed abstract",
+      "note": "CL 不确定病因，不能直接当作 CE；本条仅使用摘要支持的范围。",
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "id": "S03",
+      "title": "Expert consensus for the diagnosis and treatment of cystic and alveolar echinococcosis in humans",
+      "year": "2010",
+      "authors": "Brunetti, Kern, Vuitton; WHO-IWGE writing panel",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19931502/",
+      "access_scope": "abstract only",
+      "reviewed_sections": "PubMed abstract",
+      "note": "CE 和 AE 必须分开理解；不用治疗建议填充图像分类 prompt。",
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "id": "S04",
+      "title": "Ultrasound and Cystic Echinococcosis",
+      "year": "2018",
+      "authors": "Brunetti et al.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6199172/",
+      "access_scope": "indexed full-text section excerpts only",
+      "reviewed_sections": "WHO panels in detail; Differential diagnosis of parasitic liver lesions",
+      "note": "早期单囊病灶与单纯囊肿有重叠；下载 PDF 返回 HTML，未声称已读该下载全文。",
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "id": "S05",
+      "title": "Proposal of an ultrasonographic classification for hepatic alveolar echinococcosis: EMUC-US",
+      "year": "2015",
+      "authors": "Kratzer et al.",
+      "url": "https://www.wjgnet.com/1007-9327/full/v21/i43/12392.htm",
+      "access_scope": "local PDF and publisher relevant sections",
+      "reviewed_sections": "Diagnosis and classification; morphology definitions; Discussion; local PDF pp. 3–8",
+      "note": "AE 存在不同形态，非典型形态与其他肿块难分；描述不是可靠单征象判定式。",
+      "accessed_on": "2026-09-18",
+      "local_file": "literature/Proposal of an ultrasonographic classification for hepatic alveolar echinococcosis- Echinococcosis multilocularis Ulm classification-ultrasound.pdf",
+      "local_sha256": "81462dcedac3b30e3465f8e728a1ecf22e552c70b2a021edb38d81158cc4e019"
+    },
+    {
+      "id": "S06",
+      "title": "Pictorial review of hepatic echinococcosis: Ultrasound imaging and differential diagnosis",
+      "year": "2024",
+      "authors": "Tao et al.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11514533/",
+      "access_scope": "local PDF relevant sections",
+      "reviewed_sections": "Conventional US; Differential diagnosis; Table 4; local PDF pp. 4–10",
+      "note": "只提炼 B 模式形态及鉴别限制，不带入 CEUS 动态、病例图注或病例标签。",
+      "accessed_on": "2026-09-18",
+      "local_file": "literature/Pictorial review of hepatic echinococcosis- Ultrasound imaging and differential diagnosis.pdf",
+      "local_sha256": "b60bf72801a6017a7aa3677fed677ab1b4b9d163f09e5fe5856647fb027f411a"
+    },
+    {
+      "id": "S07",
+      "title": "Cystic liver lesions: a pictorial review",
+      "year": "2022",
+      "authors": "Chenin et al.",
+      "url": "https://link.springer.com/article/10.1186/s13244-022-01242-3",
+      "access_scope": "full relevant web sections",
+      "reviewed_sections": "Simple hepatic cyst; Complex cyst; Imaging",
+      "note": "薄壁单囊等组合支持普通囊肿，复杂囊肿有多种病因；只使用超声相关信息。",
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "id": "S08",
+      "title": "No cyst, no echinococcosis: a scoping review update on diagnosis",
+      "year": "2023",
+      "authors": "Siles-Lucas, Uchiumi, Tamarozzi",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10487401/",
+      "access_scope": "downloaded full PDF relevant sections",
+      "reviewed_sections": "Imaging; Diagnosis; Discussion",
+      "note": "钙化单独不足以确诊 CE；病灶证据优先，不能将 CE 的标题口号错误用于 AE 或退变实性 CE。",
+      "accessed_on": "2026-09-18",
+      "local_file": "literature/knowledge_prompt/diagnosis2023.pdf",
+      "local_sha256": "f50825a4547ffc362c62952779d9425d33c4456553a1694cc8dd2629bd5f752a"
+    },
+    {
+      "id": "S09",
+      "title": "Expert Reliability for the WHO Standardized Ultrasound Classification of Cystic Echinococcosis",
+      "year": "2017",
+      "authors": "Solomon et al.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5361546/",
+      "access_scope": "downloaded full PDF relevant sections",
+      "reviewed_sections": "Methods; Discussion; Conclusions; printed pp. 686–691",
+      "note": "二维图像不能充分显示囊内结构；专家也有判读分歧。形态分期一致性不等于本 Agent 二分类准确率。",
+      "accessed_on": "2026-09-18",
+      "local_file": "literature/knowledge_prompt/reliability2017.pdf",
+      "local_sha256": "b5f38cd3abe25dedd4369df186875dfb96b34167eac4dd889459fbf658bebd6b"
+    },
+    {
+      "id": "S10",
+      "title": "Ultrasound diagnosis of cystic echinococcosis: updates and implications for clinical management",
+      "year": "2024",
+      "authors": "Tamarozzi",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38628145/",
+      "access_scope": "abstract only",
+      "reviewed_sections": "PubMed abstract",
+      "note": "影像是诊断起点；检查不到的其他临床证据不能由模型自行生成。",
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "id": "S11",
+      "title": "Early diagnosis, treatment and follow-up of cystic echinococcosis in remote rural areas in Patagonia: impact of ultrasound training of non-specialists",
+      "year": "2012",
+      "authors": "Del Carpio et al.",
+      "url": "https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0001444",
+      "access_scope": "full relevant web sections",
+      "reviewed_sections": "Training; Methods; Discussion",
+      "note": "借鉴形态识别、鉴别和专家监督。原现场项目将囊性肿块先列疑似并复核；不移植为自动阳性规则，也不把医生培训成效当 prompt 效果证据。",
+      "accessed_on": "2026-09-18"
+    }
+  ],
+  "rules": [
+    {
+      "rule_id": "K01",
+      "sources": [
+        "S09",
+        "S11"
+      ],
+      "note": "质量和可观察性限制；具体拒答/多面板处理为本项目操作规则。"
+    },
+    {
+      "rule_id": "K02",
+      "sources": [
+        "S01",
+        "S04",
+        "S08",
+        "S09"
+      ],
+      "note": "CE 形态；对 CE4/5 使用支持性与不确定措辞，不宣称单张图像必然确诊。"
+    },
+    {
+      "rule_id": "K03",
+      "sources": [
+        "S01",
+        "S02",
+        "S04"
+      ],
+      "note": "CL 与早期 CE 定性边界。"
+    },
+    {
+      "rule_id": "K04",
+      "sources": [
+        "S03",
+        "S05",
+        "S06"
+      ],
+      "note": "AE 独立路径；EMUC 是形态模式而非 CE 分期。"
+    },
+    {
+      "rule_id": "K05",
+      "sources": [
+        "S06",
+        "S07"
+      ],
+      "note": "鉴别诊断；核对正常解剖结构身份是项目读图检查步骤，不是新增诊断算法。"
+    },
+    {
+      "rule_id": "K06",
+      "sources": [
+        "S01",
+        "S06",
+        "S09",
+        "S10"
+      ],
+      "note": "基于数据模态限制的项目推论：不补造动态、多普勒、造影或其他检查信息。"
+    },
+    {
+      "rule_id": "K07",
+      "sources": [
+        "S08",
+        "S09",
+        "S11"
+      ],
+      "note": "连续患病概率及 null 是项目输出规则，不是指南阈值或已校准风险模型；不推导任意征象到概率的数值映射。"
+    },
+    {
+      "rule_id": "K08",
+      "sources": [],
+      "note": "本项目证据核对与 JSON 输出规则，不声称医学证据已验证模型效果。"
+    }
+  ],
+  "evidence_handling": {
+    "source_disagreement": "WHO 2025 lists some distinctive CE4/5 appearances, whereas 2017 expert reliability work stresses etiologic uncertainty. Preserve appearance descriptions but do not equate calcification/solid texture alone with diagnosis.",
+    "case_leakage": "Only general rules are included, not individual-case captions, labels, UUIDs or source prevalence. Public-image reuse and pretraining overlap cannot be ruled out.",
+    "physician_experience": "Published expert reading studies and training studies; no interviews or clinical endorsement claimed.",
+    "reading_scope": "7 full-text relevant-section readings, 3 abstract-only readings and 1 indexed-section reading; not a systematic review.",
+    "excluded_clinical_workflow": "FASE suspected-case referral rule is not a final binary diagnosis; omitted from model classification rules.",
+    "prompt_revision": "The softened guidance and probability framing are project-level prompting hypotheses, not newly validated clinical rules or feature-to-probability mappings."
+  },
+  "supersedes": "medical-v2-probability",
+  "output_schema": "he-probability-v2",
+  "change_note": "医学形态、11份来源及K01–K08结构保留；将医学判断措辞改为条件性辅助观察，减少确诊门槛暗示，区分未显示与不存在，要求替代解释有图像依据；概率协议、基础提示词、拒答标准、参考图和模型参数不变。依据最后四组50张运行形成开发假设，未宣称效果改善。",
+  "updated_on": "2026-09-18",
+  "previous_prompt_sha256": "d838f10b3ecc04a9ca6293e9cf7a202afe39dda9ea7ac992af7e2d39d4dc93b8",
+  "previous_prompt_snapshots": [
+    "runs/20260918_231554_925810/prompt.txt",
+    "runs/20260918_230219_863051/prompt.txt",
+    "runs/20260918_231723_566439/prompt.txt",
+    "runs/20260918_230445_914054/prompt.txt"
+  ]
+}

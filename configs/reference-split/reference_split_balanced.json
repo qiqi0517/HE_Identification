@@ -1,0 +1,3915 @@
+{
+  "version": 4,
+  "pool_per_class": 4,
+  "seed": 42,
+  "policy": "patient/source and exact pixels grouped; dHash distance <=4 grouped; unknown patients held in test",
+  "reference_pool": [
+    "images/ee631f50-132d-5eda-91a7-e0c01694b766.jpg",
+    "images/5ebd5a82-6c90-561e-9a07-97077a68771a.jpg",
+    "images/46842db7-0c7a-5e6e-83b8-bfbbe1b7a125.jpg",
+    "images/8b2b81cf-e946-59cd-a93f-7638e0ce8ff2.jpg",
+    "images/b896dd74-2214-595f-a646-930510fbed2c.jpg",
+    "images/502da638-ca99-53a3-9511-67313fd0ee31.jpg",
+    "images/58dcb2b3-4828-5b1b-8ae6-78246876a265.jpg",
+    "images/105dd2c2-1108-5994-8868-2653e9f6b068.jpg"
+  ],
+  "references": [
+    "images/ee631f50-132d-5eda-91a7-e0c01694b766.jpg",
+    "images/5ebd5a82-6c90-561e-9a07-97077a68771a.jpg",
+    "images/46842db7-0c7a-5e6e-83b8-bfbbe1b7a125.jpg",
+    "images/8b2b81cf-e946-59cd-a93f-7638e0ce8ff2.jpg"
+  ],
+  "test": [
+    "images/00449c19-b400-5524-bfa8-edfcd29fc95d.jpg",
+    "images/023d5251-b648-5c65-8640-df90e909c5af.jpg",
+    "images/0510cdd6-eb0e-525f-8a32-7d6843444da2.jpg",
+    "images/061f0c8b-e6e3-5f96-8d7e-8fa650bc7b3e.jpg",
+    "images/06c5c1c0-d158-5ac8-8782-4b3b9921ba96.jpg",
+    "images/06debe61-20f4-57c0-a6b5-30f86a403e0c.jpg",
+    "images/08d1af13-abdf-5216-aa6b-9e54b208abc6.jpg",
+    "images/097b6ef3-0e68-5156-b242-2d9e322e600f.jpg",
+    "images/09b75794-9802-5ed5-b927-26dbb300950e.jpg",
+    "images/09ee70a7-51db-52a3-a7d5-a27db06b5d68.jpg",
+    "images/0ad4b720-2ac3-59d6-9e72-d8ecb008d8fc.jpg",
+    "images/0b5f0e0a-6564-55eb-a35f-04ce795c3200.jpg",
+    "images/0ba5a55c-a8f3-59a6-a324-c84ab5618f01.jpg",
+    "images/0ce06073-c983-593b-b205-310ddd5fea47.jpg",
+    "images/0e249cce-d6e7-5325-9531-0a4b664b887b.jpg",
+    "images/125995e8-e049-51b3-9099-80b6f6da8243.jpg",
+    "images/144035fc-52ca-5bbb-a771-c164e709bba0.jpg",
+    "images/154f134c-4fb4-538a-9d20-a6335022d2de.jpg",
+    "images/16602fe6-f1a1-5181-84d8-a3becc5c0e1f.jpg",
+    "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+    "images/166e8917-ee84-5a8f-b798-8217c4470444.jpg",
+    "images/171c5c14-b9e6-55bc-8fba-eb098f9ef63c.jpg",
+    "images/186bb537-9f04-51c7-b229-1151a19d102e.jpg",
+    "images/1b17e0e7-e247-5991-8cf5-53be1e15851d.png",
+    "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+    "images/226e4155-0e43-5d6e-9228-e35f0b153b49.jpg",
+    "images/241951e2-4369-513a-8d3a-bb911316f70f.jpg",
+    "images/24b07a03-1bb0-5814-b671-0772282d0399.jpg",
+    "images/257f5962-ab20-5608-aeb8-d38872e54cb4.jpg",
+    "images/2800dc3f-d017-5915-ac87-a11e890dc282.jpg",
+    "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg",
+    "images/2a1f6897-f0f1-52f4-9b4c-ee6f57f2e924.jpg",
+    "images/2a96c2fb-586c-5e6e-aa9e-32545bb24ef3.jpg",
+    "images/2afbae40-4c12-5a3c-9b1e-44ca2c6f2a52.jpg",
+    "images/2c308042-d62b-5a5b-b8bc-af02c230cfd5.jpg",
+    "images/2c817932-e845-5f4a-80a8-d6eb30b66eea.jpg",
+    "images/2d8967b0-a127-5b5c-a1e4-48a40992a6f3.jpg",
+    "images/2e030ed7-7e7a-598e-bb60-7674ac6f217c.jpg",
+    "images/2e3fb94b-74cf-5b93-874e-90171c2060ff.jpg",
+    "images/321e42ab-cbb9-57c6-84f9-9ac2e4eed4fb.jpg",
+    "images/32e10b7e-5277-5d4b-990b-135adae78acf.jpg",
+    "images/33317819-bbbb-5d5a-8568-35b681134999.jpg",
+    "images/34babd58-e338-54d2-b38c-95e062b087ae.jpg",
+    "images/34d99640-399b-5db4-8b1e-c48834f75ce7.jpg",
+    "images/3553e132-c13a-56d6-b697-7be68cd82c19.jpg",
+    "images/37577d31-60ed-5976-96f4-492d02ad7cb5.jpg",
+    "images/37fc62fb-ab49-550c-9828-74408fcb9a29.jpg",
+    "images/39bc7a1c-fb9f-5529-8542-c682de60571a.jpg",
+    "images/3a2d0330-a40f-587e-a3bc-6ea2f8237758.jpg",
+    "images/3b98b745-6b03-5c09-9d3b-404709ba7ad3.jpg",
+    "images/3c80c709-8b0b-5680-998b-2e8912afd230.jpg",
+    "images/3cda12b8-0e7d-5c77-b6b4-f2307411ab83.jpg",
+    "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg",
+    "images/3fb12a1c-9c8c-5677-84ce-d1f8f6c1b203.jpg",
+    "images/4013b8e0-3825-53de-9a7f-74f21ec70b5c.jpg",
+    "images/401468e2-4659-5557-8860-876959dcc71a.jpg",
+    "images/401e8ed5-2baa-5b31-b1bf-2b563a4684ac.jpg",
+    "images/4036e80a-5835-5bb5-956a-6855e156c466.jpg",
+    "images/42952a4d-4ce5-503d-b0c1-f8c2ff5da270.jpg",
+    "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+    "images/44fe018e-8e28-58ce-9335-885056ba111c.jpg",
+    "images/464a6e39-190c-51b4-8aae-ba04017e1152.jpg",
+    "images/475fca8f-74ea-538b-adeb-2a47e0315ba3.jpg",
+    "images/491d2f98-ddaf-52f1-b7f1-742c1eebe885.jpg",
+    "images/49f6bf31-c830-5ef4-8746-3ed351d2fc14.jpg",
+    "images/4a57f6a0-a3b3-564a-8885-3461c7330342.jpg",
+    "images/4af1f4d1-d325-5e71-83b8-ee9132951861.jpg",
+    "images/4b61d4e4-4a76-5e33-b047-93e0536c7dd0.jpg",
+    "images/4d14544c-c989-58a7-8a48-543032f8cf20.jpg",
+    "images/4d1f3a99-9b57-5b29-bd9b-f33fe514e874.jpg",
+    "images/4ef57407-f994-5607-a3f5-f8d1265afd57.jpg",
+    "images/5452c6be-880a-59ed-bc80-2cbc915b1252.jpg",
+    "images/54f305fc-456a-593d-a807-ea8620c90bae.jpg",
+    "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg",
+    "images/5742cba0-5482-5e58-a0fe-e4c43b8cf269.jpg",
+    "images/57c17441-180f-512f-b990-e6d74839807f.jpg",
+    "images/57d95c62-f94a-56b3-ae4f-b9a637f8457d.jpg",
+    "images/585d9c81-1354-530c-9bd8-0997263397b5.jpg",
+    "images/59596bba-9312-5444-81d7-b539149bef84.jpg",
+    "images/59d05848-36e4-5410-834b-56cb12330f40.jpg",
+    "images/5b4f1d73-f0f6-5101-a0d2-d648f46a69b5.jpg",
+    "images/5c9b6a5f-8e2a-5a70-8c75-e37353088dc0.jpg",
+    "images/5d556d49-d6c9-55fa-a7c9-7ba4427e350a.jpg",
+    "images/5d6b65f1-1f84-52ea-af3b-d58d00a36945.jpg",
+    "images/5e354e11-c49b-552f-bf2c-327067d1ec07.jpg",
+    "images/5e47690e-6594-5c96-96d4-509953df4e88.jpg",
+    "images/629ce023-2192-50e8-a37e-fbabe01a119f.jpg",
+    "images/64eb3401-9f48-576f-8a34-1e431a00078b.jpg",
+    "images/651cc9c2-2877-5296-91e3-f728839ef139.jpg",
+    "images/676fa459-35be-5618-b1c7-5c8361908e1d.jpg",
+    "images/679bd48a-b38b-5964-8334-4245238994c2.jpg",
+    "images/6bad6e2f-2e52-5cd6-bc02-f86906a39319.jpg",
+    "images/6c08cdd5-5c19-5a95-a13a-15876280e0c8.jpg",
+    "images/6d511c32-4ee5-52dd-afe1-8295ff604c3a.jpg",
+    "images/6e151f59-e599-5bec-b03f-56470dba58f8.jpg",
+    "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg",
+    "images/6e4ea4e9-9d36-5674-a0b9-ce2631534c17.jpg",
+    "images/70162807-ce40-5c43-b3e3-e13f46f1c730.jpg",
+    "images/7046c372-638b-5b0f-9c32-9a79599ce4c6.jpg",
+    "images/71cb4ff3-917e-5401-8af3-80b435abedee.jpg",
+    "images/721d2fdf-0b24-5961-b15a-a1debdad95c3.jpg",
+    "images/72441941-dedc-5dda-81b5-67bb3550d592.jpg",
+    "images/76ffa385-5089-5532-8946-8341d85814a6.jpg",
+    "images/7731a309-db19-5f4e-ae56-34182d9a2a15.jpg",
+    "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+    "images/794dc1d2-e104-5689-a510-04360b15e812.jpg",
+    "images/79768b18-039b-5f90-b318-b8128dbe0d16.jpg",
+    "images/79dbf50b-4faa-586c-93cf-fb7e5a1428d1.jpg",
+    "images/7aae6965-9d3c-5be5-9757-fc236719e2eb.jpg",
+    "images/7b91e71c-881e-5a12-abd1-93498a8563fb.jpg",
+    "images/7c26015a-9e23-5822-8c28-4291a6d6ef93.jpg",
+    "images/7e1a792b-3a5f-5e14-91ac-eec15dd955c1.jpg",
+    "images/82498662-d585-5abc-8d4a-674b304f84b8.jpg",
+    "images/825a4046-0cfb-5fb2-ac57-10e4262c23de.jpg",
+    "images/82d844fc-b70c-53b4-90f0-fb76242491bd.jpg",
+    "images/84be9c42-8d8c-53ec-b8d2-7c79a3f34593.jpg",
+    "images/8552fdc9-b1fb-5fdf-9be2-c42c719c0e71.jpg",
+    "images/866f76bc-8b5e-5175-96a8-071fc0dd5f99.jpg",
+    "images/87601974-e75e-56af-8f77-ac099adfeb8d.jpg",
+    "images/8b183f3b-c579-547d-899d-75c21889587e.jpg",
+    "images/8c3e9ddb-e2be-538b-9140-01273bd39788.jpg",
+    "images/911673f9-0ec1-512d-9ae1-c8e2c0a482ba.jpg",
+    "images/911be779-15f9-5498-a03a-99b2a61b1858.jpg",
+    "images/9190a481-52fb-59f9-9326-8cd9f9e7baf0.jpg",
+    "images/9357618f-4ef1-5226-a130-9667c6485ce2.jpg",
+    "images/9499177a-7873-5a09-81a8-6a33b36ce036.jpg",
+    "images/94ce2004-aefb-5100-8849-e6c8e044aa51.jpg",
+    "images/9605c950-ba2c-5203-82c5-4816809fe96e.jpg",
+    "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg",
+    "images/976189a0-420a-509c-a0c6-41e95fde4778.jpg",
+    "images/97a18f05-7259-5109-85ec-10c998637be5.jpg",
+    "images/9a79a157-5753-596e-80c7-f3fa4a48fa6a.jpg",
+    "images/9ac8dbde-fb27-5acf-a366-54efb15a298a.jpg",
+    "images/9b060baf-e88f-51a2-bd6f-b462441d1cd9.jpg",
+    "images/9bd7041c-7a6c-51b2-a366-f0bb5254f817.jpg",
+    "images/9e899309-07ed-5f33-ba77-9aa8484ae984.jpg",
+    "images/a122b3bf-61f4-5ad8-9fcd-8e0783de08ce.jpg",
+    "images/a337aaeb-01e3-5a9d-bdb1-6639756513f3.jpg",
+    "images/a3eeba55-8bde-5e75-8367-e5b17d402dd1.jpg",
+    "images/a5591668-8918-5b2f-88d2-e977c0f9302b.jpg",
+    "images/a758bc71-98bd-5727-bcdf-7997afa2aae9.jpg",
+    "images/a87d7680-6dc1-5f47-a5a1-b96f916882fe.jpg",
+    "images/a9d13102-882e-5504-ad21-fc8a958ac303.jpg",
+    "images/aa005f8d-fb8e-5852-84d0-a15586e914bf.jpg",
+    "images/aa6a54b4-3e8c-5cc9-a555-0bc1898fefab.jpg",
+    "images/ab66a016-e122-52ea-b6fa-14023f59a913.jpg",
+    "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg",
+    "images/af9f2022-447a-5486-8f90-9952e08b78cf.jpg",
+    "images/aff204e5-0f82-5ddb-b061-6dc64874aa3e.jpg",
+    "images/b05a608d-be04-53e8-82d0-48c07e030db2.jpg",
+    "images/b141c9d3-8f30-5957-8e60-7e5a60a908a9.jpg",
+    "images/b3519c7c-0b13-5ee3-ad19-151205272b55.jpg",
+    "images/b52c5d99-6415-5a73-9800-d2318245b796.jpg",
+    "images/b54a8359-495d-53fd-8b7e-dc9cf04464ef.jpg",
+    "images/b6b9f051-e9ee-5714-8b1d-c2adaf9e9e98.jpg",
+    "images/b853477a-9240-5878-9691-d9b328cf443f.jpg",
+    "images/b89aa6b5-78b6-53b8-865d-2959083f9b09.jpg",
+    "images/b8f6f8f3-0e75-5a7f-9910-f04f0871f620.jpg",
+    "images/b95bcc14-5255-5012-a4fb-3b03da4eb433.jpg",
+    "images/b9edfbbd-84b1-537a-b652-875bf752cd00.jpg",
+    "images/ba325687-a011-5763-8c4b-c730138bf5b6.jpg",
+    "images/bac6dcc9-3044-5451-a309-9f44fea71a6b.jpg",
+    "images/bb04d6ba-0930-533a-92d2-3c13dc0fb010.jpg",
+    "images/bbd0f59e-805f-52ec-ab53-e30662c023f5.jpg",
+    "images/bd2ad762-404f-561c-a770-664849ebe7ef.jpg",
+    "images/c1c066ed-6969-5335-a0fd-2634fa08b3f6.jpg",
+    "images/c3a9494c-713a-5311-9d41-a4ce62f18c81.jpg",
+    "images/c3c75c7b-0c56-539b-ac33-5f9340d1b508.jpg",
+    "images/c67bcfbd-184a-5189-a224-e29f06a1fc01.jpg",
+    "images/c7445523-d9f9-557c-8fe7-b406722becf0.jpg",
+    "images/c908017b-9b63-53ff-8d38-5302a88f4f6c.jpg",
+    "images/c9489ae6-0c7c-5415-b462-2a8e2b0dceb3.jpg",
+    "images/c95c3ff6-2fdd-5e73-99bf-435c1d15f1a1.jpg",
+    "images/ca7fb810-9863-5534-a064-3fdec4693025.jpg",
+    "images/caa09cc7-138b-5020-aa14-6a113dfc2889.jpg",
+    "images/cb5e69b2-1d3f-55fa-bb7d-502f4de9308c.jpg",
+    "images/cbd69ced-fcb0-52d2-8d5d-fa0731a349d3.jpg",
+    "images/cd0bb3cd-a14e-5833-a994-07d772f543f6.jpg",
+    "images/cec0bde5-56f0-56f1-a17f-7dbcaa382af4.jpg",
+    "images/d121e69e-9514-59f4-9601-54f4133c38e4.jpg",
+    "images/d3a67bb4-13fe-577a-930e-73b2549a49a0.jpg",
+    "images/d3fdff22-4afd-53d8-ba56-04cd763597db.jpg",
+    "images/d4db8108-d089-5fac-9541-865da56bca66.jpg",
+    "images/d7352ce7-8269-5d98-8172-ab7b1e279061.jpg",
+    "images/d979c49a-57dd-5a4a-b97b-827392ac7ddc.jpg",
+    "images/d9a1bc28-fd50-59cc-b695-e61c84e8edbe.jpg",
+    "images/da637c38-0916-5536-b89c-5eea60116365.jpg",
+    "images/dac921b1-2091-5ff1-af77-eb7993b11aee.jpg",
+    "images/dbf18361-1e3a-5f45-871b-c25966a7e299.jpg",
+    "images/dc4fec86-0914-5aef-aba4-cd7966255b2a.jpg",
+    "images/dccff426-1776-5ec9-b931-6397a4b50f9c.jpg",
+    "images/dd4c9cd4-c018-5b7f-af5e-d0563602737b.jpg",
+    "images/ddfd4d70-f28f-5219-b94d-727691c5519a.jpg",
+    "images/df33d39b-aa3a-5a90-a003-50b20a1a9b14.jpg",
+    "images/e0e0e4d4-8c9d-5be1-ac80-14a6316d05a0.jpg",
+    "images/e3174199-4651-50c2-bdba-28059cb935ab.jpg",
+    "images/e3babe61-4b57-56a5-a811-0e0d8cd7caa3.jpg",
+    "images/e4d4a733-b6bf-5706-b2d1-27cb055c8c7e.jpg",
+    "images/e6bd039d-ccc7-55e7-80cf-08288775ec3f.jpg",
+    "images/e916d7ff-3c90-51c2-a870-b028f0186d61.jpg",
+    "images/eb47c344-d1c2-55ed-aaf6-57853f4ee906.jpg",
+    "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg",
+    "images/ed8b4ee7-77b8-5f00-baa1-6606e6882c69.jpg",
+    "images/f14da9c8-9a75-54fb-8b70-2420a28bcc0c.jpg",
+    "images/f1b16d32-ec38-5ee5-8790-f06052a97161.jpg",
+    "images/f306d3c9-a546-5a3c-b5d6-7a002aa6e80e.jpg",
+    "images/f74daa4b-f6d3-5292-8c79-34b684c8a648.jpg",
+    "images/f812ea31-8db4-5517-8b5c-1d1bed5e4c55.jpg",
+    "images/fa2bdd6d-5250-55b6-b3e8-257f6af98ea1.jpg",
+    "images/fbaeff48-8d47-5515-be56-b51806a7b6f4.jpg",
+    "images/fdd0bdcb-b336-57f4-8101-e1ef769f92e2.jpg"
+  ],
+  "samples": {
+    "images/00449c19-b400-5524-bfa8-edfcd29fc95d.jpg": {
+      "label": 1,
+      "sha256": "e95c7ca60d45b051b32209bbf7c85beb0b0d3f554b8b271dfb4d1d9328f43795",
+      "group_id": "614efafd9afda696",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:UMNUGOVI_031"
+      ],
+      "notes": []
+    },
+    "images/023d5251-b648-5c65-8640-df90e909c5af.jpg": {
+      "label": 1,
+      "sha256": "c6df3caa881bec958a23052b35e840e8634030afe1cc71178bcc212f03cc4259",
+      "group_id": "280d9c75af89eb01",
+      "provenance_group_keys": [
+        "HE_DCNN_binary:patient:0000286881_0923"
+      ],
+      "notes": []
+    },
+    "images/0510cdd6-eb0e-525f-8a32-7d6843444da2.jpg": {
+      "label": 1,
+      "sha256": "e4edbf543fa5e00cbbb02e1fe8a8b101c8af821069c0d30e150722b52270ce9d",
+      "group_id": "a9875261ddf53df3",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:UMNUGOVI_003"
+      ],
+      "notes": []
+    },
+    "images/061f0c8b-e6e3-5f96-8d7e-8fa650bc7b3e.jpg": {
+      "label": 0,
+      "sha256": "17534a0aa639bba6932d70b178cd377f361f03ef7fd040db7b901e8e01e603c6",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/06c5c1c0-d158-5ac8-8782-4b3b9921ba96.jpg": {
+      "label": 0,
+      "sha256": "19efad185fc75255049a15c2604e4770d2463d318d025895196bf1e7d22c190c",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/06debe61-20f4-57c0-a6b5-30f86a403e0c.jpg": {
+      "label": 0,
+      "sha256": "f71fd72d08f78423648c73b9a8641fe4a54e14a8c5e4bec5532d7c59072115d0",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/08d1af13-abdf-5216-aa6b-9e54b208abc6.jpg": {
+      "label": 1,
+      "sha256": "864740b25efb806f035d4dd6914407085a3c2ef1ada90ab32ce4ea7dfbbdc7bf",
+      "group_id": "833df17747219a8a",
+      "provenance_group_keys": [
+        "HE_DCNN_binary:patient:581338"
+      ],
+      "notes": []
+    },
+    "images/097b6ef3-0e68-5156-b242-2d9e322e600f.jpg": {
+      "label": 0,
+      "sha256": "d8dbf9eb85436d667d74682a02902d3d659a32600f0b83fcf4a3418e51000416",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/09b75794-9802-5ed5-b927-26dbb300950e.jpg": {
+      "label": 1,
+      "sha256": "10e5bc1f272eee32d842c8363c0af01fc67ca9a55ed0b864d82584e5d7b3f3bf",
+      "group_id": "2f601ad6e9f1a9e8",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:UMNUGOVI_017"
+      ],
+      "notes": []
+    },
+    "images/09ee70a7-51db-52a3-a7d5-a27db06b5d68.jpg": {
+      "label": 0,
+      "sha256": "07491b8686b400f6c02b35993f8af063f60fd37da98758e4d959ad3d6112cf92",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/0ad4b720-2ac3-59d6-9e72-d8ecb008d8fc.jpg": {
+      "label": 1,
+      "sha256": "0ea7fdc229c077838e8b31415979ab05bc512fb0f3e5905578226bfd2d3ee6bf",
+      "group_id": "1dfcce31f01de1de",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:BAYAN-ULGII_009"
+      ],
+      "notes": []
+    },
+    "images/0b5f0e0a-6564-55eb-a35f-04ce795c3200.jpg": {
+      "label": 1,
+      "sha256": "58e00902b4def8368190effe4e955560bd6b3520e13d0e9e16a44926747d1375",
+      "group_id": "582d67ce28d01f2b",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:SUKHBAATAR_005"
+      ],
+      "notes": []
+    },
+    "images/0ba5a55c-a8f3-59a6-a324-c84ab5618f01.jpg": {
+      "label": 1,
+      "sha256": "409ed67709aee6160c69e97aeee59a96e2b2b3ff24c55afe290c84c73f452ccf",
+      "group_id": "821f29aaad4a92fe",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:SUKHBAATAR_004"
+      ],
+      "notes": []
+    },
+    "images/0ce06073-c983-593b-b205-310ddd5fea47.jpg": {
+      "label": 1,
+      "sha256": "914de0ded72412323b7d8f1de29c2a424c9488e3601345ca32a752b4c94513dc",
+      "group_id": "19fb4cb341e83a80",
+      "provenance_group_keys": [
+        "HE_DCNN_binary:unknown_patients"
+      ],
+      "notes": [
+        "unknown patient: grouped within source"
+      ]
+    },
+    "images/0e249cce-d6e7-5325-9531-0a4b664b887b.jpg": {
+      "label": 1,
+      "sha256": "0ad2e04cf7abbd2e7327480d96b9567648ac67ab07b371f888aabc6596a87893",
+      "group_id": "7c0dbafa47657f8c",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:KHOVD_024"
+      ],
+      "notes": []
+    },
+    "images/105dd2c2-1108-5994-8868-2653e9f6b068.jpg": {
+      "label": 0,
+      "sha256": "95fa9f63a6eaf8d8372e2ca544b3bac0985ddeae8bfe34d49eea479062074af0",
+      "group_id": "12208c2e7be00a77",
+      "provenance_group_keys": [
+        "HE_DCNN_binary:patient:G19062501"
+      ],
+      "notes": []
+    },
+    "images/125995e8-e049-51b3-9099-80b6f6da8243.jpg": {
+      "label": 0,
+      "sha256": "3215ebdea223a0b8103f257ec3e0d9ddf9e47e981c19baf0ab6cd3ad25d271cb",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/144035fc-52ca-5bbb-a771-c164e709bba0.jpg": {
+      "label": 1,
+      "sha256": "98812358b9d5124dc21d3a254432d3071795551773c17df7f70c5141bba8a541",
+      "group_id": "02636a7c29d1e2d0",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:KHOVD_027"
+      ],
+      "notes": []
+    },
+    "images/154f134c-4fb4-538a-9d20-a6335022d2de.jpg": {
+      "label": 1,
+      "sha256": "90ee6cf014c78a7cdf404f9e737ae51e9a53a4223f4ebb4b54df006d3d9c5ce9",
+      "group_id": "d6c2b83f97d669a1",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:UMNUGOVI_028"
+      ],
+      "notes": []
+    },
+    "images/16602fe6-f1a1-5181-84d8-a3becc5c0e1f.jpg": {
+      "label": 1,
+      "sha256": "40abaaa55c11aa2f79efdcdb00c00869564bafac35bd8f43b8d9b6e20c8752c4",
+      "group_id": "0fdbbae51a4893fa",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:UMNUGOVI_032"
+      ],
+      "notes": []
+    },
+    "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg": {
+      "label": 0,
+      "sha256": "f6fee068342e8d836294a9acb5f747488ba6516b7cd366a4e54f3fd095ec27d9",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/166e8917-ee84-5a8f-b798-8217c4470444.jpg": {
+      "label": 0,
+      "sha256": "2e1546dd6008f6bcf86756fcebdf9e2762ce0e8c2f22464fb990f88b5a12d9e6",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/171c5c14-b9e6-55bc-8fba-eb098f9ef63c.jpg": {
+      "label": 0,
+      "sha256": "1cc8d69bb98bdfe4e573a030abc7b4550d5f03ef74963ef7ef7c23097e4bb690",
+      "group_id": "19fb4cb341e83a80",
+      "provenance_group_keys": [
+        "HE_DCNN_binary:unknown_patients"
+      ],
+      "notes": [
+        "unknown patient: grouped within source"
+      ]
+    },
+    "images/186bb537-9f04-51c7-b229-1151a19d102e.jpg": {
+      "label": 1,
+      "sha256": "4880b1fced9694d50ef85feeb8ba2623967746ba08093f67bbddcfdf69a6b1e0",
+      "group_id": "a49d6f8c4015a742",
+      "provenance_group_keys": [
+        "HE_DCNN_binary:patient:580681"
+      ],
+      "notes": []
+    },
+    "images/1b17e0e7-e247-5991-8cf5-53be1e15851d.png": {
+      "label": 1,
+      "sha256": "ee410dc634994dee14ca678e8818dfe2596d92d2910c1c3f3806bea5df611c82",
+      "group_id": "66720c9567061633",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:BAYAN-ULGII_013"
+      ],
+      "notes": []
+    },
+    "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg": {
+      "label": 0,
+      "sha256": "2cdb63f41944f4a6e50b21eac702e199b0b22f7dde3e7e9a2b7e7190faf42c32",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/226e4155-0e43-5d6e-9228-e35f0b153b49.jpg": {
+      "label": 1,
+      "sha256": "c46b74121d4f8c17c63a4cecd6f3562615e65791ee970aa1fb3da084df183875",
+      "group_id": "b49949bfd53cb9ec",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:UMNUGOVI_001"
+      ],
+      "notes": []
+    },
+    "images/241951e2-4369-513a-8d3a-bb911316f70f.jpg": {
+      "label": 1,
+      "sha256": "f6742da5ab236bc68bc0b1022618dc21ebf4bd82c5a1a0888599dff7e6be3910",
+      "group_id": "50063eb3e339d014",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:BAYAN-ULGII_007"
+      ],
+      "notes": []
+    },
+    "images/24b07a03-1bb0-5814-b671-0772282d0399.jpg": {
+      "label": 0,
+      "sha256": "ff3e5cf2f963402f4c7a1e29aad2ea741e42bb24626640bfd9951eee32cb9bce",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/257f5962-ab20-5608-aeb8-d38872e54cb4.jpg": {
+      "label": 1,
+      "sha256": "ff0572e8b3a7192e5d094f563202365177e41451a5b40e2442a3330b8d433b4b",
+      "group_id": "0299d64f17664569",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:KHOVD_016"
+      ],
+      "notes": []
+    },
+    "images/2800dc3f-d017-5915-ac87-a11e890dc282.jpg": {
+      "label": 1,
+      "sha256": "14d2f1f5adaf5376fb998e44dd1bbf7866a199803b4971f21770b7191385c51c",
+      "group_id": "d21a1f7d883af96b",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:KHOVD_015"
+      ],
+      "notes": []
+    },
+    "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg": {
+      "label": 0,
+      "sha256": "fb113b6f708610e126c2fa4c82a4681e4084797b454163f54ab5bf186247d273",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/2a1f6897-f0f1-52f4-9b4c-ee6f57f2e924.jpg": {
+      "label": 0,
+      "sha256": "eb6df37c204b8919a997af9078f2911fc3f37b92d4df201453e1adab035ea378",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/2a96c2fb-586c-5e6e-aa9e-32545bb24ef3.jpg": {
+      "label": 1,
+      "sha256": "99b0cc83d930e6692439f3af7f155a49b095d645f05624172d53fd133ac9c5c9",
+      "group_id": "b8501b2c97ad8130",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:KHOVD_010"
+      ],
+      "notes": []
+    },
+    "images/2afbae40-4c12-5a3c-9b1e-44ca2c6f2a52.jpg": {
+      "label": 0,
+      "sha256": "280151a0ec8c09b0ceab39f6144668c74b59a1a7be55aca7b130585abd1494d9",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/2c308042-d62b-5a5b-b8bc-af02c230cfd5.jpg": {
+      "label": 1,
+      "sha256": "d6dd74ec0d785a601a047839cdde71012eae049279e9a128c289b98062ff6b67",
+      "group_id": "e6add7e5a535378d",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:UMNUGOVI_002"
+      ],
+      "notes": []
+    },
+    "images/2c817932-e845-5f4a-80a8-d6eb30b66eea.jpg": {
+      "label": 0,
+      "sha256": "f0262420ea3de441717a5b385e294becb0591451ac0141b0846d88c487bcce25",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/2d8967b0-a127-5b5c-a1e4-48a40992a6f3.jpg": {
+      "label": 0,
+      "sha256": "fcfff37fd9640688a8a875e9b26d882ea881361c59215473a48f77d4754cee9e",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/2e030ed7-7e7a-598e-bb60-7674ac6f217c.jpg": {
+      "label": 0,
+      "sha256": "097a865fe5bf37f2f14d168c352fa7c287fe387a273cf17530cd9f5d9589e5fa",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/2e3fb94b-74cf-5b93-874e-90171c2060ff.jpg": {
+      "label": 0,
+      "sha256": "c81ee5ac2da17273f2495f9db3fef8bc2b0d88e895e8346349e3ec847c4aca90",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/321e42ab-cbb9-57c6-84f9-9ac2e4eed4fb.jpg": {
+      "label": 0,
+      "sha256": "135c2f532ac039a4ac3a9d072d771bab518e3dc8e63ba6bda6efe0104cc8c8b7",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/32e10b7e-5277-5d4b-990b-135adae78acf.jpg": {
+      "label": 1,
+      "sha256": "3e3aa63fe8136288a6cbe1759f060e4e40bc1601d85c5d695914d39a94af1065",
+      "group_id": "1bf34230d25602d4",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:UMNUGOVI_027"
+      ],
+      "notes": []
+    },
+    "images/33317819-bbbb-5d5a-8568-35b681134999.jpg": {
+      "label": 0,
+      "sha256": "0d36aa1f72bac1548862dda422cc97152c668f8f96e4e326776f21730cbab91d",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/34babd58-e338-54d2-b38c-95e062b087ae.jpg": {
+      "label": 0,
+      "sha256": "084fb658d2d8702818c2b87119454babfa147769cd5798627c6e15fbe8dc7958",
+      "group_id": "19fb4cb341e83a80",
+      "provenance_group_keys": [
+        "HE_DCNN_binary:patient:0000506446"
+      ],
+      "notes": []
+    },
+    "images/34d99640-399b-5db4-8b1e-c48834f75ce7.jpg": {
+      "label": 1,
+      "sha256": "afd4e01844d910fa0a3b2217f97019246daaab822176736976cb376460434c01",
+      "group_id": "8087f5ce25461bab",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:KHOVD_013"
+      ],
+      "notes": []
+    },
+    "images/3553e132-c13a-56d6-b697-7be68cd82c19.jpg": {
+      "label": 0,
+      "sha256": "29fae8fd978665fdb79636297205baf8379dcaaa5cb88da66cd4603958ed1382",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/37577d31-60ed-5976-96f4-492d02ad7cb5.jpg": {
+      "label": 1,
+      "sha256": "bf338a4adecf59fbd8f330ccf33ebb99e2a34f37998c9da71bb4bebf4af384ec",
+      "group_id": "80de10df67657ecd",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:BAYAN-ULGII_011"
+      ],
+      "notes": []
+    },
+    "images/37fc62fb-ab49-550c-9828-74408fcb9a29.jpg": {
+      "label": 0,
+      "sha256": "a941c65b3db5974b50510b184fca9d95218b729c399a99afdf7b0df70da76c76",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/39bc7a1c-fb9f-5529-8542-c682de60571a.jpg": {
+      "label": 0,
+      "sha256": "876cab30f12b879f404d7e7bf114413e13c9b3d505c4917212a8a400c9e793d4",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/3a2d0330-a40f-587e-a3bc-6ea2f8237758.jpg": {
+      "label": 1,
+      "sha256": "41470b2beee31debf95ea9023822da6b8498da2dd9f806e6f7d051540418f508",
+      "group_id": "b33adf6d784ac3a8",
+      "provenance_group_keys": [
+        "HE_DCNN_binary:patient:633933"
+      ],
+      "notes": []
+    },
+    "images/3b98b745-6b03-5c09-9d3b-404709ba7ad3.jpg": {
+      "label": 1,
+      "sha256": "26d35753efc0b3b239a258cb3a71d0ae7e0a29c36113454f43a1b1ed7a095918",
+      "group_id": "ab996ec566b82f3b",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:KHOVD_009"
+      ],
+      "notes": []
+    },
+    "images/3c80c709-8b0b-5680-998b-2e8912afd230.jpg": {
+      "label": 1,
+      "sha256": "e6f06561c70cc595aa5559c82de755c49d711a76df1a228a5fa5269760883f23",
+      "group_id": "a23802abf68fb699",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:KHOVD_023"
+      ],
+      "notes": []
+    },
+    "images/3cda12b8-0e7d-5c77-b6b4-f2307411ab83.jpg": {
+      "label": 0,
+      "sha256": "5e757d8ebda4e41e293207735128f7fddc95cc58fd5b14714bc6c25f45df5c63",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg": {
+      "label": 0,
+      "sha256": "2378f07e1dc3e5739c88d58383a883eb67924f2b4e711139b79aa9e4f5da1bb9",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/3fb12a1c-9c8c-5677-84ce-d1f8f6c1b203.jpg": {
+      "label": 0,
+      "sha256": "71c2566f4805da24aaed5857f4fd0daa2aeedb753a581ab89a687d77ec53e05c",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/4013b8e0-3825-53de-9a7f-74f21ec70b5c.jpg": {
+      "label": 0,
+      "sha256": "13d0b87215d3a96a85df7ea87531431dd7018f6f6a60c6e5bbf23af7271e097a",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/401468e2-4659-5557-8860-876959dcc71a.jpg": {
+      "label": 1,
+      "sha256": "189ee6455f9d9242aa0fc348f9a96b4a1b1a7f68c667f6971bf9da562fcac8b1",
+      "group_id": "7a62ebc910db0a5d",
+      "provenance_group_keys": [
+        "HE_DCNN_binary:patient:0000275299_0923"
+      ],
+      "notes": []
+    },
+    "images/401e8ed5-2baa-5b31-b1bf-2b563a4684ac.jpg": {
+      "label": 1,
+      "sha256": "357b760ed37a07fd98ee2ad9dd31281e8665993b976ff8a02c81f7f08ca75e4f",
+      "group_id": "977d38435f6d9b48",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:KHOVD_011"
+      ],
+      "notes": []
+    },
+    "images/4036e80a-5835-5bb5-956a-6855e156c466.jpg": {
+      "label": 1,
+      "sha256": "10e51f4f5c9d84e4cd0e7d829d7e11dae04c94ce243a203e72f323499d98dec4",
+      "group_id": "ad022d7b4e98e54d",
+      "provenance_group_keys": [
+        "HE_DCNN_binary:patient:0000276160_0923"
+      ],
+      "notes": []
+    },
+    "images/42952a4d-4ce5-503d-b0c1-f8c2ff5da270.jpg": {
+      "label": 1,
+      "sha256": "1c6b8bc1346f648c7f661c3dae485ca7a3ebf610dfbc37a6867802a44ff361d1",
+      "group_id": "dc084e78108b1b94",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:KHOVD_001"
+      ],
+      "notes": []
+    },
+    "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg": {
+      "label": 0,
+      "sha256": "13059f9fd835e91299d7f75d62a64adea8509e9c845f11199fd765ab746fa07d",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/44fe018e-8e28-58ce-9335-885056ba111c.jpg": {
+      "label": 0,
+      "sha256": "db40c4b113c8b4a068950b9498c9c5edb269ce309ff40da70f24575834d05745",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/464a6e39-190c-51b4-8aae-ba04017e1152.jpg": {
+      "label": 0,
+      "sha256": "83ec73c787fae431388180a45d9e7236ee99375239466bdafe4c133ae99ab892",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/46842db7-0c7a-5e6e-83b8-bfbbe1b7a125.jpg": {
+      "label": 1,
+      "sha256": "30c6ff133dd36c6ead1137cca5af5f9378da156e10ce3a761a899fbb90012dc1",
+      "group_id": "b1995615f723d333",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:KHOVD_006"
+      ],
+      "notes": []
+    },
+    "images/475fca8f-74ea-538b-adeb-2a47e0315ba3.jpg": {
+      "label": 1,
+      "sha256": "e152e54108d193c48d4c594aab4bbc205016a98ef1c89c66ce04d19da667dfe2",
+      "group_id": "450aefe5c64e4f4d",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:UMNUGOVI_023"
+      ],
+      "notes": []
+    },
+    "images/491d2f98-ddaf-52f1-b7f1-742c1eebe885.jpg": {
+      "label": 1,
+      "sha256": "f26e57315727e63ff690865f7396d74e82413964ecad11f5ba0895dab1833af0",
+      "group_id": "e002ef7bbafbcd2c",
+      "provenance_group_keys": [
+        "HE_DCNN_binary:patient:572337"
+      ],
+      "notes": []
+    },
+    "images/49f6bf31-c830-5ef4-8746-3ed351d2fc14.jpg": {
+      "label": 0,
+      "sha256": "b14862ab3471a3ac8876e5c17a92526c2a35c94a4256bffb27a68b3253d7ecf0",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/4a57f6a0-a3b3-564a-8885-3461c7330342.jpg": {
+      "label": 1,
+      "sha256": "811f0b96a3c069a8a74aeb747484c84a306c152a1dc3483a2a1dec2d241d4fd5",
+      "group_id": "19fb4cb341e83a80",
+      "provenance_group_keys": [
+        "HE_DCNN_binary:unknown_patients"
+      ],
+      "notes": [
+        "unknown patient: grouped within source"
+      ]
+    },
+    "images/4af1f4d1-d325-5e71-83b8-ee9132951861.jpg": {
+      "label": 1,
+      "sha256": "5d128fb36f49569389fe1ea46c3ff272579296d6ebf47351ff594abae195ee3c",
+      "group_id": "4ab01b8d0f4a6897",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:KHOVD_004"
+      ],
+      "notes": []
+    },
+    "images/4b61d4e4-4a76-5e33-b047-93e0536c7dd0.jpg": {
+      "label": 0,
+      "sha256": "e71aa8914ff2ecc1c5221af9f4ea7b3393f7d773cb36c1e058ff52546ddcdadd",
+      "group_id": "19fb4cb341e83a80",
+      "provenance_group_keys": [
+        "HE_DCNN_binary:unknown_patients"
+      ],
+      "notes": [
+        "unknown patient: grouped within source"
+      ]
+    },
+    "images/4d14544c-c989-58a7-8a48-543032f8cf20.jpg": {
+      "label": 0,
+      "sha256": "b6e4a2d8eea9692425f1ecf4dceaf6875ae252cb2957b6bb46b31c65f91a7bcf",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/4d1f3a99-9b57-5b29-bd9b-f33fe514e874.jpg": {
+      "label": 0,
+      "sha256": "14b0065c6eeb443543a2ad3d9a157ccd6c8cbd0538babf1ba351e54628bbc56b",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/4ef57407-f994-5607-a3f5-f8d1265afd57.jpg": {
+      "label": 1,
+      "sha256": "3b6105157154eb3f1e507a57f8dc800e807fd9f470a690f20c12f2d58381d8e6",
+      "group_id": "19fb4cb341e83a80",
+      "provenance_group_keys": [
+        "HE_DCNN_binary:unknown_patients"
+      ],
+      "notes": [
+        "unknown patient: grouped within source"
+      ]
+    },
+    "images/502da638-ca99-53a3-9511-67313fd0ee31.jpg": {
+      "label": 0,
+      "sha256": "746ee2557864e8c8ac18204535e20d65276fd25152555c782acde0130ea2241f",
+      "group_id": "31e7c19552d3362c",
+      "provenance_group_keys": [
+        "HE_DCNN_binary:patient:B353351"
+      ],
+      "notes": []
+    },
+    "images/5452c6be-880a-59ed-bc80-2cbc915b1252.jpg": {
+      "label": 1,
+      "sha256": "1e129f54a93a9ce3fe16d65a9b0f006945b13ad033b73833ed13c4ccb2009414",
+      "group_id": "19fb4cb341e83a80",
+      "provenance_group_keys": [
+        "HE_DCNN_binary:unknown_patients"
+      ],
+      "notes": [
+        "unknown patient: grouped within source"
+      ]
+    },
+    "images/54f305fc-456a-593d-a807-ea8620c90bae.jpg": {
+      "label": 0,
+      "sha256": "04f1370c94ee6d3c95c052550f4e4ba7049d18e71e1f06342104df4ffeacb7e6",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg": {
+      "label": 0,
+      "sha256": "d9480d697fb0cac5fa8f6107721b219d0afc80a3a466f5cf9ac0e53dcd0b1ac5",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/5742cba0-5482-5e58-a0fe-e4c43b8cf269.jpg": {
+      "label": 0,
+      "sha256": "9656da976f1a2103523c70e6696b63c9e7e12aaec3e6426583be494dfd9abcc3",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/57c17441-180f-512f-b990-e6d74839807f.jpg": {
+      "label": 0,
+      "sha256": "3a09356cf4b71b126b8240334a258e9f06b0e553a90b65ced537c3805664a1df",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/57d95c62-f94a-56b3-ae4f-b9a637f8457d.jpg": {
+      "label": 0,
+      "sha256": "09eae83e18b7ceadff4f4c60f6cbf93c34830a7b9f670086ebe8501c672849ea",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/585d9c81-1354-530c-9bd8-0997263397b5.jpg": {
+      "label": 1,
+      "sha256": "694dd86788c29396766e98110948dcebc9dcdd0c3de4891b500fdbe1b33d8346",
+      "group_id": "c85149a527295c60",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:UMNUGOVI_024"
+      ],
+      "notes": []
+    },
+    "images/58dcb2b3-4828-5b1b-8ae6-78246876a265.jpg": {
+      "label": 1,
+      "sha256": "acd23c9c8071cb9534c374a04ecbc3c34f898585e02f869a98266f2fe66fee3e",
+      "group_id": "ca9f311882a45495",
+      "provenance_group_keys": [
+        "HE_DCNN_binary:patient:581268"
+      ],
+      "notes": []
+    },
+    "images/59596bba-9312-5444-81d7-b539149bef84.jpg": {
+      "label": 0,
+      "sha256": "61b82b3a9a096caf67dcbde9e312261e762435ece99cb7a3297ce3683d18a50f",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/59d05848-36e4-5410-834b-56cb12330f40.jpg": {
+      "label": 1,
+      "sha256": "db21b1d2ecd88d9a8b6f8cd2b2a5c11387d171fef36da946e13d575c8f3eb7fc",
+      "group_id": "ceca9bbc961e2699",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:UMNUGOVI_030"
+      ],
+      "notes": []
+    },
+    "images/5b4f1d73-f0f6-5101-a0d2-d648f46a69b5.jpg": {
+      "label": 1,
+      "sha256": "e61515e844e53f4a42645a109acd20097af8311db8deb9c343f263399e3533ca",
+      "group_id": "96532c6275ded9a9",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:KHUVSGUL_007"
+      ],
+      "notes": []
+    },
+    "images/5c9b6a5f-8e2a-5a70-8c75-e37353088dc0.jpg": {
+      "label": 1,
+      "sha256": "10bf1ff3354a28ebb0978f3dfd6d1d6289b599168ed586cfceaf7db079b89583",
+      "group_id": "42455150a16e89aa",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:KHOVD_012"
+      ],
+      "notes": []
+    },
+    "images/5d556d49-d6c9-55fa-a7c9-7ba4427e350a.jpg": {
+      "label": 1,
+      "sha256": "74025419f343b6d6a6d8cf3e39e72e70a52c29a378ffaea724dcd6cbd35d3123",
+      "group_id": "8a9efa37ad408ed2",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:UMNUGOVI_010"
+      ],
+      "notes": []
+    },
+    "images/5d6b65f1-1f84-52ea-af3b-d58d00a36945.jpg": {
+      "label": 1,
+      "sha256": "292ce687851f7ec34a59a016740a00f714796c6c3ec55b3c059e7b1c0e90fd52",
+      "group_id": "3718e1b2dfe4e39f",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:KHUVSGUL_004"
+      ],
+      "notes": []
+    },
+    "images/5e354e11-c49b-552f-bf2c-327067d1ec07.jpg": {
+      "label": 1,
+      "sha256": "da429629ea50dc3673c7ec63c3c8ee74f03bea40c324b6a71081eb8ccb7c2d36",
+      "group_id": "88efdba23ee0954a",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:KHOVD_002"
+      ],
+      "notes": []
+    },
+    "images/5e47690e-6594-5c96-96d4-509953df4e88.jpg": {
+      "label": 0,
+      "sha256": "289cc0b1342400da3d34a81d9f8facf7d7e32f0c96fe8316e4af0934a321fd2d",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/5ebd5a82-6c90-561e-9a07-97077a68771a.jpg": {
+      "label": 0,
+      "sha256": "bab46c5ab119517afdde4d6c3afe9557cda38f8b3e441e1ea8c9256954e1cc16",
+      "group_id": "c3a3f0140d10f47b",
+      "provenance_group_keys": [
+        "HE_DCNN_binary:patient:2309305"
+      ],
+      "notes": []
+    },
+    "images/629ce023-2192-50e8-a37e-fbabe01a119f.jpg": {
+      "label": 1,
+      "sha256": "6fa00ead3e4dd5094c44b48ab80d3b0146be5c48a285924f4b07fc49cf647d16",
+      "group_id": "d652f0168ffdc015",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:UMNUGOVI_029"
+      ],
+      "notes": []
+    },
+    "images/64eb3401-9f48-576f-8a34-1e431a00078b.jpg": {
+      "label": 1,
+      "sha256": "c8b2c794b4baa6eee36ddda2a738b2c7b4941c050f0954abf91fe4ccb8fab001",
+      "group_id": "b91f9cee81e18e6d",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:KHOVD_020"
+      ],
+      "notes": []
+    },
+    "images/651cc9c2-2877-5296-91e3-f728839ef139.jpg": {
+      "label": 0,
+      "sha256": "c075f2834eced3c324ad06eab12061183375a22dd8b8e627b47109e9325701da",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/676fa459-35be-5618-b1c7-5c8361908e1d.jpg": {
+      "label": 0,
+      "sha256": "6fb91b76aee87ed7d2224775708b4ec133eba48d102b6282c148fc744635b512",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/679bd48a-b38b-5964-8334-4245238994c2.jpg": {
+      "label": 1,
+      "sha256": "49d02d3bc0470c545b38da34f1d4e42d4b25c003fd9977576e29cd570633b54a",
+      "group_id": "82a7bf5cc2331997",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:KHOVD_003"
+      ],
+      "notes": []
+    },
+    "images/6bad6e2f-2e52-5cd6-bc02-f86906a39319.jpg": {
+      "label": 0,
+      "sha256": "7e9d70f786de82e15ffce9a7097ae81ae5d76e920e10b7f2dfe3eb7c95646434",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/6c08cdd5-5c19-5a95-a13a-15876280e0c8.jpg": {
+      "label": 0,
+      "sha256": "1792faffa6cf717926eef8aa9a03ad0c9ad13fc2393602f99182a5a0a3ffb2df",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/6d511c32-4ee5-52dd-afe1-8295ff604c3a.jpg": {
+      "label": 0,
+      "sha256": "b308781f30593799130378a4d6d1cdc17aa24619c37727ce0e0015dee089f1ed",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/6e151f59-e599-5bec-b03f-56470dba58f8.jpg": {
+      "label": 1,
+      "sha256": "5e8a1104058f8028c34ce197f814c4ee7c548dee3d4bebb6effe67d9e9edf1e0",
+      "group_id": "7cb51a97e81998e4",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:UMNUGOVI_016"
+      ],
+      "notes": []
+    },
+    "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg": {
+      "label": 0,
+      "sha256": "e389182d74e280d4783a6fcde58e3a5632012d2d5aaa94715084de3f313f522f",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/6e4ea4e9-9d36-5674-a0b9-ce2631534c17.jpg": {
+      "label": 1,
+      "sha256": "edcd48633c4043e6be49ab4e245188473014e3b248ba4edb1b740c7973ec9c42",
+      "group_id": "2ac8d0d7ddf41ed0",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:UMNUGOVI_022"
+      ],
+      "notes": []
+    },
+    "images/70162807-ce40-5c43-b3e3-e13f46f1c730.jpg": {
+      "label": 0,
+      "sha256": "69dcae12a3935c7f02a91c2a2f15e4f8b69684f7a1ab4a7f556386498b1f2dab",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/7046c372-638b-5b0f-9c32-9a79599ce4c6.jpg": {
+      "label": 1,
+      "sha256": "544f53a5e2d4ed932e15257e12acbfdd812c745c23d6b784029690fe85d50f57",
+      "group_id": "eae1359fa92c491d",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:KHUVSGUL_002"
+      ],
+      "notes": []
+    },
+    "images/71cb4ff3-917e-5401-8af3-80b435abedee.jpg": {
+      "label": 0,
+      "sha256": "1ddb5d38fca4ea7d937579d7f83bf6e51963d67c70660dbd84a0782a78aca9f8",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/721d2fdf-0b24-5961-b15a-a1debdad95c3.jpg": {
+      "label": 0,
+      "sha256": "8183107cc29eb2202c461cb00e3bb7a7c98765fc361689e96b19c503540c22d1",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/72441941-dedc-5dda-81b5-67bb3550d592.jpg": {
+      "label": 1,
+      "sha256": "3fe06ca19e47818d1bb1fb4517d6be66e6cbedaeb6ab1a8c7576c3ba6d2e59f4",
+      "group_id": "727fdfef0187e954",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:KHOVD_025"
+      ],
+      "notes": []
+    },
+    "images/76ffa385-5089-5532-8946-8341d85814a6.jpg": {
+      "label": 0,
+      "sha256": "40569894d53abc0b80049e5113d0bcbf4deefa375d3887cbe36eba5a47ecbe7d",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/7731a309-db19-5f4e-ae56-34182d9a2a15.jpg": {
+      "label": 0,
+      "sha256": "360f3fb523f8f2a0b0cb5780bb3f497d5c4b1c011df9ec4e58124827c752c752",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg": {
+      "label": 0,
+      "sha256": "a8a4c8ce0b7d55d2a394dec846fd829195ffcd6b9a274e5c8bc3f610906f2a84",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/794dc1d2-e104-5689-a510-04360b15e812.jpg": {
+      "label": 1,
+      "sha256": "3480fa9f87dc95ebd94f09bf3fbce123030862f7cd624db2e9179ebbb33b3d61",
+      "group_id": "80e98e2dce86c68a",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:BAYAN-ULGII_012"
+      ],
+      "notes": []
+    },
+    "images/79768b18-039b-5f90-b318-b8128dbe0d16.jpg": {
+      "label": 1,
+      "sha256": "b3de4c676bf459d516f23497df9b255f0fccf3f11120ad2b31fba115eebc2836",
+      "group_id": "58a9b8d8f1c14af9",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:KHOVD_017"
+      ],
+      "notes": []
+    },
+    "images/79dbf50b-4faa-586c-93cf-fb7e5a1428d1.jpg": {
+      "label": 0,
+      "sha256": "c78104613f8113b716671945e6bd0dc13125b039c74ca6f902f95df93769744d",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/7aae6965-9d3c-5be5-9757-fc236719e2eb.jpg": {
+      "label": 1,
+      "sha256": "32c2b4b1afaf73056c6db91e7c988cd8b634ddf0bb6db3c337088e16276fac84",
+      "group_id": "ee170db936b6a018",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:UMNUGOVI_009"
+      ],
+      "notes": []
+    },
+    "images/7b91e71c-881e-5a12-abd1-93498a8563fb.jpg": {
+      "label": 1,
+      "sha256": "ce217b8824e665bee388bb6d402e508d1ed556f3da6af81f0db6932c9e0cc6f1",
+      "group_id": "3e1cd0f31720261d",
+      "provenance_group_keys": [
+        "HE_DCNN_binary:patient:571864"
+      ],
+      "notes": []
+    },
+    "images/7c26015a-9e23-5822-8c28-4291a6d6ef93.jpg": {
+      "label": 0,
+      "sha256": "cad9b62f90303a014090480d9427da04a4535aa252a44957d713f35132ba90e2",
+      "group_id": "19fb4cb341e83a80",
+      "provenance_group_keys": [
+        "HE_DCNN_binary:unknown_patients"
+      ],
+      "notes": [
+        "unknown patient: grouped within source"
+      ]
+    },
+    "images/7e1a792b-3a5f-5e14-91ac-eec15dd955c1.jpg": {
+      "label": 0,
+      "sha256": "b4c13127682bd681d4c392a21752207c6650ec6cf71c819bc56158fe14afa85a",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/82498662-d585-5abc-8d4a-674b304f84b8.jpg": {
+      "label": 0,
+      "sha256": "b561198184952adebfcc148c77dc50614ce64dcb7e14b22c0c7c833282968a12",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/825a4046-0cfb-5fb2-ac57-10e4262c23de.jpg": {
+      "label": 0,
+      "sha256": "f680f5003bb3585ee1d09331312b1c159bbe1dfe1f584fc20a4a58e5c0c66352",
+      "group_id": "19fb4cb341e83a80",
+      "provenance_group_keys": [
+        "HE_DCNN_binary:patient:G19062401"
+      ],
+      "notes": []
+    },
+    "images/82d844fc-b70c-53b4-90f0-fb76242491bd.jpg": {
+      "label": 1,
+      "sha256": "a56114cfdb5f249610ff9a4af8de37592e2435c267c0c7ba3b81e64e2ae5275a",
+      "group_id": "19fb4cb341e83a80",
+      "provenance_group_keys": [
+        "HE_DCNN_binary:unknown_patients"
+      ],
+      "notes": [
+        "unknown patient: grouped within source"
+      ]
+    },
+    "images/84be9c42-8d8c-53ec-b8d2-7c79a3f34593.jpg": {
+      "label": 1,
+      "sha256": "35a0607a55f6225508324cd83dff5272633f405316f2de11d93dcce1015371f0",
+      "group_id": "73c6b0d0f32633fb",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:UMNUGOVI_018"
+      ],
+      "notes": []
+    },
+    "images/8552fdc9-b1fb-5fdf-9be2-c42c719c0e71.jpg": {
+      "label": 0,
+      "sha256": "fd7347e1375763bd23ec6ddd0b4c7c27cd2ddd6fc248afd1949cf9a6d2adcfed",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/866f76bc-8b5e-5175-96a8-071fc0dd5f99.jpg": {
+      "label": 1,
+      "sha256": "7c761c9b5abaebb65e6bb8bbfaf8c0c79e7d5298600331b4ad271c480b917422",
+      "group_id": "afed5b223f3894cb",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:UMNUGOVI_020"
+      ],
+      "notes": []
+    },
+    "images/87601974-e75e-56af-8f77-ac099adfeb8d.jpg": {
+      "label": 1,
+      "sha256": "ce8c8bee1795aabdd77b6b4040ada0cac28df2a0d4639826dcafae4cf21443d0",
+      "group_id": "537e1866dc42f760",
+      "provenance_group_keys": [
+        "HE_DCNN_binary:patient:504390"
+      ],
+      "notes": []
+    },
+    "images/8b183f3b-c579-547d-899d-75c21889587e.jpg": {
+      "label": 1,
+      "sha256": "2c3b869edf8e3091d55661fbe5c85b3a37601bf6f51a995502c07571e745abb7",
+      "group_id": "9969fd13208a0a5f",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:UMNUGOVI_034"
+      ],
+      "notes": []
+    },
+    "images/8b2b81cf-e946-59cd-a93f-7638e0ce8ff2.jpg": {
+      "label": 0,
+      "sha256": "b6e8d137af6043458c57af01c8d8787c885a8d0efc55d31912cf0a28e1aae329",
+      "group_id": "7791b118801befda",
+      "provenance_group_keys": [
+        "HE_DCNN_binary:patient:G19052903"
+      ],
+      "notes": []
+    },
+    "images/8c3e9ddb-e2be-538b-9140-01273bd39788.jpg": {
+      "label": 1,
+      "sha256": "ddaa1429e6906fbc459920e72ac1be685a370524b523340f728911aba0e088d3",
+      "group_id": "52994898e094a47f",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:PMC10047450"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/911673f9-0ec1-512d-9ae1-c8e2c0a482ba.jpg": {
+      "label": 0,
+      "sha256": "669ddd147ac466f5608fa008ac2e462c1c37afd70e57fe69eb32cab449e9b126",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/911be779-15f9-5498-a03a-99b2a61b1858.jpg": {
+      "label": 1,
+      "sha256": "bef377e1fd33729f4079c667b120530bd9e465cc47e901bce231fbc7319c1c31",
+      "group_id": "c4c4b550ce2de5a2",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:UMNUGOVI_006"
+      ],
+      "notes": []
+    },
+    "images/9190a481-52fb-59f9-9326-8cd9f9e7baf0.jpg": {
+      "label": 0,
+      "sha256": "87980657b9ace50611bccf10dcce792fc3cd47e9b4c1cfcf1e3a56f702cde4ec",
+      "group_id": "19fb4cb341e83a80",
+      "provenance_group_keys": [
+        "HE_DCNN_binary:unknown_patients"
+      ],
+      "notes": [
+        "unknown patient: grouped within source"
+      ]
+    },
+    "images/9357618f-4ef1-5226-a130-9667c6485ce2.jpg": {
+      "label": 0,
+      "sha256": "3a0694a4315eaaa1fd7b766b063470bf29ca21adf5738487ef7011455738dff4",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/9499177a-7873-5a09-81a8-6a33b36ce036.jpg": {
+      "label": 0,
+      "sha256": "218f5e1a706cbc6ad0f50819c0cfc426822cad19fed51d3dd453ebabb9390873",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/94ce2004-aefb-5100-8849-e6c8e044aa51.jpg": {
+      "label": 1,
+      "sha256": "77553b05ae1462171f609803b0cc38a8436333944fad4fa8186ac3061b0dee77",
+      "group_id": "6efb49e1e19dcd6a",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:UMNUGOVI_015"
+      ],
+      "notes": []
+    },
+    "images/9605c950-ba2c-5203-82c5-4816809fe96e.jpg": {
+      "label": 0,
+      "sha256": "b99fc532916ddf619bc22d289998b17bb63b67a76f8d0abf1dc8819382109481",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg": {
+      "label": 0,
+      "sha256": "dd48b8c2f650c72b962d29b653d27e8b611d273b7d2f20e9d74dc81ec3eee068",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/976189a0-420a-509c-a0c6-41e95fde4778.jpg": {
+      "label": 1,
+      "sha256": "713ad1f8cdda2e469d4c13a1f0df7cd33ee67d6f24012acfd4c6fa009edff20b",
+      "group_id": "9f2d9588cd90cfdb",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:BAYAN-ULGII_010"
+      ],
+      "notes": []
+    },
+    "images/97a18f05-7259-5109-85ec-10c998637be5.jpg": {
+      "label": 1,
+      "sha256": "fdb95dffc00726173578717e6cf5bf0aaf850d503db80f2976bd3dbe2f564327",
+      "group_id": "54f50501e1b05494",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:UMNUGOVI_005"
+      ],
+      "notes": []
+    },
+    "images/9a79a157-5753-596e-80c7-f3fa4a48fa6a.jpg": {
+      "label": 0,
+      "sha256": "1087354066bc9db1f46a84dfc74e548f72d60b9fcbf8dec267270104b1d866c3",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/9ac8dbde-fb27-5acf-a366-54efb15a298a.jpg": {
+      "label": 1,
+      "sha256": "6eee14f2698702c0992fedcf2967f0ff0c816bd6828a01c5c8f87abde3f08513",
+      "group_id": "f466e2734fc57f1b",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:UMNUGOVI_008"
+      ],
+      "notes": []
+    },
+    "images/9b060baf-e88f-51a2-bd6f-b462441d1cd9.jpg": {
+      "label": 1,
+      "sha256": "63a15747650b2ebf49b0247c52d6c449533a12ccca6e50afe2c8e11ce82494a2",
+      "group_id": "b0a94ce53317da15",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:KHOVD_014"
+      ],
+      "notes": []
+    },
+    "images/9bd7041c-7a6c-51b2-a366-f0bb5254f817.jpg": {
+      "label": 0,
+      "sha256": "026f7fb225c627ad36f5a8063fdd0e28bb7e64e08aa6edf45c2f56dd0c23a73e",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/9e899309-07ed-5f33-ba77-9aa8484ae984.jpg": {
+      "label": 1,
+      "sha256": "ad906408d373063888b798e6c31d5fdabc68545c6d7a813b68af775eb03a91d9",
+      "group_id": "280dcbb8ba2f11e5",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:SUKHBAATAR_002"
+      ],
+      "notes": []
+    },
+    "images/a122b3bf-61f4-5ad8-9fcd-8e0783de08ce.jpg": {
+      "label": 1,
+      "sha256": "597bfafc22f241d97141910c65e7b28cdb7bb18bb9d4390db46681e72a992da7",
+      "group_id": "976d1b4d3eb447f8",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:BAYAN-ULGII_005"
+      ],
+      "notes": []
+    },
+    "images/a337aaeb-01e3-5a9d-bdb1-6639756513f3.jpg": {
+      "label": 1,
+      "sha256": "314e86f671417a813d957de7a14c81e1e7897cf6c397ef4c21e07641f4f3f232",
+      "group_id": "60eb8377ac4af7e9",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:UMNUGOVI_007"
+      ],
+      "notes": []
+    },
+    "images/a3eeba55-8bde-5e75-8367-e5b17d402dd1.jpg": {
+      "label": 1,
+      "sha256": "4829d3c231188172e5e2d64b66111bea0d927ef69bf5c2a3185fb2298bab26c3",
+      "group_id": "5821894af8c574e0",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:KHOVD_026"
+      ],
+      "notes": []
+    },
+    "images/a5591668-8918-5b2f-88d2-e977c0f9302b.jpg": {
+      "label": 1,
+      "sha256": "6e2597fdfb57f264fbbccfc53f70447dc7a1cab81c870df7dea453a02d4758ae",
+      "group_id": "60b0275624ea0319",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:KHOVD_022"
+      ],
+      "notes": []
+    },
+    "images/a758bc71-98bd-5727-bcdf-7997afa2aae9.jpg": {
+      "label": 0,
+      "sha256": "6f9ed7e3600c3350dcab99b1a826e67a3f9678eb93ba46f3862939768c42a940",
+      "group_id": "19fb4cb341e83a80",
+      "provenance_group_keys": [
+        "HE_DCNN_binary:unknown_patients"
+      ],
+      "notes": [
+        "unknown patient: grouped within source"
+      ]
+    },
+    "images/a87d7680-6dc1-5f47-a5a1-b96f916882fe.jpg": {
+      "label": 1,
+      "sha256": "ea48e61bdee773325e363a447fde5b2169728bcb193e8a8de42704196442daec",
+      "group_id": "98d800154ab35e20",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:UMNUGOVI_014"
+      ],
+      "notes": []
+    },
+    "images/a9d13102-882e-5504-ad21-fc8a958ac303.jpg": {
+      "label": 1,
+      "sha256": "fb5562c70b41d91722df9a04f5fedc3fc079bb10a47922775e3ad140e1afcd76",
+      "group_id": "398a01a5a7bbc450",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:KHUVSGUL_001"
+      ],
+      "notes": []
+    },
+    "images/aa005f8d-fb8e-5852-84d0-a15586e914bf.jpg": {
+      "label": 1,
+      "sha256": "4a29e25d5c391dda14542b76de469453c66a9669edceafea1b657e7998292f1b",
+      "group_id": "d9c1f26a60aac869",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:KHUVSGUL_008"
+      ],
+      "notes": []
+    },
+    "images/aa6a54b4-3e8c-5cc9-a555-0bc1898fefab.jpg": {
+      "label": 0,
+      "sha256": "a601740eec8dbcf4fad798f96fe0304e456c0cf443ed0dc585545b864f6454b5",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/ab66a016-e122-52ea-b6fa-14023f59a913.jpg": {
+      "label": 1,
+      "sha256": "201bbde6a41c323727ed3d010611a3a0145695fbd57d570ea23f8c5ea94391c8",
+      "group_id": "1ddad5842043203f",
+      "provenance_group_keys": [
+        "HE_DCNN_binary:patient:529910"
+      ],
+      "notes": []
+    },
+    "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg": {
+      "label": 0,
+      "sha256": "432fd52c142183f320b00d2a08510650785e06224be1a38bedac77cb2e791dd4",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/af9f2022-447a-5486-8f90-9952e08b78cf.jpg": {
+      "label": 1,
+      "sha256": "443bdd9817b27e73eb035ea59367435d8c389a8bea68fbd8ed052df622dd7584",
+      "group_id": "19fb4cb341e83a80",
+      "provenance_group_keys": [
+        "HE_DCNN_binary:unknown_patients"
+      ],
+      "notes": [
+        "unknown patient: grouped within source"
+      ]
+    },
+    "images/aff204e5-0f82-5ddb-b061-6dc64874aa3e.jpg": {
+      "label": 0,
+      "sha256": "fcafe2512b150f228459ef5cb91d20c0629eff71509e693584bd847156c2c25a",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/b05a608d-be04-53e8-82d0-48c07e030db2.jpg": {
+      "label": 0,
+      "sha256": "eeeeb984b8bbd01389c931e5a46f19a0a59b6eeb7e770c19159eb93e01de74b3",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/b141c9d3-8f30-5957-8e60-7e5a60a908a9.jpg": {
+      "label": 0,
+      "sha256": "06143ff8edd681ab1613d32c7446d9d06cda4e3dc63dd43cb3181838eea44c14",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/b3519c7c-0b13-5ee3-ad19-151205272b55.jpg": {
+      "label": 1,
+      "sha256": "61cb689c26234bacdb2235e3cf03c1409fc5a014d53962986111be91aa4d69b7",
+      "group_id": "23b9f58f8f5a87db",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:KHOVD_007"
+      ],
+      "notes": []
+    },
+    "images/b52c5d99-6415-5a73-9800-d2318245b796.jpg": {
+      "label": 0,
+      "sha256": "ccb8124184d9ea2c7e94c96d0703680e84200716c9026c437776a21fa926b23e",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/b54a8359-495d-53fd-8b7e-dc9cf04464ef.jpg": {
+      "label": 0,
+      "sha256": "d470c4a9a9f2adb60bcb86dd8d864991bf1907dad14cf947b63dbf751e5dc49c",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/b6b9f051-e9ee-5714-8b1d-c2adaf9e9e98.jpg": {
+      "label": 1,
+      "sha256": "4a66bc8caac07b9ebaceceae58338f393c9dfc83cd846c4467a8dc1d01973d2d",
+      "group_id": "7fe2119de3a39f0f",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:KHOVD_019"
+      ],
+      "notes": []
+    },
+    "images/b853477a-9240-5878-9691-d9b328cf443f.jpg": {
+      "label": 0,
+      "sha256": "1614797cc6b2c1de7df786aee083e79b8e7ce5a38c33dda0077b155c2fe3a095",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/b896dd74-2214-595f-a646-930510fbed2c.jpg": {
+      "label": 1,
+      "sha256": "f3e0df00b4e12489962ced77a0a1556fbc4c25b8e712a11ac81cd689324ff057",
+      "group_id": "b8fca8fd76a42cef",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:UMNUGOVI_026"
+      ],
+      "notes": []
+    },
+    "images/b89aa6b5-78b6-53b8-865d-2959083f9b09.jpg": {
+      "label": 1,
+      "sha256": "5061111249c5abb75d8ddcf67005f2bdba69f79eea6facfbb4a28cfc5c4bd116",
+      "group_id": "1dff4d6f02f0b23c",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:UMNUGOVI_019"
+      ],
+      "notes": []
+    },
+    "images/b8f6f8f3-0e75-5a7f-9910-f04f0871f620.jpg": {
+      "label": 0,
+      "sha256": "728489caa039feca88571e2a13b0fd0d9e701d6263158d74079d28da082e051f",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/b95bcc14-5255-5012-a4fb-3b03da4eb433.jpg": {
+      "label": 1,
+      "sha256": "24c87581a96eac42b3062a41ea935462f9e8ce459232395da2d3d9e6432df412",
+      "group_id": "44e535c66fec35a8",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:KHOVD_008"
+      ],
+      "notes": []
+    },
+    "images/b9edfbbd-84b1-537a-b652-875bf752cd00.jpg": {
+      "label": 1,
+      "sha256": "777f951b5395113fad68737f8764fe6876bffb529d67b7f36b6e36c8408c5e7d",
+      "group_id": "5817956c7db8923d",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:UMNUGOVI_013"
+      ],
+      "notes": []
+    },
+    "images/ba325687-a011-5763-8c4b-c730138bf5b6.jpg": {
+      "label": 1,
+      "sha256": "93cb529eb8c8ffc1c31ac2b3703b56a26e11b9245223b7b85972f5e009f4a5ca",
+      "group_id": "4715394a969d9ef3",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:SUKHBAATAR_001"
+      ],
+      "notes": []
+    },
+    "images/bac6dcc9-3044-5451-a309-9f44fea71a6b.jpg": {
+      "label": 0,
+      "sha256": "c890d8e2d9f31d543c977e9606140dcf8d0d6103643a15bb55ce11d77c8e2d4f",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/bb04d6ba-0930-533a-92d2-3c13dc0fb010.jpg": {
+      "label": 1,
+      "sha256": "d82e35cf16f5165d5054fe4f11f57605442cdf375ebf9ab94a2fb55797503fee",
+      "group_id": "a2d6a0f9cfeef4c5",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:BAYAN-ULGII_002"
+      ],
+      "notes": []
+    },
+    "images/bbd0f59e-805f-52ec-ab53-e30662c023f5.jpg": {
+      "label": 0,
+      "sha256": "5c987120d78655191b9deacc3daec951220f745b0f704f32c8803229d38b95c0",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/bd2ad762-404f-561c-a770-664849ebe7ef.jpg": {
+      "label": 1,
+      "sha256": "2f41ef9f4cc80db4f4cf9eb04c315421599a1fc483f3f5481e2bef82fc8fc4c3",
+      "group_id": "011d629687a2ff5d",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:KHOVD_005"
+      ],
+      "notes": []
+    },
+    "images/c1c066ed-6969-5335-a0fd-2634fa08b3f6.jpg": {
+      "label": 0,
+      "sha256": "04e0ad2394e3a13abccc846fee5dd0e04a9d8b09a6bb12638b7b66d023bdadb8",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/c3a9494c-713a-5311-9d41-a4ce62f18c81.jpg": {
+      "label": 1,
+      "sha256": "a13f9ea242c3ffea7606689891abb771049838ec4267a51a5bf5ec96d2c12fe3",
+      "group_id": "19fb4cb341e83a80",
+      "provenance_group_keys": [
+        "HE_DCNN_binary:unknown_patients"
+      ],
+      "notes": [
+        "unknown patient: grouped within source"
+      ]
+    },
+    "images/c3c75c7b-0c56-539b-ac33-5f9340d1b508.jpg": {
+      "label": 1,
+      "sha256": "45c0934bd7cf64aa68b0f31d9de16e67d16d22adfb165ec972fb40323d26423b",
+      "group_id": "bc98e05a840f1503",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:UMNUGOVI_025"
+      ],
+      "notes": []
+    },
+    "images/c67bcfbd-184a-5189-a224-e29f06a1fc01.jpg": {
+      "label": 1,
+      "sha256": "9c1dde75e969d0049e2e9f0dc235c17b83bacb01da600b75d43857681ce2283f",
+      "group_id": "dfdffdfd5c21b6b4",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:BAYAN-ULGII_001"
+      ],
+      "notes": []
+    },
+    "images/c7445523-d9f9-557c-8fe7-b406722becf0.jpg": {
+      "label": 1,
+      "sha256": "bce89d1a12aaad0afb455fb958a4e499d69fb9b3862a46de2ad4c5bc3f0b2bfc",
+      "group_id": "52994898e094a47f",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:PMC10047450"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/c908017b-9b63-53ff-8d38-5302a88f4f6c.jpg": {
+      "label": 0,
+      "sha256": "4aa3e2ed0afa6b9310a7c71a2173e17be9558fe6f93c62acc439ff6a184acd1a",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/c9489ae6-0c7c-5415-b462-2a8e2b0dceb3.jpg": {
+      "label": 1,
+      "sha256": "4388de3d4ded9726ddf9f658fe875e734d4279458f3d97a0e21b494882bae4f6",
+      "group_id": "0d6674a7db3a600d",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:BAYAN-ULGII_003"
+      ],
+      "notes": []
+    },
+    "images/c95c3ff6-2fdd-5e73-99bf-435c1d15f1a1.jpg": {
+      "label": 0,
+      "sha256": "512abe829d6f339e1bff7823407a9516c4005510ec8ed851e1bed91ce3f957ea",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/ca7fb810-9863-5534-a064-3fdec4693025.jpg": {
+      "label": 1,
+      "sha256": "69f573816048ee2113a380ef5fa8ec128e51abd38ec76f4bf62d45efd6b16682",
+      "group_id": "696359d516ab721b",
+      "provenance_group_keys": [
+        "HE_DCNN_binary:patient:0000279426_0923"
+      ],
+      "notes": []
+    },
+    "images/caa09cc7-138b-5020-aa14-6a113dfc2889.jpg": {
+      "label": 1,
+      "sha256": "bba3d859f39730359ff7e882e6f3225797a454878b76ad014e019965f4b29496",
+      "group_id": "d2007b6acdc0555a",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:KHOVD_018"
+      ],
+      "notes": []
+    },
+    "images/cb5e69b2-1d3f-55fa-bb7d-502f4de9308c.jpg": {
+      "label": 1,
+      "sha256": "5187b0e69a517c14a59f86c46bd093959b8e5106661c12e10b6e38dd8bae646c",
+      "group_id": "8c2b47e2605a8f0c",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:UMNUGOVI_011"
+      ],
+      "notes": []
+    },
+    "images/cbd69ced-fcb0-52d2-8d5d-fa0731a349d3.jpg": {
+      "label": 0,
+      "sha256": "94b0aa3ac6d269618be6b0a421d2008dcd0f2f75a8631e0a6372edb21200e818",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/cd0bb3cd-a14e-5833-a994-07d772f543f6.jpg": {
+      "label": 1,
+      "sha256": "bc814a08472b89e81ab8b3340eed80489eb0e68510023fe91e259f984c069bdd",
+      "group_id": "5af4b432c6b7fdaa",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:BAYAN-ULGII_006"
+      ],
+      "notes": []
+    },
+    "images/cec0bde5-56f0-56f1-a17f-7dbcaa382af4.jpg": {
+      "label": 0,
+      "sha256": "879e5d8b0b2ee647aa89339afc7f8df72701607cf98aadc1fc618e6af4af7c6c",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/d121e69e-9514-59f4-9601-54f4133c38e4.jpg": {
+      "label": 1,
+      "sha256": "f18f27bed0fce68dd31702fdfa88a051caf6b59d496246f796864c63c8a9a3da",
+      "group_id": "287d1bee89ab9e6f",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:BAYAN-ULGII_004"
+      ],
+      "notes": []
+    },
+    "images/d3a67bb4-13fe-577a-930e-73b2549a49a0.jpg": {
+      "label": 0,
+      "sha256": "ed4f5ffd607b9bf14345369ea432310cc6515a34334c3ccf9684859d17bec4d7",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/d3fdff22-4afd-53d8-ba56-04cd763597db.jpg": {
+      "label": 0,
+      "sha256": "ee30cde09b11837d76aa0e513a9a29234e6b13da149a210f23a6ec7e563dd9f3",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/d4db8108-d089-5fac-9541-865da56bca66.jpg": {
+      "label": 0,
+      "sha256": "2ee7ec7ae8c64d9a4f5b035f61b79420ad3e04838f9e01e34750784bb697bd0f",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/d7352ce7-8269-5d98-8172-ab7b1e279061.jpg": {
+      "label": 0,
+      "sha256": "94ed8e15797662b3c3cb30099679e0b782796e5e2a0400eff727689fbfb10ac5",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/d979c49a-57dd-5a4a-b97b-827392ac7ddc.jpg": {
+      "label": 0,
+      "sha256": "17f0a0e22937c7e18e75fda079cea0e82935b3c08f0d900bbbcd89f3e8f9eacf",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/d9a1bc28-fd50-59cc-b695-e61c84e8edbe.jpg": {
+      "label": 0,
+      "sha256": "efb84a6fc96a4105229d21417ead811c715cb06cd6ea99ca5427f3005fd8fec0",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/da637c38-0916-5536-b89c-5eea60116365.jpg": {
+      "label": 1,
+      "sha256": "eb15f0d36692121b85876bde212fe1a43d54c6d15c5c1932ff4787d1afb2af1f",
+      "group_id": "52994898e094a47f",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:PMC10047450"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/dac921b1-2091-5ff1-af77-eb7993b11aee.jpg": {
+      "label": 0,
+      "sha256": "941b0b73e8ed041a82131b8c1de5dd0e2393fa95ce8f4fb9a8fd2073c6df53d6",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/dbf18361-1e3a-5f45-871b-c25966a7e299.jpg": {
+      "label": 0,
+      "sha256": "fa8fa714d5bfdb08da010667786f6e1c4eee6fe3799702a63e9aed982c073a59",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/dc4fec86-0914-5aef-aba4-cd7966255b2a.jpg": {
+      "label": 1,
+      "sha256": "8db880d94c93e36f56ad64bd76501ec6b99bbe435247ebe7f9a4d039606fd60c",
+      "group_id": "19fb4cb341e83a80",
+      "provenance_group_keys": [
+        "HE_DCNN_binary:unknown_patients"
+      ],
+      "notes": [
+        "unknown patient: grouped within source"
+      ]
+    },
+    "images/dccff426-1776-5ec9-b931-6397a4b50f9c.jpg": {
+      "label": 0,
+      "sha256": "01a5a18ef09c3aab9b40a9aa96d44894bb93ff71d602572b4838b0a77bd73d33",
+      "group_id": "4a818f444c986261",
+      "provenance_group_keys": [
+        "HE_DCNN_binary:patient:C083918"
+      ],
+      "notes": []
+    },
+    "images/dd4c9cd4-c018-5b7f-af5e-d0563602737b.jpg": {
+      "label": 0,
+      "sha256": "eadbdd3748baeeedecfd799db6d1fcd9ac841fd2fc9db3905f91545603ade05b",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/ddfd4d70-f28f-5219-b94d-727691c5519a.jpg": {
+      "label": 0,
+      "sha256": "e2147bff6abd416dd25930930714ce36115dce7a09ab5113fdd28c68c356c780",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/df33d39b-aa3a-5a90-a003-50b20a1a9b14.jpg": {
+      "label": 0,
+      "sha256": "05e2b4c8ffcbfacc10e750a0ee0ca531dd3d3b174d7fdb1990360860f8a4872a",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/e0e0e4d4-8c9d-5be1-ac80-14a6316d05a0.jpg": {
+      "label": 0,
+      "sha256": "298f08fe1d05c13b8ffb85c5a8efe9d5e19fefe17f32317ec0d264e53056280f",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/e3174199-4651-50c2-bdba-28059cb935ab.jpg": {
+      "label": 0,
+      "sha256": "1a9d3b370fdb77df13cffda58b0ca529dc1fa12366f689dfa1063fa48b5eea9e",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/e3babe61-4b57-56a5-a811-0e0d8cd7caa3.jpg": {
+      "label": 0,
+      "sha256": "fa73de5bc77cc4077c3e67639f00c39c7868390f0bf194e4ad5a8c7e4881f8a9",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/e4d4a733-b6bf-5706-b2d1-27cb055c8c7e.jpg": {
+      "label": 0,
+      "sha256": "bdf9f7231485c56e0b72160dd468b66070dbb092a0cafb5cc77e1830574e4262",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/e6bd039d-ccc7-55e7-80cf-08288775ec3f.jpg": {
+      "label": 0,
+      "sha256": "cfcf929c1450fd5bc5a5e9df7f0c7c50b4648e26e818b87ac9fe51cbdc35541e",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/e916d7ff-3c90-51c2-a870-b028f0186d61.jpg": {
+      "label": 1,
+      "sha256": "a86c06fc1cda04b9df11772a658235df709cd58a82cd019d9b8a97d9ab643723",
+      "group_id": "10ae4b5956011ba6",
+      "provenance_group_keys": [
+        "HE_DCNN_binary:patient:591064"
+      ],
+      "notes": []
+    },
+    "images/eb47c344-d1c2-55ed-aaf6-57853f4ee906.jpg": {
+      "label": 0,
+      "sha256": "3b2e5f7b914d0e4fd1d192872ed129e75b712e8e786019880b119aefea19f2d7",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg": {
+      "label": 0,
+      "sha256": "8140fe7336286d7913f7dd00c6859302b9317eb50c358a5c404531005e83b0bb",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/ed8b4ee7-77b8-5f00-baa1-6606e6882c69.jpg": {
+      "label": 0,
+      "sha256": "66f55e6576054b4491eafa4967f4c770e0d56fdb39174f4fdcc93039979c9972",
+      "group_id": "1a856d4625790284",
+      "provenance_group_keys": [
+        "HE_DCNN_binary:patient:Y3656320"
+      ],
+      "notes": []
+    },
+    "images/ee631f50-132d-5eda-91a7-e0c01694b766.jpg": {
+      "label": 1,
+      "sha256": "10751874094dd8b54881f5452322b259c537fcc01578c60201bc2c1cdc180ad0",
+      "group_id": "0fbbd5261f5829e8",
+      "provenance_group_keys": [
+        "HE_DCNN_binary:patient:570935"
+      ],
+      "notes": []
+    },
+    "images/f14da9c8-9a75-54fb-8b70-2420a28bcc0c.jpg": {
+      "label": 0,
+      "sha256": "38c54e96ea907d73754e59d2979fae0798bb20a0f35e35c3a6463e82ead7d0e3",
+      "group_id": "19fb4cb341e83a80",
+      "provenance_group_keys": [
+        "HE_DCNN_binary:unknown_patients"
+      ],
+      "notes": [
+        "unknown patient: grouped within source"
+      ]
+    },
+    "images/f1b16d32-ec38-5ee5-8790-f06052a97161.jpg": {
+      "label": 0,
+      "sha256": "de2f0f1f7b291c309456d913395f80e1f72e194bcca1cc40f2712277539b9ccf",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/f306d3c9-a546-5a3c-b5d6-7a002aa6e80e.jpg": {
+      "label": 0,
+      "sha256": "82ab188315128372c3688c740ba15502d24a415ff595b32cb0a2dd20ac4d908b",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/f74daa4b-f6d3-5292-8c79-34b684c8a648.jpg": {
+      "label": 0,
+      "sha256": "327a91dd6023dee15c93065d7cb3a1aef58cf15f70aec8a55847a8830ab9ad56",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/f812ea31-8db4-5517-8b5c-1d1bed5e4c55.jpg": {
+      "label": 0,
+      "sha256": "2655afa51e0e9d358ebd13300626300fadd349d48434f845fdc5d82728690c1c",
+      "group_id": "9bc1facb3c1d091a",
+      "provenance_group_keys": [
+        "web_liver_ultrasound_20260918:zenodo_7272660"
+      ],
+      "notes": [
+        "conservative source-level group"
+      ]
+    },
+    "images/fa2bdd6d-5250-55b6-b3e8-257f6af98ea1.jpg": {
+      "label": 1,
+      "sha256": "5faf731a883697f6bfc4863a4cb2c4bd6c36bef448e5c13834e7fa671b1fcce9",
+      "group_id": "4ab891b8da8cfca0",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:UMNUGOVI_033"
+      ],
+      "notes": []
+    },
+    "images/fbaeff48-8d47-5515-be56-b51806a7b6f4.jpg": {
+      "label": 1,
+      "sha256": "d9656e2b1b0961e24bd02ecbf36869b529bf5817640dbc03ebacf8b6e5425c1c",
+      "group_id": "e2da85bad98d3e5b",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:KHUVSGUL_003"
+      ],
+      "notes": []
+    },
+    "images/fdd0bdcb-b336-57f4-8101-e1ef769f92e2.jpg": {
+      "label": 1,
+      "sha256": "5e988220ece062c78352b3e30cb308c80e7b91e2ad45bf666506ceb66e8f1afc",
+      "group_id": "b0f164f63f0416fb",
+      "provenance_group_keys": [
+        "bioengineering_US_binary:UMNUGOVI_012"
+      ],
+      "notes": []
+    }
+  },
+  "near_duplicate_candidate_pairs": [
+    [
+      "images/06c5c1c0-d158-5ac8-8782-4b3b9921ba96.jpg",
+      "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg"
+    ],
+    [
+      "images/06c5c1c0-d158-5ac8-8782-4b3b9921ba96.jpg",
+      "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg"
+    ],
+    [
+      "images/06c5c1c0-d158-5ac8-8782-4b3b9921ba96.jpg",
+      "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg"
+    ],
+    [
+      "images/06c5c1c0-d158-5ac8-8782-4b3b9921ba96.jpg",
+      "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg"
+    ],
+    [
+      "images/06c5c1c0-d158-5ac8-8782-4b3b9921ba96.jpg",
+      "images/70162807-ce40-5c43-b3e3-e13f46f1c730.jpg"
+    ],
+    [
+      "images/06c5c1c0-d158-5ac8-8782-4b3b9921ba96.jpg",
+      "images/76ffa385-5089-5532-8946-8341d85814a6.jpg"
+    ],
+    [
+      "images/06c5c1c0-d158-5ac8-8782-4b3b9921ba96.jpg",
+      "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg"
+    ],
+    [
+      "images/06c5c1c0-d158-5ac8-8782-4b3b9921ba96.jpg",
+      "images/aff204e5-0f82-5ddb-b061-6dc64874aa3e.jpg"
+    ],
+    [
+      "images/06c5c1c0-d158-5ac8-8782-4b3b9921ba96.jpg",
+      "images/b853477a-9240-5878-9691-d9b328cf443f.jpg"
+    ],
+    [
+      "images/06c5c1c0-d158-5ac8-8782-4b3b9921ba96.jpg",
+      "images/ddfd4d70-f28f-5219-b94d-727691c5519a.jpg"
+    ],
+    [
+      "images/06c5c1c0-d158-5ac8-8782-4b3b9921ba96.jpg",
+      "images/e0e0e4d4-8c9d-5be1-ac80-14a6316d05a0.jpg"
+    ],
+    [
+      "images/06c5c1c0-d158-5ac8-8782-4b3b9921ba96.jpg",
+      "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg"
+    ],
+    [
+      "images/06debe61-20f4-57c0-a6b5-30f86a403e0c.jpg",
+      "images/bbd0f59e-805f-52ec-ab53-e30662c023f5.jpg"
+    ],
+    [
+      "images/06debe61-20f4-57c0-a6b5-30f86a403e0c.jpg",
+      "images/c95c3ff6-2fdd-5e73-99bf-435c1d15f1a1.jpg"
+    ],
+    [
+      "images/097b6ef3-0e68-5156-b242-2d9e322e600f.jpg",
+      "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg"
+    ],
+    [
+      "images/097b6ef3-0e68-5156-b242-2d9e322e600f.jpg",
+      "images/ddfd4d70-f28f-5219-b94d-727691c5519a.jpg"
+    ],
+    [
+      "images/097b6ef3-0e68-5156-b242-2d9e322e600f.jpg",
+      "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg"
+    ],
+    [
+      "images/09ee70a7-51db-52a3-a7d5-a27db06b5d68.jpg",
+      "images/c908017b-9b63-53ff-8d38-5302a88f4f6c.jpg"
+    ],
+    [
+      "images/125995e8-e049-51b3-9099-80b6f6da8243.jpg",
+      "images/166e8917-ee84-5a8f-b798-8217c4470444.jpg"
+    ],
+    [
+      "images/125995e8-e049-51b3-9099-80b6f6da8243.jpg",
+      "images/d9a1bc28-fd50-59cc-b695-e61c84e8edbe.jpg"
+    ],
+    [
+      "images/125995e8-e049-51b3-9099-80b6f6da8243.jpg",
+      "images/e0e0e4d4-8c9d-5be1-ac80-14a6316d05a0.jpg"
+    ],
+    [
+      "images/125995e8-e049-51b3-9099-80b6f6da8243.jpg",
+      "images/e4d4a733-b6bf-5706-b2d1-27cb055c8c7e.jpg"
+    ],
+    [
+      "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg"
+    ],
+    [
+      "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg"
+    ],
+    [
+      "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "images/2a1f6897-f0f1-52f4-9b4c-ee6f57f2e924.jpg"
+    ],
+    [
+      "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "images/37fc62fb-ab49-550c-9828-74408fcb9a29.jpg"
+    ],
+    [
+      "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg"
+    ],
+    [
+      "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg"
+    ],
+    [
+      "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "images/4d14544c-c989-58a7-8a48-543032f8cf20.jpg"
+    ],
+    [
+      "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "images/4d1f3a99-9b57-5b29-bd9b-f33fe514e874.jpg"
+    ],
+    [
+      "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg"
+    ],
+    [
+      "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "images/5742cba0-5482-5e58-a0fe-e4c43b8cf269.jpg"
+    ],
+    [
+      "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "images/57d95c62-f94a-56b3-ae4f-b9a637f8457d.jpg"
+    ],
+    [
+      "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "images/6bad6e2f-2e52-5cd6-bc02-f86906a39319.jpg"
+    ],
+    [
+      "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg"
+    ],
+    [
+      "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg"
+    ],
+    [
+      "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg"
+    ],
+    [
+      "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "images/b54a8359-495d-53fd-8b7e-dc9cf04464ef.jpg"
+    ],
+    [
+      "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "images/c1c066ed-6969-5335-a0fd-2634fa08b3f6.jpg"
+    ],
+    [
+      "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "images/dd4c9cd4-c018-5b7f-af5e-d0563602737b.jpg"
+    ],
+    [
+      "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "images/ddfd4d70-f28f-5219-b94d-727691c5519a.jpg"
+    ],
+    [
+      "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg"
+    ],
+    [
+      "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "images/f1b16d32-ec38-5ee5-8790-f06052a97161.jpg"
+    ],
+    [
+      "images/166e8917-ee84-5a8f-b798-8217c4470444.jpg",
+      "images/59596bba-9312-5444-81d7-b539149bef84.jpg"
+    ],
+    [
+      "images/166e8917-ee84-5a8f-b798-8217c4470444.jpg",
+      "images/e0e0e4d4-8c9d-5be1-ac80-14a6316d05a0.jpg"
+    ],
+    [
+      "images/171c5c14-b9e6-55bc-8fba-eb098f9ef63c.jpg",
+      "images/34babd58-e338-54d2-b38c-95e062b087ae.jpg"
+    ],
+    [
+      "images/171c5c14-b9e6-55bc-8fba-eb098f9ef63c.jpg",
+      "images/825a4046-0cfb-5fb2-ac57-10e4262c23de.jpg"
+    ],
+    [
+      "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg"
+    ],
+    [
+      "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "images/2a1f6897-f0f1-52f4-9b4c-ee6f57f2e924.jpg"
+    ],
+    [
+      "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "images/37fc62fb-ab49-550c-9828-74408fcb9a29.jpg"
+    ],
+    [
+      "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg"
+    ],
+    [
+      "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg"
+    ],
+    [
+      "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "images/4d14544c-c989-58a7-8a48-543032f8cf20.jpg"
+    ],
+    [
+      "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "images/4d1f3a99-9b57-5b29-bd9b-f33fe514e874.jpg"
+    ],
+    [
+      "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg"
+    ],
+    [
+      "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "images/5742cba0-5482-5e58-a0fe-e4c43b8cf269.jpg"
+    ],
+    [
+      "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "images/57d95c62-f94a-56b3-ae4f-b9a637f8457d.jpg"
+    ],
+    [
+      "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "images/6bad6e2f-2e52-5cd6-bc02-f86906a39319.jpg"
+    ],
+    [
+      "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg"
+    ],
+    [
+      "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg"
+    ],
+    [
+      "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg"
+    ],
+    [
+      "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "images/b54a8359-495d-53fd-8b7e-dc9cf04464ef.jpg"
+    ],
+    [
+      "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "images/c1c066ed-6969-5335-a0fd-2634fa08b3f6.jpg"
+    ],
+    [
+      "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "images/dd4c9cd4-c018-5b7f-af5e-d0563602737b.jpg"
+    ],
+    [
+      "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "images/ddfd4d70-f28f-5219-b94d-727691c5519a.jpg"
+    ],
+    [
+      "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg"
+    ],
+    [
+      "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "images/f1b16d32-ec38-5ee5-8790-f06052a97161.jpg"
+    ],
+    [
+      "images/24b07a03-1bb0-5814-b671-0772282d0399.jpg",
+      "images/2e030ed7-7e7a-598e-bb60-7674ac6f217c.jpg"
+    ],
+    [
+      "images/24b07a03-1bb0-5814-b671-0772282d0399.jpg",
+      "images/33317819-bbbb-5d5a-8568-35b681134999.jpg"
+    ],
+    [
+      "images/24b07a03-1bb0-5814-b671-0772282d0399.jpg",
+      "images/676fa459-35be-5618-b1c7-5c8361908e1d.jpg"
+    ],
+    [
+      "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg",
+      "images/2c817932-e845-5f4a-80a8-d6eb30b66eea.jpg"
+    ],
+    [
+      "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg",
+      "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg"
+    ],
+    [
+      "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg",
+      "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg"
+    ],
+    [
+      "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg",
+      "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg"
+    ],
+    [
+      "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg",
+      "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg"
+    ],
+    [
+      "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg",
+      "images/70162807-ce40-5c43-b3e3-e13f46f1c730.jpg"
+    ],
+    [
+      "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg",
+      "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg"
+    ],
+    [
+      "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg",
+      "images/911673f9-0ec1-512d-9ae1-c8e2c0a482ba.jpg"
+    ],
+    [
+      "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg",
+      "images/9a79a157-5753-596e-80c7-f3fa4a48fa6a.jpg"
+    ],
+    [
+      "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg",
+      "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg"
+    ],
+    [
+      "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg",
+      "images/b52c5d99-6415-5a73-9800-d2318245b796.jpg"
+    ],
+    [
+      "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg",
+      "images/b54a8359-495d-53fd-8b7e-dc9cf04464ef.jpg"
+    ],
+    [
+      "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg",
+      "images/bbd0f59e-805f-52ec-ab53-e30662c023f5.jpg"
+    ],
+    [
+      "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg",
+      "images/c95c3ff6-2fdd-5e73-99bf-435c1d15f1a1.jpg"
+    ],
+    [
+      "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg",
+      "images/e3174199-4651-50c2-bdba-28059cb935ab.jpg"
+    ],
+    [
+      "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg",
+      "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg"
+    ],
+    [
+      "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg",
+      "images/f1b16d32-ec38-5ee5-8790-f06052a97161.jpg"
+    ],
+    [
+      "images/2a1f6897-f0f1-52f4-9b4c-ee6f57f2e924.jpg",
+      "images/37fc62fb-ab49-550c-9828-74408fcb9a29.jpg"
+    ],
+    [
+      "images/2a1f6897-f0f1-52f4-9b4c-ee6f57f2e924.jpg",
+      "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg"
+    ],
+    [
+      "images/2a1f6897-f0f1-52f4-9b4c-ee6f57f2e924.jpg",
+      "images/b54a8359-495d-53fd-8b7e-dc9cf04464ef.jpg"
+    ],
+    [
+      "images/2a1f6897-f0f1-52f4-9b4c-ee6f57f2e924.jpg",
+      "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg"
+    ],
+    [
+      "images/2a1f6897-f0f1-52f4-9b4c-ee6f57f2e924.jpg",
+      "images/f1b16d32-ec38-5ee5-8790-f06052a97161.jpg"
+    ],
+    [
+      "images/2c817932-e845-5f4a-80a8-d6eb30b66eea.jpg",
+      "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg"
+    ],
+    [
+      "images/2c817932-e845-5f4a-80a8-d6eb30b66eea.jpg",
+      "images/5e47690e-6594-5c96-96d4-509953df4e88.jpg"
+    ],
+    [
+      "images/2c817932-e845-5f4a-80a8-d6eb30b66eea.jpg",
+      "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg"
+    ],
+    [
+      "images/2c817932-e845-5f4a-80a8-d6eb30b66eea.jpg",
+      "images/70162807-ce40-5c43-b3e3-e13f46f1c730.jpg"
+    ],
+    [
+      "images/2c817932-e845-5f4a-80a8-d6eb30b66eea.jpg",
+      "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg"
+    ],
+    [
+      "images/2c817932-e845-5f4a-80a8-d6eb30b66eea.jpg",
+      "images/911673f9-0ec1-512d-9ae1-c8e2c0a482ba.jpg"
+    ],
+    [
+      "images/2c817932-e845-5f4a-80a8-d6eb30b66eea.jpg",
+      "images/9a79a157-5753-596e-80c7-f3fa4a48fa6a.jpg"
+    ],
+    [
+      "images/2c817932-e845-5f4a-80a8-d6eb30b66eea.jpg",
+      "images/b52c5d99-6415-5a73-9800-d2318245b796.jpg"
+    ],
+    [
+      "images/2c817932-e845-5f4a-80a8-d6eb30b66eea.jpg",
+      "images/b853477a-9240-5878-9691-d9b328cf443f.jpg"
+    ],
+    [
+      "images/2c817932-e845-5f4a-80a8-d6eb30b66eea.jpg",
+      "images/bbd0f59e-805f-52ec-ab53-e30662c023f5.jpg"
+    ],
+    [
+      "images/2c817932-e845-5f4a-80a8-d6eb30b66eea.jpg",
+      "images/c95c3ff6-2fdd-5e73-99bf-435c1d15f1a1.jpg"
+    ],
+    [
+      "images/2c817932-e845-5f4a-80a8-d6eb30b66eea.jpg",
+      "images/ddfd4d70-f28f-5219-b94d-727691c5519a.jpg"
+    ],
+    [
+      "images/2c817932-e845-5f4a-80a8-d6eb30b66eea.jpg",
+      "images/e3174199-4651-50c2-bdba-28059cb935ab.jpg"
+    ],
+    [
+      "images/2c817932-e845-5f4a-80a8-d6eb30b66eea.jpg",
+      "images/f74daa4b-f6d3-5292-8c79-34b684c8a648.jpg"
+    ],
+    [
+      "images/2e030ed7-7e7a-598e-bb60-7674ac6f217c.jpg",
+      "images/33317819-bbbb-5d5a-8568-35b681134999.jpg"
+    ],
+    [
+      "images/2e030ed7-7e7a-598e-bb60-7674ac6f217c.jpg",
+      "images/676fa459-35be-5618-b1c7-5c8361908e1d.jpg"
+    ],
+    [
+      "images/33317819-bbbb-5d5a-8568-35b681134999.jpg",
+      "images/676fa459-35be-5618-b1c7-5c8361908e1d.jpg"
+    ],
+    [
+      "images/33317819-bbbb-5d5a-8568-35b681134999.jpg",
+      "images/b8f6f8f3-0e75-5a7f-9910-f04f0871f620.jpg"
+    ],
+    [
+      "images/37fc62fb-ab49-550c-9828-74408fcb9a29.jpg",
+      "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg"
+    ],
+    [
+      "images/37fc62fb-ab49-550c-9828-74408fcb9a29.jpg",
+      "images/4d14544c-c989-58a7-8a48-543032f8cf20.jpg"
+    ],
+    [
+      "images/37fc62fb-ab49-550c-9828-74408fcb9a29.jpg",
+      "images/4d1f3a99-9b57-5b29-bd9b-f33fe514e874.jpg"
+    ],
+    [
+      "images/37fc62fb-ab49-550c-9828-74408fcb9a29.jpg",
+      "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg"
+    ],
+    [
+      "images/37fc62fb-ab49-550c-9828-74408fcb9a29.jpg",
+      "images/5742cba0-5482-5e58-a0fe-e4c43b8cf269.jpg"
+    ],
+    [
+      "images/37fc62fb-ab49-550c-9828-74408fcb9a29.jpg",
+      "images/57d95c62-f94a-56b3-ae4f-b9a637f8457d.jpg"
+    ],
+    [
+      "images/37fc62fb-ab49-550c-9828-74408fcb9a29.jpg",
+      "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg"
+    ],
+    [
+      "images/37fc62fb-ab49-550c-9828-74408fcb9a29.jpg",
+      "images/79dbf50b-4faa-586c-93cf-fb7e5a1428d1.jpg"
+    ],
+    [
+      "images/37fc62fb-ab49-550c-9828-74408fcb9a29.jpg",
+      "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg"
+    ],
+    [
+      "images/37fc62fb-ab49-550c-9828-74408fcb9a29.jpg",
+      "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg"
+    ],
+    [
+      "images/37fc62fb-ab49-550c-9828-74408fcb9a29.jpg",
+      "images/b54a8359-495d-53fd-8b7e-dc9cf04464ef.jpg"
+    ],
+    [
+      "images/37fc62fb-ab49-550c-9828-74408fcb9a29.jpg",
+      "images/ddfd4d70-f28f-5219-b94d-727691c5519a.jpg"
+    ],
+    [
+      "images/37fc62fb-ab49-550c-9828-74408fcb9a29.jpg",
+      "images/e4d4a733-b6bf-5706-b2d1-27cb055c8c7e.jpg"
+    ],
+    [
+      "images/37fc62fb-ab49-550c-9828-74408fcb9a29.jpg",
+      "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg"
+    ],
+    [
+      "images/37fc62fb-ab49-550c-9828-74408fcb9a29.jpg",
+      "images/f1b16d32-ec38-5ee5-8790-f06052a97161.jpg"
+    ],
+    [
+      "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg",
+      "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg"
+    ],
+    [
+      "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg",
+      "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg"
+    ],
+    [
+      "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg",
+      "images/5742cba0-5482-5e58-a0fe-e4c43b8cf269.jpg"
+    ],
+    [
+      "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg",
+      "images/57d95c62-f94a-56b3-ae4f-b9a637f8457d.jpg"
+    ],
+    [
+      "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg",
+      "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg"
+    ],
+    [
+      "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg",
+      "images/70162807-ce40-5c43-b3e3-e13f46f1c730.jpg"
+    ],
+    [
+      "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg",
+      "images/721d2fdf-0b24-5961-b15a-a1debdad95c3.jpg"
+    ],
+    [
+      "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg",
+      "images/911673f9-0ec1-512d-9ae1-c8e2c0a482ba.jpg"
+    ],
+    [
+      "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg",
+      "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg"
+    ],
+    [
+      "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg",
+      "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg"
+    ],
+    [
+      "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg",
+      "images/aff204e5-0f82-5ddb-b061-6dc64874aa3e.jpg"
+    ],
+    [
+      "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg",
+      "images/dd4c9cd4-c018-5b7f-af5e-d0563602737b.jpg"
+    ],
+    [
+      "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg",
+      "images/e0e0e4d4-8c9d-5be1-ac80-14a6316d05a0.jpg"
+    ],
+    [
+      "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg",
+      "images/e4d4a733-b6bf-5706-b2d1-27cb055c8c7e.jpg"
+    ],
+    [
+      "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg",
+      "images/eb47c344-d1c2-55ed-aaf6-57853f4ee906.jpg"
+    ],
+    [
+      "images/4013b8e0-3825-53de-9a7f-74f21ec70b5c.jpg",
+      "images/9bd7041c-7a6c-51b2-a366-f0bb5254f817.jpg"
+    ],
+    [
+      "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "images/57d95c62-f94a-56b3-ae4f-b9a637f8457d.jpg"
+    ],
+    [
+      "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "images/5e47690e-6594-5c96-96d4-509953df4e88.jpg"
+    ],
+    [
+      "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg"
+    ],
+    [
+      "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "images/70162807-ce40-5c43-b3e3-e13f46f1c730.jpg"
+    ],
+    [
+      "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "images/721d2fdf-0b24-5961-b15a-a1debdad95c3.jpg"
+    ],
+    [
+      "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg"
+    ],
+    [
+      "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "images/911673f9-0ec1-512d-9ae1-c8e2c0a482ba.jpg"
+    ],
+    [
+      "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "images/9605c950-ba2c-5203-82c5-4816809fe96e.jpg"
+    ],
+    [
+      "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg"
+    ],
+    [
+      "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "images/9a79a157-5753-596e-80c7-f3fa4a48fa6a.jpg"
+    ],
+    [
+      "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg"
+    ],
+    [
+      "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "images/aff204e5-0f82-5ddb-b061-6dc64874aa3e.jpg"
+    ],
+    [
+      "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "images/b52c5d99-6415-5a73-9800-d2318245b796.jpg"
+    ],
+    [
+      "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "images/b853477a-9240-5878-9691-d9b328cf443f.jpg"
+    ],
+    [
+      "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "images/ddfd4d70-f28f-5219-b94d-727691c5519a.jpg"
+    ],
+    [
+      "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "images/e0e0e4d4-8c9d-5be1-ac80-14a6316d05a0.jpg"
+    ],
+    [
+      "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "images/e3174199-4651-50c2-bdba-28059cb935ab.jpg"
+    ],
+    [
+      "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "images/e4d4a733-b6bf-5706-b2d1-27cb055c8c7e.jpg"
+    ],
+    [
+      "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg"
+    ],
+    [
+      "images/44fe018e-8e28-58ce-9335-885056ba111c.jpg",
+      "images/cec0bde5-56f0-56f1-a17f-7dbcaa382af4.jpg"
+    ],
+    [
+      "images/4d14544c-c989-58a7-8a48-543032f8cf20.jpg",
+      "images/4d1f3a99-9b57-5b29-bd9b-f33fe514e874.jpg"
+    ],
+    [
+      "images/4d14544c-c989-58a7-8a48-543032f8cf20.jpg",
+      "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg"
+    ],
+    [
+      "images/4d14544c-c989-58a7-8a48-543032f8cf20.jpg",
+      "images/5742cba0-5482-5e58-a0fe-e4c43b8cf269.jpg"
+    ],
+    [
+      "images/4d14544c-c989-58a7-8a48-543032f8cf20.jpg",
+      "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg"
+    ],
+    [
+      "images/4d14544c-c989-58a7-8a48-543032f8cf20.jpg",
+      "images/eb47c344-d1c2-55ed-aaf6-57853f4ee906.jpg"
+    ],
+    [
+      "images/4d1f3a99-9b57-5b29-bd9b-f33fe514e874.jpg",
+      "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg"
+    ],
+    [
+      "images/4d1f3a99-9b57-5b29-bd9b-f33fe514e874.jpg",
+      "images/5742cba0-5482-5e58-a0fe-e4c43b8cf269.jpg"
+    ],
+    [
+      "images/4d1f3a99-9b57-5b29-bd9b-f33fe514e874.jpg",
+      "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg"
+    ],
+    [
+      "images/4d1f3a99-9b57-5b29-bd9b-f33fe514e874.jpg",
+      "images/eb47c344-d1c2-55ed-aaf6-57853f4ee906.jpg"
+    ],
+    [
+      "images/54f305fc-456a-593d-a807-ea8620c90bae.jpg",
+      "images/f812ea31-8db4-5517-8b5c-1d1bed5e4c55.jpg"
+    ],
+    [
+      "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg",
+      "images/5742cba0-5482-5e58-a0fe-e4c43b8cf269.jpg"
+    ],
+    [
+      "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg",
+      "images/76ffa385-5089-5532-8946-8341d85814a6.jpg"
+    ],
+    [
+      "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg",
+      "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg"
+    ],
+    [
+      "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg",
+      "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg"
+    ],
+    [
+      "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg",
+      "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg"
+    ],
+    [
+      "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg",
+      "images/b54a8359-495d-53fd-8b7e-dc9cf04464ef.jpg"
+    ],
+    [
+      "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg",
+      "images/c1c066ed-6969-5335-a0fd-2634fa08b3f6.jpg"
+    ],
+    [
+      "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg",
+      "images/dd4c9cd4-c018-5b7f-af5e-d0563602737b.jpg"
+    ],
+    [
+      "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg",
+      "images/ddfd4d70-f28f-5219-b94d-727691c5519a.jpg"
+    ],
+    [
+      "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg",
+      "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg"
+    ],
+    [
+      "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg",
+      "images/f1b16d32-ec38-5ee5-8790-f06052a97161.jpg"
+    ],
+    [
+      "images/5742cba0-5482-5e58-a0fe-e4c43b8cf269.jpg",
+      "images/6bad6e2f-2e52-5cd6-bc02-f86906a39319.jpg"
+    ],
+    [
+      "images/5742cba0-5482-5e58-a0fe-e4c43b8cf269.jpg",
+      "images/6d511c32-4ee5-52dd-afe1-8295ff604c3a.jpg"
+    ],
+    [
+      "images/5742cba0-5482-5e58-a0fe-e4c43b8cf269.jpg",
+      "images/76ffa385-5089-5532-8946-8341d85814a6.jpg"
+    ],
+    [
+      "images/5742cba0-5482-5e58-a0fe-e4c43b8cf269.jpg",
+      "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg"
+    ],
+    [
+      "images/5742cba0-5482-5e58-a0fe-e4c43b8cf269.jpg",
+      "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg"
+    ],
+    [
+      "images/5742cba0-5482-5e58-a0fe-e4c43b8cf269.jpg",
+      "images/aff204e5-0f82-5ddb-b061-6dc64874aa3e.jpg"
+    ],
+    [
+      "images/5742cba0-5482-5e58-a0fe-e4c43b8cf269.jpg",
+      "images/dd4c9cd4-c018-5b7f-af5e-d0563602737b.jpg"
+    ],
+    [
+      "images/5742cba0-5482-5e58-a0fe-e4c43b8cf269.jpg",
+      "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg"
+    ],
+    [
+      "images/5742cba0-5482-5e58-a0fe-e4c43b8cf269.jpg",
+      "images/f1b16d32-ec38-5ee5-8790-f06052a97161.jpg"
+    ],
+    [
+      "images/57c17441-180f-512f-b990-e6d74839807f.jpg",
+      "images/7e1a792b-3a5f-5e14-91ac-eec15dd955c1.jpg"
+    ],
+    [
+      "images/57c17441-180f-512f-b990-e6d74839807f.jpg",
+      "images/9357618f-4ef1-5226-a130-9667c6485ce2.jpg"
+    ],
+    [
+      "images/57c17441-180f-512f-b990-e6d74839807f.jpg",
+      "images/9499177a-7873-5a09-81a8-6a33b36ce036.jpg"
+    ],
+    [
+      "images/57d95c62-f94a-56b3-ae4f-b9a637f8457d.jpg",
+      "images/721d2fdf-0b24-5961-b15a-a1debdad95c3.jpg"
+    ],
+    [
+      "images/57d95c62-f94a-56b3-ae4f-b9a637f8457d.jpg",
+      "images/911673f9-0ec1-512d-9ae1-c8e2c0a482ba.jpg"
+    ],
+    [
+      "images/57d95c62-f94a-56b3-ae4f-b9a637f8457d.jpg",
+      "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg"
+    ],
+    [
+      "images/57d95c62-f94a-56b3-ae4f-b9a637f8457d.jpg",
+      "images/e4d4a733-b6bf-5706-b2d1-27cb055c8c7e.jpg"
+    ],
+    [
+      "images/5e47690e-6594-5c96-96d4-509953df4e88.jpg",
+      "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg"
+    ],
+    [
+      "images/5e47690e-6594-5c96-96d4-509953df4e88.jpg",
+      "images/76ffa385-5089-5532-8946-8341d85814a6.jpg"
+    ],
+    [
+      "images/5e47690e-6594-5c96-96d4-509953df4e88.jpg",
+      "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg"
+    ],
+    [
+      "images/5e47690e-6594-5c96-96d4-509953df4e88.jpg",
+      "images/9605c950-ba2c-5203-82c5-4816809fe96e.jpg"
+    ],
+    [
+      "images/5e47690e-6594-5c96-96d4-509953df4e88.jpg",
+      "images/9a79a157-5753-596e-80c7-f3fa4a48fa6a.jpg"
+    ],
+    [
+      "images/5e47690e-6594-5c96-96d4-509953df4e88.jpg",
+      "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg"
+    ],
+    [
+      "images/5e47690e-6594-5c96-96d4-509953df4e88.jpg",
+      "images/b05a608d-be04-53e8-82d0-48c07e030db2.jpg"
+    ],
+    [
+      "images/5e47690e-6594-5c96-96d4-509953df4e88.jpg",
+      "images/b52c5d99-6415-5a73-9800-d2318245b796.jpg"
+    ],
+    [
+      "images/5e47690e-6594-5c96-96d4-509953df4e88.jpg",
+      "images/b853477a-9240-5878-9691-d9b328cf443f.jpg"
+    ],
+    [
+      "images/5e47690e-6594-5c96-96d4-509953df4e88.jpg",
+      "images/bbd0f59e-805f-52ec-ab53-e30662c023f5.jpg"
+    ],
+    [
+      "images/5e47690e-6594-5c96-96d4-509953df4e88.jpg",
+      "images/c1c066ed-6969-5335-a0fd-2634fa08b3f6.jpg"
+    ],
+    [
+      "images/5e47690e-6594-5c96-96d4-509953df4e88.jpg",
+      "images/c95c3ff6-2fdd-5e73-99bf-435c1d15f1a1.jpg"
+    ],
+    [
+      "images/5e47690e-6594-5c96-96d4-509953df4e88.jpg",
+      "images/ddfd4d70-f28f-5219-b94d-727691c5519a.jpg"
+    ],
+    [
+      "images/5e47690e-6594-5c96-96d4-509953df4e88.jpg",
+      "images/e3174199-4651-50c2-bdba-28059cb935ab.jpg"
+    ],
+    [
+      "images/5e47690e-6594-5c96-96d4-509953df4e88.jpg",
+      "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg"
+    ],
+    [
+      "images/5e47690e-6594-5c96-96d4-509953df4e88.jpg",
+      "images/f74daa4b-f6d3-5292-8c79-34b684c8a648.jpg"
+    ],
+    [
+      "images/6bad6e2f-2e52-5cd6-bc02-f86906a39319.jpg",
+      "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg"
+    ],
+    [
+      "images/6bad6e2f-2e52-5cd6-bc02-f86906a39319.jpg",
+      "images/b05a608d-be04-53e8-82d0-48c07e030db2.jpg"
+    ],
+    [
+      "images/6d511c32-4ee5-52dd-afe1-8295ff604c3a.jpg",
+      "images/76ffa385-5089-5532-8946-8341d85814a6.jpg"
+    ],
+    [
+      "images/6d511c32-4ee5-52dd-afe1-8295ff604c3a.jpg",
+      "images/b05a608d-be04-53e8-82d0-48c07e030db2.jpg"
+    ],
+    [
+      "images/6d511c32-4ee5-52dd-afe1-8295ff604c3a.jpg",
+      "images/c1c066ed-6969-5335-a0fd-2634fa08b3f6.jpg"
+    ],
+    [
+      "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg",
+      "images/70162807-ce40-5c43-b3e3-e13f46f1c730.jpg"
+    ],
+    [
+      "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg",
+      "images/7731a309-db19-5f4e-ae56-34182d9a2a15.jpg"
+    ],
+    [
+      "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg",
+      "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg"
+    ],
+    [
+      "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg",
+      "images/911673f9-0ec1-512d-9ae1-c8e2c0a482ba.jpg"
+    ],
+    [
+      "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg",
+      "images/9a79a157-5753-596e-80c7-f3fa4a48fa6a.jpg"
+    ],
+    [
+      "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg",
+      "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg"
+    ],
+    [
+      "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg",
+      "images/b52c5d99-6415-5a73-9800-d2318245b796.jpg"
+    ],
+    [
+      "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg",
+      "images/b54a8359-495d-53fd-8b7e-dc9cf04464ef.jpg"
+    ],
+    [
+      "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg",
+      "images/b853477a-9240-5878-9691-d9b328cf443f.jpg"
+    ],
+    [
+      "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg",
+      "images/bbd0f59e-805f-52ec-ab53-e30662c023f5.jpg"
+    ],
+    [
+      "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg",
+      "images/c95c3ff6-2fdd-5e73-99bf-435c1d15f1a1.jpg"
+    ],
+    [
+      "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg",
+      "images/ddfd4d70-f28f-5219-b94d-727691c5519a.jpg"
+    ],
+    [
+      "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg",
+      "images/e3174199-4651-50c2-bdba-28059cb935ab.jpg"
+    ],
+    [
+      "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg",
+      "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg"
+    ],
+    [
+      "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg",
+      "images/f74daa4b-f6d3-5292-8c79-34b684c8a648.jpg"
+    ],
+    [
+      "images/70162807-ce40-5c43-b3e3-e13f46f1c730.jpg",
+      "images/721d2fdf-0b24-5961-b15a-a1debdad95c3.jpg"
+    ],
+    [
+      "images/70162807-ce40-5c43-b3e3-e13f46f1c730.jpg",
+      "images/911673f9-0ec1-512d-9ae1-c8e2c0a482ba.jpg"
+    ],
+    [
+      "images/70162807-ce40-5c43-b3e3-e13f46f1c730.jpg",
+      "images/9a79a157-5753-596e-80c7-f3fa4a48fa6a.jpg"
+    ],
+    [
+      "images/70162807-ce40-5c43-b3e3-e13f46f1c730.jpg",
+      "images/b52c5d99-6415-5a73-9800-d2318245b796.jpg"
+    ],
+    [
+      "images/70162807-ce40-5c43-b3e3-e13f46f1c730.jpg",
+      "images/e3174199-4651-50c2-bdba-28059cb935ab.jpg"
+    ],
+    [
+      "images/721d2fdf-0b24-5961-b15a-a1debdad95c3.jpg",
+      "images/e4d4a733-b6bf-5706-b2d1-27cb055c8c7e.jpg"
+    ],
+    [
+      "images/76ffa385-5089-5532-8946-8341d85814a6.jpg",
+      "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg"
+    ],
+    [
+      "images/76ffa385-5089-5532-8946-8341d85814a6.jpg",
+      "images/aff204e5-0f82-5ddb-b061-6dc64874aa3e.jpg"
+    ],
+    [
+      "images/76ffa385-5089-5532-8946-8341d85814a6.jpg",
+      "images/b853477a-9240-5878-9691-d9b328cf443f.jpg"
+    ],
+    [
+      "images/76ffa385-5089-5532-8946-8341d85814a6.jpg",
+      "images/ddfd4d70-f28f-5219-b94d-727691c5519a.jpg"
+    ],
+    [
+      "images/76ffa385-5089-5532-8946-8341d85814a6.jpg",
+      "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg"
+    ],
+    [
+      "images/7731a309-db19-5f4e-ae56-34182d9a2a15.jpg",
+      "images/9a79a157-5753-596e-80c7-f3fa4a48fa6a.jpg"
+    ],
+    [
+      "images/7731a309-db19-5f4e-ae56-34182d9a2a15.jpg",
+      "images/b52c5d99-6415-5a73-9800-d2318245b796.jpg"
+    ],
+    [
+      "images/7731a309-db19-5f4e-ae56-34182d9a2a15.jpg",
+      "images/e3174199-4651-50c2-bdba-28059cb935ab.jpg"
+    ],
+    [
+      "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "images/79dbf50b-4faa-586c-93cf-fb7e5a1428d1.jpg"
+    ],
+    [
+      "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "images/9605c950-ba2c-5203-82c5-4816809fe96e.jpg"
+    ],
+    [
+      "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg"
+    ],
+    [
+      "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "images/9a79a157-5753-596e-80c7-f3fa4a48fa6a.jpg"
+    ],
+    [
+      "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg"
+    ],
+    [
+      "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "images/b05a608d-be04-53e8-82d0-48c07e030db2.jpg"
+    ],
+    [
+      "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "images/b52c5d99-6415-5a73-9800-d2318245b796.jpg"
+    ],
+    [
+      "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "images/b54a8359-495d-53fd-8b7e-dc9cf04464ef.jpg"
+    ],
+    [
+      "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "images/b853477a-9240-5878-9691-d9b328cf443f.jpg"
+    ],
+    [
+      "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "images/bbd0f59e-805f-52ec-ab53-e30662c023f5.jpg"
+    ],
+    [
+      "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "images/c1c066ed-6969-5335-a0fd-2634fa08b3f6.jpg"
+    ],
+    [
+      "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "images/c95c3ff6-2fdd-5e73-99bf-435c1d15f1a1.jpg"
+    ],
+    [
+      "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "images/d3a67bb4-13fe-577a-930e-73b2549a49a0.jpg"
+    ],
+    [
+      "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "images/ddfd4d70-f28f-5219-b94d-727691c5519a.jpg"
+    ],
+    [
+      "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "images/e3174199-4651-50c2-bdba-28059cb935ab.jpg"
+    ],
+    [
+      "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg"
+    ],
+    [
+      "images/79dbf50b-4faa-586c-93cf-fb7e5a1428d1.jpg",
+      "images/b54a8359-495d-53fd-8b7e-dc9cf04464ef.jpg"
+    ],
+    [
+      "images/79dbf50b-4faa-586c-93cf-fb7e5a1428d1.jpg",
+      "images/bbd0f59e-805f-52ec-ab53-e30662c023f5.jpg"
+    ],
+    [
+      "images/79dbf50b-4faa-586c-93cf-fb7e5a1428d1.jpg",
+      "images/c95c3ff6-2fdd-5e73-99bf-435c1d15f1a1.jpg"
+    ],
+    [
+      "images/79dbf50b-4faa-586c-93cf-fb7e5a1428d1.jpg",
+      "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg"
+    ],
+    [
+      "images/7e1a792b-3a5f-5e14-91ac-eec15dd955c1.jpg",
+      "images/9357618f-4ef1-5226-a130-9667c6485ce2.jpg"
+    ],
+    [
+      "images/911673f9-0ec1-512d-9ae1-c8e2c0a482ba.jpg",
+      "images/9a79a157-5753-596e-80c7-f3fa4a48fa6a.jpg"
+    ],
+    [
+      "images/911673f9-0ec1-512d-9ae1-c8e2c0a482ba.jpg",
+      "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg"
+    ],
+    [
+      "images/911673f9-0ec1-512d-9ae1-c8e2c0a482ba.jpg",
+      "images/b52c5d99-6415-5a73-9800-d2318245b796.jpg"
+    ],
+    [
+      "images/911673f9-0ec1-512d-9ae1-c8e2c0a482ba.jpg",
+      "images/e3174199-4651-50c2-bdba-28059cb935ab.jpg"
+    ],
+    [
+      "images/9357618f-4ef1-5226-a130-9667c6485ce2.jpg",
+      "images/d4db8108-d089-5fac-9541-865da56bca66.jpg"
+    ],
+    [
+      "images/9605c950-ba2c-5203-82c5-4816809fe96e.jpg",
+      "images/b52c5d99-6415-5a73-9800-d2318245b796.jpg"
+    ],
+    [
+      "images/9605c950-ba2c-5203-82c5-4816809fe96e.jpg",
+      "images/d3a67bb4-13fe-577a-930e-73b2549a49a0.jpg"
+    ],
+    [
+      "images/9605c950-ba2c-5203-82c5-4816809fe96e.jpg",
+      "images/e3174199-4651-50c2-bdba-28059cb935ab.jpg"
+    ],
+    [
+      "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg",
+      "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg"
+    ],
+    [
+      "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg",
+      "images/aff204e5-0f82-5ddb-b061-6dc64874aa3e.jpg"
+    ],
+    [
+      "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg",
+      "images/b54a8359-495d-53fd-8b7e-dc9cf04464ef.jpg"
+    ],
+    [
+      "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg",
+      "images/dd4c9cd4-c018-5b7f-af5e-d0563602737b.jpg"
+    ],
+    [
+      "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg",
+      "images/ddfd4d70-f28f-5219-b94d-727691c5519a.jpg"
+    ],
+    [
+      "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg",
+      "images/e0e0e4d4-8c9d-5be1-ac80-14a6316d05a0.jpg"
+    ],
+    [
+      "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg",
+      "images/e4d4a733-b6bf-5706-b2d1-27cb055c8c7e.jpg"
+    ],
+    [
+      "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg",
+      "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg"
+    ],
+    [
+      "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg",
+      "images/f1b16d32-ec38-5ee5-8790-f06052a97161.jpg"
+    ],
+    [
+      "images/9a79a157-5753-596e-80c7-f3fa4a48fa6a.jpg",
+      "images/b52c5d99-6415-5a73-9800-d2318245b796.jpg"
+    ],
+    [
+      "images/9a79a157-5753-596e-80c7-f3fa4a48fa6a.jpg",
+      "images/b853477a-9240-5878-9691-d9b328cf443f.jpg"
+    ],
+    [
+      "images/9a79a157-5753-596e-80c7-f3fa4a48fa6a.jpg",
+      "images/bbd0f59e-805f-52ec-ab53-e30662c023f5.jpg"
+    ],
+    [
+      "images/9a79a157-5753-596e-80c7-f3fa4a48fa6a.jpg",
+      "images/c95c3ff6-2fdd-5e73-99bf-435c1d15f1a1.jpg"
+    ],
+    [
+      "images/9a79a157-5753-596e-80c7-f3fa4a48fa6a.jpg",
+      "images/e3174199-4651-50c2-bdba-28059cb935ab.jpg"
+    ],
+    [
+      "images/9a79a157-5753-596e-80c7-f3fa4a48fa6a.jpg",
+      "images/f74daa4b-f6d3-5292-8c79-34b684c8a648.jpg"
+    ],
+    [
+      "images/9bd7041c-7a6c-51b2-a366-f0bb5254f817.jpg",
+      "images/e0e0e4d4-8c9d-5be1-ac80-14a6316d05a0.jpg"
+    ],
+    [
+      "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg",
+      "images/b05a608d-be04-53e8-82d0-48c07e030db2.jpg"
+    ],
+    [
+      "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg",
+      "images/b54a8359-495d-53fd-8b7e-dc9cf04464ef.jpg"
+    ],
+    [
+      "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg",
+      "images/bbd0f59e-805f-52ec-ab53-e30662c023f5.jpg"
+    ],
+    [
+      "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg",
+      "images/c1c066ed-6969-5335-a0fd-2634fa08b3f6.jpg"
+    ],
+    [
+      "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg",
+      "images/c95c3ff6-2fdd-5e73-99bf-435c1d15f1a1.jpg"
+    ],
+    [
+      "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg",
+      "images/d3a67bb4-13fe-577a-930e-73b2549a49a0.jpg"
+    ],
+    [
+      "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg",
+      "images/ddfd4d70-f28f-5219-b94d-727691c5519a.jpg"
+    ],
+    [
+      "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg",
+      "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg"
+    ],
+    [
+      "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg",
+      "images/f1b16d32-ec38-5ee5-8790-f06052a97161.jpg"
+    ],
+    [
+      "images/b05a608d-be04-53e8-82d0-48c07e030db2.jpg",
+      "images/bbd0f59e-805f-52ec-ab53-e30662c023f5.jpg"
+    ],
+    [
+      "images/b05a608d-be04-53e8-82d0-48c07e030db2.jpg",
+      "images/c1c066ed-6969-5335-a0fd-2634fa08b3f6.jpg"
+    ],
+    [
+      "images/b05a608d-be04-53e8-82d0-48c07e030db2.jpg",
+      "images/c95c3ff6-2fdd-5e73-99bf-435c1d15f1a1.jpg"
+    ],
+    [
+      "images/b05a608d-be04-53e8-82d0-48c07e030db2.jpg",
+      "images/d3a67bb4-13fe-577a-930e-73b2549a49a0.jpg"
+    ],
+    [
+      "images/b52c5d99-6415-5a73-9800-d2318245b796.jpg",
+      "images/b853477a-9240-5878-9691-d9b328cf443f.jpg"
+    ],
+    [
+      "images/b52c5d99-6415-5a73-9800-d2318245b796.jpg",
+      "images/bbd0f59e-805f-52ec-ab53-e30662c023f5.jpg"
+    ],
+    [
+      "images/b52c5d99-6415-5a73-9800-d2318245b796.jpg",
+      "images/c95c3ff6-2fdd-5e73-99bf-435c1d15f1a1.jpg"
+    ],
+    [
+      "images/b52c5d99-6415-5a73-9800-d2318245b796.jpg",
+      "images/e3174199-4651-50c2-bdba-28059cb935ab.jpg"
+    ],
+    [
+      "images/b52c5d99-6415-5a73-9800-d2318245b796.jpg",
+      "images/f74daa4b-f6d3-5292-8c79-34b684c8a648.jpg"
+    ],
+    [
+      "images/b54a8359-495d-53fd-8b7e-dc9cf04464ef.jpg",
+      "images/bbd0f59e-805f-52ec-ab53-e30662c023f5.jpg"
+    ],
+    [
+      "images/b54a8359-495d-53fd-8b7e-dc9cf04464ef.jpg",
+      "images/c95c3ff6-2fdd-5e73-99bf-435c1d15f1a1.jpg"
+    ],
+    [
+      "images/b54a8359-495d-53fd-8b7e-dc9cf04464ef.jpg",
+      "images/ddfd4d70-f28f-5219-b94d-727691c5519a.jpg"
+    ],
+    [
+      "images/b54a8359-495d-53fd-8b7e-dc9cf04464ef.jpg",
+      "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg"
+    ],
+    [
+      "images/b54a8359-495d-53fd-8b7e-dc9cf04464ef.jpg",
+      "images/f1b16d32-ec38-5ee5-8790-f06052a97161.jpg"
+    ],
+    [
+      "images/b853477a-9240-5878-9691-d9b328cf443f.jpg",
+      "images/bbd0f59e-805f-52ec-ab53-e30662c023f5.jpg"
+    ],
+    [
+      "images/b853477a-9240-5878-9691-d9b328cf443f.jpg",
+      "images/c1c066ed-6969-5335-a0fd-2634fa08b3f6.jpg"
+    ],
+    [
+      "images/b853477a-9240-5878-9691-d9b328cf443f.jpg",
+      "images/c95c3ff6-2fdd-5e73-99bf-435c1d15f1a1.jpg"
+    ],
+    [
+      "images/b853477a-9240-5878-9691-d9b328cf443f.jpg",
+      "images/ddfd4d70-f28f-5219-b94d-727691c5519a.jpg"
+    ],
+    [
+      "images/b853477a-9240-5878-9691-d9b328cf443f.jpg",
+      "images/e3174199-4651-50c2-bdba-28059cb935ab.jpg"
+    ],
+    [
+      "images/b853477a-9240-5878-9691-d9b328cf443f.jpg",
+      "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg"
+    ],
+    [
+      "images/b853477a-9240-5878-9691-d9b328cf443f.jpg",
+      "images/f74daa4b-f6d3-5292-8c79-34b684c8a648.jpg"
+    ],
+    [
+      "images/bbd0f59e-805f-52ec-ab53-e30662c023f5.jpg",
+      "images/c1c066ed-6969-5335-a0fd-2634fa08b3f6.jpg"
+    ],
+    [
+      "images/bbd0f59e-805f-52ec-ab53-e30662c023f5.jpg",
+      "images/c95c3ff6-2fdd-5e73-99bf-435c1d15f1a1.jpg"
+    ],
+    [
+      "images/bbd0f59e-805f-52ec-ab53-e30662c023f5.jpg",
+      "images/e3174199-4651-50c2-bdba-28059cb935ab.jpg"
+    ],
+    [
+      "images/bbd0f59e-805f-52ec-ab53-e30662c023f5.jpg",
+      "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg"
+    ],
+    [
+      "images/bbd0f59e-805f-52ec-ab53-e30662c023f5.jpg",
+      "images/f74daa4b-f6d3-5292-8c79-34b684c8a648.jpg"
+    ],
+    [
+      "images/c1c066ed-6969-5335-a0fd-2634fa08b3f6.jpg",
+      "images/c95c3ff6-2fdd-5e73-99bf-435c1d15f1a1.jpg"
+    ],
+    [
+      "images/c1c066ed-6969-5335-a0fd-2634fa08b3f6.jpg",
+      "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg"
+    ],
+    [
+      "images/c908017b-9b63-53ff-8d38-5302a88f4f6c.jpg",
+      "images/f812ea31-8db4-5517-8b5c-1d1bed5e4c55.jpg"
+    ],
+    [
+      "images/c95c3ff6-2fdd-5e73-99bf-435c1d15f1a1.jpg",
+      "images/e3174199-4651-50c2-bdba-28059cb935ab.jpg"
+    ],
+    [
+      "images/c95c3ff6-2fdd-5e73-99bf-435c1d15f1a1.jpg",
+      "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg"
+    ],
+    [
+      "images/c95c3ff6-2fdd-5e73-99bf-435c1d15f1a1.jpg",
+      "images/f74daa4b-f6d3-5292-8c79-34b684c8a648.jpg"
+    ],
+    [
+      "images/d3fdff22-4afd-53d8-ba56-04cd763597db.jpg",
+      "images/dd4c9cd4-c018-5b7f-af5e-d0563602737b.jpg"
+    ],
+    [
+      "images/d4db8108-d089-5fac-9541-865da56bca66.jpg",
+      "images/f306d3c9-a546-5a3c-b5d6-7a002aa6e80e.jpg"
+    ],
+    [
+      "images/ddfd4d70-f28f-5219-b94d-727691c5519a.jpg",
+      "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg"
+    ],
+    [
+      "images/ddfd4d70-f28f-5219-b94d-727691c5519a.jpg",
+      "images/f74daa4b-f6d3-5292-8c79-34b684c8a648.jpg"
+    ],
+    [
+      "images/e0e0e4d4-8c9d-5be1-ac80-14a6316d05a0.jpg",
+      "images/e4d4a733-b6bf-5706-b2d1-27cb055c8c7e.jpg"
+    ],
+    [
+      "images/e3174199-4651-50c2-bdba-28059cb935ab.jpg",
+      "images/f74daa4b-f6d3-5292-8c79-34b684c8a648.jpg"
+    ],
+    [
+      "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg",
+      "images/f1b16d32-ec38-5ee5-8790-f06052a97161.jpg"
+    ]
+  ],
+  "limitations": [
+    "Only two sources can be sampled without relaxing the current group-isolation policy.",
+    "Web normal images form a 100-image source-level group without patient IDs; held entirely in test.",
+    "Web positive images form a three-image source-level group; held entirely in test, not treated as independent cases.",
+    "Bioengineering has no negative images; 4+4 overall source balance would confound source and label again.",
+    "Unknown HE patients remain grouped in test; overlap with documented patients cannot be fully excluded.",
+    "DHash and recorded patient keys are conservative heuristics, not a guarantee of independent patients.",
+    "HE original classes and Bio CE stages use different schemes; this pool does not cover every morphology.",
+    "References partly came from an already-explored test set; use frozen common cohort and later independent data."
+  ],
+  "counts": {
+    "reference_pool": {
+      "total": 8,
+      "labels": {
+        "1": 4,
+        "0": 4
+      },
+      "sources": {
+        "HE_DCNN_binary": 6,
+        "bioengineering_US_binary": 2
+      }
+    },
+    "test": {
+      "total": 211,
+      "labels": {
+        "1": 101,
+        "0": 110
+      },
+      "sources": {
+        "bioengineering_US_binary": 78,
+        "HE_DCNN_binary": 30,
+        "web_liver_ultrasound_20260918": 103
+      }
+    }
+  },
+  "parent_split_sha256": "9f1a8a3b949b263abe20765a260253443a91b4e097c363ff5c9c4803ecb593a4",
+  "strategy": "source-class-balanced-v1",
+  "reference_order": [
+    "images/ee631f50-132d-5eda-91a7-e0c01694b766.jpg",
+    "images/5ebd5a82-6c90-561e-9a07-97077a68771a.jpg",
+    "images/46842db7-0c7a-5e6e-83b8-bfbbe1b7a125.jpg",
+    "images/8b2b81cf-e946-59cd-a93f-7638e0ce8ff2.jpg",
+    "images/b896dd74-2214-595f-a646-930510fbed2c.jpg",
+    "images/502da638-ca99-53a3-9511-67313fd0ee31.jpg",
+    "images/58dcb2b3-4828-5b1b-8ae6-78246876a265.jpg",
+    "images/105dd2c2-1108-5994-8868-2653e9f6b068.jpg"
+  ],
+  "selection_audit": {
+    "strata": [
+      {
+        "source": "HE_DCNN_binary",
+        "label": 1,
+        "field": "original_label",
+        "value": 0,
+        "count": 1
+      },
+      {
+        "source": "HE_DCNN_binary",
+        "label": 1,
+        "field": "original_label",
+        "value": 1,
+        "count": 1
+      },
+      {
+        "source": "bioengineering_US_binary",
+        "label": 1,
+        "field": "label_ce5",
+        "value": "CE3",
+        "count": 1
+      },
+      {
+        "source": "bioengineering_US_binary",
+        "label": 1,
+        "field": "label_ce5",
+        "value": "CE5",
+        "count": 1
+      },
+      {
+        "source": "HE_DCNN_binary",
+        "label": 0,
+        "field": "original_label",
+        "value": 3,
+        "count": 2
+      },
+      {
+        "source": "HE_DCNN_binary",
+        "label": 0,
+        "field": "original_label",
+        "value": 4,
+        "count": 2
+      }
+    ],
+    "policy": "Documented singleton groups only; fixed-seed selection within strata; prefer parent pool; no predictions read",
+    "removed": [
+      "images/5e354e11-c49b-552f-bf2c-327067d1ec07.jpg",
+      "images/a337aaeb-01e3-5a9d-bdb1-6639756513f3.jpg",
+      "images/ed8b4ee7-77b8-5f00-baa1-6606e6882c69.jpg"
+    ],
+    "added": [
+      "images/502da638-ca99-53a3-9511-67313fd0ee31.jpg",
+      "images/58dcb2b3-4828-5b1b-8ae6-78246876a265.jpg",
+      "images/ee631f50-132d-5eda-91a7-e0c01694b766.jpg"
+    ],
+    "provenance_sha256": "2bfedeb4c5e5dfa27475b0d7672241015f92a0e1935b093df8d37fba299fe20d",
+    "clinical_review": "not_clinically_validated",
+    "source_balance_scope": "positive sources 2+2, HE negative original classes 2+2; overall sources 6 HE and 2 Bio"
+  }
+}

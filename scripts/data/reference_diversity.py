@@ -1,4 +1,8 @@
-"""建立来源覆盖对照：替换两张重复阳性示例，不改变默认四张或阴性示例。"""
+"""建立来源覆盖对照：替换两张重复阳性示例，不改变默认四张或阴性示例。
+
+choose_additions 选择来源补充；create_diverse_split 保留旧四图并建立新划分和交集。
+用于历史来源对照，不是运行 Agent 时的动态检索器。
+"""
 
 import argparse
 import copy
@@ -13,7 +17,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
 from prepare_reference_split import groups_for  # noqa: E402
 
-from he_agent import PROJECT, dump, load_samples  # noqa: E402
+from he_agent import dump, load_samples  # noqa: E402
+from project_paths import load_paths  # noqa: E402
 from reference_split import select_references, validate_split  # noqa: E402
 
 
@@ -147,12 +152,15 @@ def create_diverse_split(dataset, base_path, seed=42):
 def main():
     """显式创建新配置；拒绝覆盖已有文件，不修改默认划分和历史运行。"""
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--dataset", type=Path, default=PROJECT / "data/unified")
-    parser.add_argument("--base-split", type=Path, default=PROJECT / "configs/reference_split.json")
+    parser.add_argument("--dataset", type=Path, default=None)
+    parser.add_argument("--base-split", type=Path, default=None)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--cohort-output", type=Path, required=True)
     parser.add_argument("--seed", type=int, default=42)
     args = parser.parse_args()
+    paths = load_paths()
+    args.dataset = args.dataset or paths["dataset"]
+    args.base_split = args.base_split or paths["base_split"]
     if args.output.resolve() == args.cohort_output.resolve():
         parser.error("Split and cohort outputs must be different files")
     if args.output.exists() or args.cohort_output.exists():

@@ -54,7 +54,10 @@ class ModelTests(unittest.TestCase):
             create_model("not-registered")
         with self.assertRaises(ValueError):
             create_model(model="text-only-model")
-        with patch.dict(os.environ, {}, clear=True):
+        with (
+            patch.dict(os.environ, {}, clear=True),
+            patch("models.credentials.load_local_keys", return_value={}),
+        ):
             client = create_model()
             with self.assertRaises(ValueError):
                 client.validate_credentials()
