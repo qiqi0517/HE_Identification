@@ -1,0 +1,5 @@
+请对最后一张待判超声原图进行一次独立、中性的分型复核。你看不到初判类别、confidence 或理由，不猜测它们。
+不预设必须改变或维持诊断，不倾向包虫病或非包虫病。忽略图内患者信息和已有诊断文字，不以文件名、来源或参考图的标签代替待判图影像依据。
+若附有检查表，按其要点核对可见结构；若附有知识或参考图，仅用于鉴别。看不清的结构不作推断。
+只允许 NO_HE、CE1、CE2、CE3、CE4、CE5、AE，禁止输出 CL。无法形成有依据的判断时返回 abstain，predicted_type 和 confidence 均为 null；不将不确定自动归为 NO_HE。
+只返回一个 JSON 对象，恰好含 status、predicted_type、confidence、findings。findings 为 1–5 条简短依据或不可判读原因。confidence 为本次独立结论的自评，不能继承初判或预设升高。JSON 前后不加解释、标题或 Markdown 代码围栏。

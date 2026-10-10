@@ -55,7 +55,7 @@ class SelectiveReviewTests(unittest.TestCase):
             capture = io.StringIO()
             with patch.object(client, "generate", side_effect=outputs) as generate:
                 with redirect_stdout(capture):
-                    code = agent.run(args, client)
+                    code = agent.run_probability(args, client)
             records = [
                 json.loads(line)
                 for line in (args.output / "predictions.jsonl").read_text().splitlines()
@@ -201,7 +201,7 @@ class SelectiveReviewTests(unittest.TestCase):
                 AlternateClient, "generate", side_effect=[response(0.4), KeyboardInterrupt]
             ):
                 with redirect_stdout(io.StringIO()), self.assertRaises(KeyboardInterrupt):
-                    agent.run(args, AlternateClient())
+                    agent.run_probability(args, AlternateClient())
             lines = (args.output / "stages.jsonl").read_text().splitlines()
             self.assertEqual(len(lines), 1)
             self.assertEqual(json.loads(lines[0])["p_he"], 0.4)
@@ -256,7 +256,7 @@ class SelectiveReviewTests(unittest.TestCase):
                                 ) as post,
                                 redirect_stdout(io.StringIO()),
                             ):
-                                self.assertEqual(agent.run(args, client), 0)
+                                self.assertEqual(agent.run_probability(args, client), 0)
                             self.assertEqual(post.call_count, 0 if dry_run else 3)
                             self.assertEqual(credentials.call_count, 0 if dry_run else 1)
                             sample_lists.append(

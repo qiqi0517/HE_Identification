@@ -118,7 +118,7 @@ class KnowledgeTests(unittest.TestCase):
                 dry_run=False,
             )
             client = FakeModel()
-            self.assertEqual(agent.run(args, model_client=client), 0)
+            self.assertEqual(agent.run_probability(args, model_client=client), 0)
             self.assertEqual(len(client.requests), 2)
             for r in client.requests:
                 self.assertEqual(sum(isinstance(x, ImagePart) for x in r.content), 1)
@@ -133,7 +133,7 @@ class KnowledgeTests(unittest.TestCase):
             args.mode = "baseline"
             args.output = root / "baseline"
             base = FakeModel()
-            agent.run(args, model_client=base)
+            agent.run_probability(args, model_client=base)
             self.assertEqual(
                 knowledge_samples, json.loads((args.output / "samples.json").read_text())
             )
@@ -145,7 +145,7 @@ class KnowledgeTests(unittest.TestCase):
             args.split = None
             args.output = root / "invalid"
             with self.assertRaises(ValueError):
-                agent.run(args, model_client=FakeModel())
+                agent.run_probability(args, model_client=FakeModel())
             self.assertFalse(args.output.exists())
 
 

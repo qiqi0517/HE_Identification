@@ -1,0 +1,19 @@
+{
+  "version": "typing-knowledge-v1",
+  "knowledge_sha256": "1e81c6d17ff09be1c6b2211823ae167b31ce588e2d3805f10f1b386ec53a5fd2",
+  "baseline_sha256": "878bfba8aafa83f8d6165fd893ca799bd2268f8bd2c597f506c9a876b18aa343",
+  "sources": [
+    {
+      "file": "literature/包虫分型.pptx",
+      "sha256": "f9bba8e595055d15bf00ad8e52430a669c9a81f263d9e9412f6877c076739e3b",
+      "slides": "9-27",
+      "transcription": "docs/knowledge/echinococcosis-ultrasound-typing.md"
+    }
+  ],
+  "task_conventions": [
+    "NO_HE includes legacy non-HE diagnoses; not absence of other liver disease",
+    "AE is a disease type; no finer AE stage inferred",
+    "Confidence is uncalibrated self-assessment",
+    "Seven output classes only; CL is not an allowed prediction"
+  ]
+}

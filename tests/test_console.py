@@ -62,7 +62,7 @@ class ConsoleTests(unittest.TestCase):
             capture = io.StringIO()
             with patch.object(client, "generate", side_effect=outputs) as generate:
                 with redirect_stdout(capture):
-                    code = a.run(args, client)
+                    code = a.run_probability(args, client)
                 if dry_run:
                     generate.assert_not_called()
                     self.assertFalse((args.output / "metrics.json").exists())

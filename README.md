@@ -1,5 +1,7 @@
 # 肝脏超声包虫病识别
 
+当前分型任务请使用 [基础 Agent 指南](docs/agent/typing-agent.md)；新七分类专家小模型的训练、选型与预测见 [专家运行指南](docs/expert/typing-classifier-v1-runbook.md)。分型 Auto Harness 的五动作采集、静态阈值优化、LLM 提示词迭代及完整命令见 [Auto Harness 运行指南](docs/auto-harness/README.md)。下方概率实验说明保留为历史记录。
+
 输入带诊断标签的肝脏超声图像，用视觉大模型输出患病概率 `p_he` 与简短依据。支持四种输入模式和可选阴性复核；图像保持原始字节，待测图真值只在本地评分。
 
 **当前成果：** 已整理 219 张图片；完成 GLM 四模式、参考图数量和阈值实验，以及 GLM／DeepSeek 五种匹配配置的真实对照。OpenAI 接口已实现，尚无真实对照成绩。研究结果见[项目进展](docs/project-progress.md)，对外汇报见 [report/](report/)。

@@ -94,7 +94,7 @@ class MatrixTests(unittest.TestCase):
                             patch.object(client, "validate_credentials"),
                             patch.object(client, "_post", return_value=body) as post,
                         ):
-                            self.assertEqual(agent.run(args, model_client=client), 0)
+                            self.assertEqual(agent.run_probability(args, model_client=client), 0)
                         samples = json.loads((args.output / "samples.json").read_text())
                         selected_lists.append(samples)
                         self.assertEqual(post.call_count, 2)
@@ -202,7 +202,7 @@ class MatrixTests(unittest.TestCase):
                             patch.object(client, "validate_credentials"),
                             patch.object(client, "_post", return_value=body) as post,
                         ):
-                            self.assertEqual(agent.run(args, model_client=client), 0)
+                            self.assertEqual(agent.run_probability(args, model_client=client), 0)
                         self.assertEqual(post.call_count, 2)
                         samples = json.loads((args.output / "samples.json").read_text())
                         sample_lists.append(samples)
@@ -241,7 +241,7 @@ class MatrixTests(unittest.TestCase):
                 args.mode = mode
                 args.output = root / f"invalid_{mode}"
                 with self.assertRaisesRegex(ValueError, "--reference-count requires"):
-                    agent.run(args)
+                    agent.run_probability(args)
                 self.assertFalse(args.output.exists())
 
     def test_combined_requires_split_and_frozen_medical_prompt(self):
@@ -260,7 +260,7 @@ class MatrixTests(unittest.TestCase):
                 output=root / "invalid",
             )
             with self.assertRaisesRegex(ValueError, "require --split"):
-                agent.run(args)
+                agent.run_probability(args)
             self.assertFalse(args.output.exists())
             args.split = split
             with self.assertRaises(ValueError):
@@ -318,7 +318,7 @@ class MatrixTests(unittest.TestCase):
                             side_effect=AssertionError("Credential check attempted"),
                         ),
                     ):
-                        self.assertEqual(agent.run(args, model_client=client), 0)
+                        self.assertEqual(agent.run_probability(args, model_client=client), 0)
                     self.assertFalse((args.output / "predictions.jsonl").exists())
                     self.assertEqual(
                         json.loads((args.output / "validation.json").read_text())["network_calls"],

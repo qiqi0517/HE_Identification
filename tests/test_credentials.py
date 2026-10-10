@@ -149,7 +149,7 @@ class CredentialTests(unittest.TestCase):
                 patch.object(client, "_post", return_value=body),
                 redirect_stdout(capture),
             ):
-                self.assertEqual(he_agent.run(args, client), 0)
+                self.assertEqual(he_agent.run_probability(args, client), 0)
             self.assertNotIn("fake-local-test-key", capture.getvalue())
             for file in args.output.rglob("*"):
                 if file.is_file():
@@ -182,7 +182,7 @@ class CredentialTests(unittest.TestCase):
                 patch.object(client, "generate", side_effect=AssertionError("API call")),
                 redirect_stdout(io.StringIO()),
             ):
-                self.assertEqual(he_agent.run(args, client), 0)
+                self.assertEqual(he_agent.run_probability(args, client), 0)
 
 
 if __name__ == "__main__":

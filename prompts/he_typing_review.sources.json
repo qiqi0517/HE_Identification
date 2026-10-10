@@ -1,0 +1,20 @@
+{
+  "profile": "typing-review-checklist",
+  "files": {
+    "he_typing.txt": "878bfba8aafa83f8d6165fd893ca799bd2268f8bd2c597f506c9a876b18aa343",
+    "he_typing_review.txt": "e1619b9b1f47557f1409f5ca24a18e1ab9c518becbe4e7cf0a94991300071742",
+    "he_typing_review_checklist.txt": "08f07fb7d002a4928c7987a46ebebd13397e0ea000436eb1bd802521e3f97a59"
+  },
+  "sources": [
+    {
+      "file": "literature/包虫分型.pptx",
+      "sha256": "f9bba8e595055d15bf00ad8e52430a669c9a81f263d9e9412f6877c076739e3b",
+      "slides": "9-27",
+      "transcription": "docs/knowledge/echinococcosis-ultrasound-typing.md"
+    }
+  ],
+  "notes": [
+    "Checklist is an observation guide, not a case diagnosis",
+    "Seven allowed labels; independent review without initial prediction"
+  ]
+}

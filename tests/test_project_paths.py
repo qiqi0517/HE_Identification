@@ -136,7 +136,9 @@ class PathConfigTests(unittest.TestCase):
             env = {**os.environ, "HE_PATHS_CONFIG": str(cfg), "PYTHONDONTWRITEBYTECODE": "1"}
             command = [
                 sys.executable,
-                str(project_paths.PROJECT / "src/he_agent.py"),
+                "-c",
+                f"import sys; sys.path.insert(0, {str(project_paths.PROJECT / 'src')!r}); "
+                "import he_agent; raise SystemExit(he_agent.probability_main())",
                 "--mode",
                 "reference_knowledge",
                 "--review",
@@ -189,7 +191,7 @@ class PathConfigTests(unittest.TestCase):
             args = ["he_agent.py", "--dry-run", "--limit", "0"]
             with patch.dict(os.environ, {"HE_PATHS_CONFIG": str(cfg)}):
                 with patch.object(sys, "argv", args), contextlib.redirect_stdout(io.StringIO()):
-                    self.assertEqual(he_agent.main(), 0)
+                    self.assertEqual(he_agent.probability_main(), 0)
                 output = next((root / "runs").iterdir())
                 self.assertEqual(json.loads((output / "run.json").read_text())["selected"], 6)
                 broken = json.loads(split.read_text())
@@ -198,7 +200,7 @@ class PathConfigTests(unittest.TestCase):
                 self.write_config(root, dataset=str(dataset), default_split=str(split))
                 with patch.object(sys, "argv", args), contextlib.redirect_stderr(io.StringIO()):
                     with self.assertRaises(SystemExit) as exc:
-                        he_agent.main()
+                        he_agent.probability_main()
                     self.assertEqual(exc.exception.code, 2)
 
     def test_external_provenance_does_not_require_source_inside_project(self):

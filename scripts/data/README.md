@@ -4,6 +4,7 @@
 
 | 脚本 | 用途 |
 | --- | --- |
+| merge_hospital_typing.py | 合并旧 UUID 数据和医院分型样例，保留明确／疑似标签与溯源，输出独立版本 |
 | merge_he_dcnn.py | 整理 HE_DCNN 图片、去重并生成二分类标签 |
 | prepare_bioengineering_us.py | 校验 Bioengineering PDF 提取图片、筛选肝超声并整理标签 |
 | prepare_web_us_filtered.py | 历史一次性操作：排除指定箭头来源并整理网络图片；当前数据已经处理，不应重复执行 |

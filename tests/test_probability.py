@@ -96,7 +96,7 @@ class ProbabilityTests(unittest.TestCase):
             args.threshold = threshold
             with self.subTest(threshold=threshold), patch.object(a, "load_samples") as read:
                 with self.assertRaises(ValueError):
-                    a.run(args)
+                    a.run_probability(args)
                 read.assert_not_called()
 
     def test_reference_workflow_preserves_probability_and_null(self):
@@ -161,7 +161,7 @@ class ProbabilityTests(unittest.TestCase):
                 )
 
             client.generate = generate
-            self.assertEqual(a.run(args, client), 0)
+            self.assertEqual(a.run_probability(args, client), 0)
             records = [
                 json.loads(line)
                 for line in (args.output / "predictions.jsonl").read_text().splitlines()

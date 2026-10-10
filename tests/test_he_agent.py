@@ -111,7 +111,7 @@ class Tests(unittest.TestCase):
             with patch.object(
                 a, "create_model", side_effect=AssertionError("Must use injected client")
             ):
-                self.assertEqual(a.run(args, model_client=client), 0)
+                self.assertEqual(a.run_probability(args, model_client=client), 0)
             self.assertEqual(len(client.requests), 1)
             self.assertEqual(client.credential_checks, 1)
             self.assertEqual(
@@ -127,7 +127,7 @@ class Tests(unittest.TestCase):
             self.assertEqual(config["model"], "vision-test")
             args.output = root / "dry"
             args.dry_run = True
-            self.assertEqual(a.run(args, model_client=client), 0)
+            self.assertEqual(a.run_probability(args, model_client=client), 0)
             self.assertEqual(client.credential_checks, 1)
             self.assertEqual(len(client.requests), 1)
             f.write_bytes(b"changed")

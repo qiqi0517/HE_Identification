@@ -81,3 +81,38 @@ def select_references(split, samples, count=None):
     for y in (0, 1):
         rng.shuffle(extra[y])
     return default + [extra[y][i] for i in range(needed) for y in (0, 1)]
+
+
+def validate_typing_split(split, samples, role="search", reference_count=None):
+    """读取新分型划分；不转换二分类标签，也不静默剔除过期清单图片。"""
+    if split.get("schema") != "he-typing-split-v1":
+        raise ValueError("Use a he-typing-split-v1 manifest; binary splits are incompatible")
+    roles = ("reference", "search", "selection", "test")
+    if role not in roles[1:] or set(split["partitions"]) != set(roles):
+        raise ValueError("Invalid typing partition")
+    lookup = {s["image"]: s for s in samples}
+    saved = split["samples"]
+    seen, group_roles = set(), {}
+    for name in roles:
+        names = split["partitions"][name]
+        if not isinstance(names, list) or not names:
+            raise ValueError("Empty or invalid partition")
+        for image in names:
+            if image in seen or image not in lookup or image not in saved:
+                raise ValueError("Split overlap or unknown/excluded image")
+            seen.add(image)
+            before, now = saved[image], lookup[image]
+            if before.get("label") != now["label"] or before.get("sha256") != now["sha256"]:
+                raise ValueError("Stale typing split: label/hash differs")
+            gid = before.get("group_id")
+            if not isinstance(gid, str) or not gid or group_roles.get(gid, name) != name:
+                raise ValueError("Typing group leakage")
+            group_roles[gid] = name
+    if seen != set(lookup) or set(saved) != seen:
+        raise ValueError("Typing split does not cover the current dataset")
+    refs = split["partitions"]["reference"]
+    if reference_count is not None:
+        if type(reference_count) is not int or not 1 <= reference_count <= len(refs):
+            raise ValueError("Reference count must be within the frozen reference pool")
+        refs = refs[:reference_count]
+    return [lookup[n] for n in split["partitions"][role]], [lookup[n] for n in refs]

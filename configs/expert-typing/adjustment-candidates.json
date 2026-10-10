@@ -1,0 +1,157 @@
+{
+  "candidates": [
+    {
+      "name": "S1_default",
+      "variant": "S1",
+      "expected": {
+        "epochs": 50,
+        "weight_decay": 0.0001,
+        "feature_scaling": "none",
+        "class_weight": "none",
+        "early_stop_metric": "accuracy",
+        "patience": 10,
+        "learning_rates": {
+          "head": 0.001,
+          "finetune_head": 0.0001,
+          "finetune_encoder": 1e-05
+        }
+      }
+    },
+    {
+      "name": "S1_standard",
+      "variant": "S1",
+      "expected": {
+        "epochs": 50,
+        "weight_decay": 0.0001,
+        "feature_scaling": "standard",
+        "class_weight": "none",
+        "early_stop_metric": "accuracy",
+        "patience": 10,
+        "learning_rates": {
+          "head": 0.001,
+          "finetune_head": 0.0001,
+          "finetune_encoder": 1e-05
+        }
+      }
+    },
+    {
+      "name": "S1_long",
+      "variant": "S1",
+      "expected": {
+        "epochs": 200,
+        "weight_decay": 0.0001,
+        "feature_scaling": "none",
+        "class_weight": "none",
+        "early_stop_metric": "loss",
+        "patience": 20,
+        "learning_rates": {
+          "head": 0.001,
+          "finetune_head": 0.0001,
+          "finetune_encoder": 1e-05
+        }
+      }
+    },
+    {
+      "name": "S2_default",
+      "variant": "S2",
+      "expected": {
+        "epochs": 50,
+        "weight_decay": 0.0001,
+        "feature_scaling": "none",
+        "class_weight": "none",
+        "early_stop_metric": "accuracy",
+        "patience": 10,
+        "learning_rates": {
+          "head": 0.001,
+          "finetune_head": 0.0001,
+          "finetune_encoder": 1e-05
+        }
+      }
+    },
+    {
+      "name": "S2_wd1e3",
+      "variant": "S2",
+      "expected": {
+        "epochs": 50,
+        "weight_decay": 0.001,
+        "feature_scaling": "none",
+        "class_weight": "none",
+        "early_stop_metric": "accuracy",
+        "patience": 10,
+        "learning_rates": {
+          "head": 0.001,
+          "finetune_head": 0.0001,
+          "finetune_encoder": 1e-05
+        }
+      }
+    },
+    {
+      "name": "S2_wd1e2",
+      "variant": "S2",
+      "expected": {
+        "epochs": 50,
+        "weight_decay": 0.01,
+        "feature_scaling": "none",
+        "class_weight": "none",
+        "early_stop_metric": "accuracy",
+        "patience": 10,
+        "learning_rates": {
+          "head": 0.001,
+          "finetune_head": 0.0001,
+          "finetune_encoder": 1e-05
+        }
+      }
+    },
+    {
+      "name": "S2_weighted",
+      "variant": "S2",
+      "expected": {
+        "epochs": 50,
+        "weight_decay": 0.0001,
+        "feature_scaling": "none",
+        "class_weight": "inverse_sqrt",
+        "early_stop_metric": "accuracy",
+        "patience": 10,
+        "learning_rates": {
+          "head": 0.001,
+          "finetune_head": 0.0001,
+          "finetune_encoder": 1e-05
+        }
+      }
+    },
+    {
+      "name": "S3_default",
+      "variant": "S3",
+      "expected": {
+        "epochs": 30,
+        "weight_decay": 0.0001,
+        "feature_scaling": "none",
+        "class_weight": "none",
+        "early_stop_metric": "accuracy",
+        "patience": 8,
+        "learning_rates": {
+          "head": 0.001,
+          "finetune_head": 0.0001,
+          "finetune_encoder": 1e-05
+        }
+      }
+    },
+    {
+      "name": "S3_head1e3",
+      "variant": "S3",
+      "expected": {
+        "epochs": 30,
+        "weight_decay": 0.0001,
+        "feature_scaling": "none",
+        "class_weight": "none",
+        "early_stop_metric": "accuracy",
+        "patience": 8,
+        "learning_rates": {
+          "head": 0.001,
+          "finetune_head": 0.001,
+          "finetune_encoder": 1e-05
+        }
+      }
+    }
+  ]
+}

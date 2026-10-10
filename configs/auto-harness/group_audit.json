@@ -1,0 +1,2539 @@
+{
+  "groups": {
+    "011d629687a2ff5d": [
+      "images/bd2ad762-404f-561c-a770-664849ebe7ef.jpg"
+    ],
+    "02636a7c29d1e2d0": [
+      "images/144035fc-52ca-5bbb-a771-c164e709bba0.jpg"
+    ],
+    "0299d64f17664569": [
+      "images/257f5962-ab20-5608-aeb8-d38872e54cb4.jpg"
+    ],
+    "0d6674a7db3a600d": [
+      "images/c9489ae6-0c7c-5415-b462-2a8e2b0dceb3.jpg"
+    ],
+    "0fbbd5261f5829e8": [
+      "images/ee631f50-132d-5eda-91a7-e0c01694b766.jpg"
+    ],
+    "0fdbbae51a4893fa": [
+      "images/16602fe6-f1a1-5181-84d8-a3becc5c0e1f.jpg"
+    ],
+    "10ae4b5956011ba6": [
+      "images/e916d7ff-3c90-51c2-a870-b028f0186d61.jpg"
+    ],
+    "12208c2e7be00a77": [
+      "images/105dd2c2-1108-5994-8868-2653e9f6b068.jpg"
+    ],
+    "1463b0ff73dce798": [
+      "images/09ee70a7-51db-52a3-a7d5-a27db06b5d68.jpg",
+      "images/54f305fc-456a-593d-a807-ea8620c90bae.jpg",
+      "images/c908017b-9b63-53ff-8d38-5302a88f4f6c.jpg",
+      "images/f812ea31-8db4-5517-8b5c-1d1bed5e4c55.jpg"
+    ],
+    "19fb4cb341e83a80": [
+      "images/0ce06073-c983-593b-b205-310ddd5fea47.jpg",
+      "images/171c5c14-b9e6-55bc-8fba-eb098f9ef63c.jpg",
+      "images/34babd58-e338-54d2-b38c-95e062b087ae.jpg",
+      "images/4a57f6a0-a3b3-564a-8885-3461c7330342.jpg",
+      "images/4b61d4e4-4a76-5e33-b047-93e0536c7dd0.jpg",
+      "images/4ef57407-f994-5607-a3f5-f8d1265afd57.jpg",
+      "images/5452c6be-880a-59ed-bc80-2cbc915b1252.jpg",
+      "images/7c26015a-9e23-5822-8c28-4291a6d6ef93.jpg",
+      "images/825a4046-0cfb-5fb2-ac57-10e4262c23de.jpg",
+      "images/82d844fc-b70c-53b4-90f0-fb76242491bd.jpg",
+      "images/9190a481-52fb-59f9-9326-8cd9f9e7baf0.jpg",
+      "images/a758bc71-98bd-5727-bcdf-7997afa2aae9.jpg",
+      "images/af9f2022-447a-5486-8f90-9952e08b78cf.jpg",
+      "images/c3a9494c-713a-5311-9d41-a4ce62f18c81.jpg",
+      "images/dc4fec86-0914-5aef-aba4-cd7966255b2a.jpg",
+      "images/f14da9c8-9a75-54fb-8b70-2420a28bcc0c.jpg"
+    ],
+    "1a856d4625790284": [
+      "images/ed8b4ee7-77b8-5f00-baa1-6606e6882c69.jpg"
+    ],
+    "1bf34230d25602d4": [
+      "images/32e10b7e-5277-5d4b-990b-135adae78acf.jpg"
+    ],
+    "1ddad5842043203f": [
+      "images/ab66a016-e122-52ea-b6fa-14023f59a913.jpg"
+    ],
+    "1dfcce31f01de1de": [
+      "images/0ad4b720-2ac3-59d6-9e72-d8ecb008d8fc.jpg"
+    ],
+    "1dff4d6f02f0b23c": [
+      "images/b89aa6b5-78b6-53b8-865d-2959083f9b09.jpg"
+    ],
+    "23b9f58f8f5a87db": [
+      "images/b3519c7c-0b13-5ee3-ad19-151205272b55.jpg"
+    ],
+    "280d9c75af89eb01": [
+      "images/023d5251-b648-5c65-8640-df90e909c5af.jpg"
+    ],
+    "280dcbb8ba2f11e5": [
+      "images/9e899309-07ed-5f33-ba77-9aa8484ae984.jpg"
+    ],
+    "285632ca353e53ee": [
+      "images/3fb12a1c-9c8c-5677-84ce-d1f8f6c1b203.jpg"
+    ],
+    "287d1bee89ab9e6f": [
+      "images/d121e69e-9514-59f4-9601-54f4133c38e4.jpg"
+    ],
+    "2ac8d0d7ddf41ed0": [
+      "images/6e4ea4e9-9d36-5674-a0b9-ce2631534c17.jpg"
+    ],
+    "2f601ad6e9f1a9e8": [
+      "images/09b75794-9802-5ed5-b927-26dbb300950e.jpg"
+    ],
+    "31e7c19552d3362c": [
+      "images/502da638-ca99-53a3-9511-67313fd0ee31.jpg"
+    ],
+    "32398f3e5f8294ff": [
+      "images/44fe018e-8e28-58ce-9335-885056ba111c.jpg",
+      "images/cec0bde5-56f0-56f1-a17f-7dbcaa382af4.jpg"
+    ],
+    "36df1ccdfafe31f1": [
+      "images/e6bd039d-ccc7-55e7-80cf-08288775ec3f.jpg"
+    ],
+    "3718e1b2dfe4e39f": [
+      "images/5d6b65f1-1f84-52ea-af3b-d58d00a36945.jpg"
+    ],
+    "3757d94b72e3449a": [
+      "images/d979c49a-57dd-5a4a-b97b-827392ac7ddc.jpg"
+    ],
+    "398a01a5a7bbc450": [
+      "images/a9d13102-882e-5504-ad21-fc8a958ac303.jpg"
+    ],
+    "3d0bc71abbc116df": [
+      "images/2e3fb94b-74cf-5b93-874e-90171c2060ff.jpg"
+    ],
+    "3e1cd0f31720261d": [
+      "images/7b91e71c-881e-5a12-abd1-93498a8563fb.jpg"
+    ],
+    "42455150a16e89aa": [
+      "images/5c9b6a5f-8e2a-5a70-8c75-e37353088dc0.jpg"
+    ],
+    "43f914bb6fa3bd20": [
+      "images/dac921b1-2091-5ff1-af77-eb7993b11aee.jpg"
+    ],
+    "44e535c66fec35a8": [
+      "images/b95bcc14-5255-5012-a4fb-3b03da4eb433.jpg"
+    ],
+    "450aefe5c64e4f4d": [
+      "images/475fca8f-74ea-538b-adeb-2a47e0315ba3.jpg"
+    ],
+    "4715394a969d9ef3": [
+      "images/ba325687-a011-5763-8c4b-c730138bf5b6.jpg"
+    ],
+    "4a818f444c986261": [
+      "images/dccff426-1776-5ec9-b931-6397a4b50f9c.jpg"
+    ],
+    "4ab01b8d0f4a6897": [
+      "images/4af1f4d1-d325-5e71-83b8-ee9132951861.jpg"
+    ],
+    "4ab891b8da8cfca0": [
+      "images/fa2bdd6d-5250-55b6-b3e8-257f6af98ea1.jpg"
+    ],
+    "4e84b5cbd312fe51": [
+      "images/d7352ce7-8269-5d98-8172-ab7b1e279061.jpg"
+    ],
+    "50063eb3e339d014": [
+      "images/241951e2-4369-513a-8d3a-bb911316f70f.jpg"
+    ],
+    "52994898e094a47f": [
+      "images/8c3e9ddb-e2be-538b-9140-01273bd39788.jpg",
+      "images/c7445523-d9f9-557c-8fe7-b406722becf0.jpg",
+      "images/da637c38-0916-5536-b89c-5eea60116365.jpg"
+    ],
+    "537e1866dc42f760": [
+      "images/87601974-e75e-56af-8f77-ac099adfeb8d.jpg"
+    ],
+    "5424234067312758": [
+      "images/2afbae40-4c12-5a3c-9b1e-44ca2c6f2a52.jpg"
+    ],
+    "54f50501e1b05494": [
+      "images/97a18f05-7259-5109-85ec-10c998637be5.jpg"
+    ],
+    "5817956c7db8923d": [
+      "images/b9edfbbd-84b1-537a-b652-875bf752cd00.jpg"
+    ],
+    "5821894af8c574e0": [
+      "images/a3eeba55-8bde-5e75-8367-e5b17d402dd1.jpg"
+    ],
+    "582d67ce28d01f2b": [
+      "images/0b5f0e0a-6564-55eb-a35f-04ce795c3200.jpg"
+    ],
+    "58a9b8d8f1c14af9": [
+      "images/79768b18-039b-5f90-b318-b8128dbe0d16.jpg"
+    ],
+    "5af4b432c6b7fdaa": [
+      "images/cd0bb3cd-a14e-5833-a994-07d772f543f6.jpg"
+    ],
+    "607a822efdd60bdb": [
+      "images/3cda12b8-0e7d-5c77-b6b4-f2307411ab83.jpg"
+    ],
+    "60b0275624ea0319": [
+      "images/a5591668-8918-5b2f-88d2-e977c0f9302b.jpg"
+    ],
+    "60eb8377ac4af7e9": [
+      "images/a337aaeb-01e3-5a9d-bdb1-6639756513f3.jpg"
+    ],
+    "614efafd9afda696": [
+      "images/00449c19-b400-5524-bfa8-edfcd29fc95d.jpg"
+    ],
+    "64837dd84f2fb042": [
+      "images/2d8967b0-a127-5b5c-a1e4-48a40992a6f3.jpg"
+    ],
+    "66720c9567061633": [
+      "images/1b17e0e7-e247-5991-8cf5-53be1e15851d.png"
+    ],
+    "696359d516ab721b": [
+      "images/ca7fb810-9863-5534-a064-3fdec4693025.jpg"
+    ],
+    "6efb49e1e19dcd6a": [
+      "images/94ce2004-aefb-5100-8849-e6c8e044aa51.jpg"
+    ],
+    "727fdfef0187e954": [
+      "images/72441941-dedc-5dda-81b5-67bb3550d592.jpg"
+    ],
+    "73c6b0d0f32633fb": [
+      "images/84be9c42-8d8c-53ec-b8d2-7c79a3f34593.jpg"
+    ],
+    "7791b118801befda": [
+      "images/8b2b81cf-e946-59cd-a93f-7638e0ce8ff2.jpg"
+    ],
+    "79d96fa3076ef31b": [
+      "images/b141c9d3-8f30-5957-8e60-7e5a60a908a9.jpg"
+    ],
+    "7a62ebc910db0a5d": [
+      "images/401468e2-4659-5557-8860-876959dcc71a.jpg"
+    ],
+    "7c0dbafa47657f8c": [
+      "images/0e249cce-d6e7-5325-9531-0a4b664b887b.jpg"
+    ],
+    "7cb51a97e81998e4": [
+      "images/6e151f59-e599-5bec-b03f-56470dba58f8.jpg"
+    ],
+    "7fe2119de3a39f0f": [
+      "images/b6b9f051-e9ee-5714-8b1d-c2adaf9e9e98.jpg"
+    ],
+    "8087f5ce25461bab": [
+      "images/34d99640-399b-5db4-8b1e-c48834f75ce7.jpg"
+    ],
+    "80de10df67657ecd": [
+      "images/37577d31-60ed-5976-96f4-492d02ad7cb5.jpg"
+    ],
+    "80e98e2dce86c68a": [
+      "images/794dc1d2-e104-5689-a510-04360b15e812.jpg"
+    ],
+    "821f29aaad4a92fe": [
+      "images/0ba5a55c-a8f3-59a6-a324-c84ab5618f01.jpg"
+    ],
+    "82a7bf5cc2331997": [
+      "images/679bd48a-b38b-5964-8334-4245238994c2.jpg"
+    ],
+    "833df17747219a8a": [
+      "images/08d1af13-abdf-5216-aa6b-9e54b208abc6.jpg"
+    ],
+    "882534f245e1b1e7": [
+      "images/82498662-d585-5abc-8d4a-674b304f84b8.jpg"
+    ],
+    "88efdba23ee0954a": [
+      "images/5e354e11-c49b-552f-bf2c-327067d1ec07.jpg"
+    ],
+    "8a9efa37ad408ed2": [
+      "images/5d556d49-d6c9-55fa-a7c9-7ba4427e350a.jpg"
+    ],
+    "8c2b47e2605a8f0c": [
+      "images/cb5e69b2-1d3f-55fa-bb7d-502f4de9308c.jpg"
+    ],
+    "8ec0cf44e88dd009": [
+      "images/8552fdc9-b1fb-5fdf-9be2-c42c719c0e71.jpg"
+    ],
+    "96532c6275ded9a9": [
+      "images/5b4f1d73-f0f6-5101-a0d2-d648f46a69b5.jpg"
+    ],
+    "976d1b4d3eb447f8": [
+      "images/a122b3bf-61f4-5ad8-9fcd-8e0783de08ce.jpg"
+    ],
+    "977d38435f6d9b48": [
+      "images/401e8ed5-2baa-5b31-b1bf-2b563a4684ac.jpg"
+    ],
+    "98d800154ab35e20": [
+      "images/a87d7680-6dc1-5f47-a5a1-b96f916882fe.jpg"
+    ],
+    "9969fd13208a0a5f": [
+      "images/8b183f3b-c579-547d-899d-75c21889587e.jpg"
+    ],
+    "9f2d9588cd90cfdb": [
+      "images/976189a0-420a-509c-a0c6-41e95fde4778.jpg"
+    ],
+    "a23802abf68fb699": [
+      "images/3c80c709-8b0b-5680-998b-2e8912afd230.jpg"
+    ],
+    "a2d6a0f9cfeef4c5": [
+      "images/bb04d6ba-0930-533a-92d2-3c13dc0fb010.jpg"
+    ],
+    "a49d6f8c4015a742": [
+      "images/186bb537-9f04-51c7-b229-1151a19d102e.jpg"
+    ],
+    "a5075c0077fee756": [
+      "images/aa6a54b4-3e8c-5cc9-a555-0bc1898fefab.jpg"
+    ],
+    "a58e76e8d6307b66": [
+      "images/cbd69ced-fcb0-52d2-8d5d-fa0731a349d3.jpg"
+    ],
+    "a9875261ddf53df3": [
+      "images/0510cdd6-eb0e-525f-8a32-7d6843444da2.jpg"
+    ],
+    "aab8e395d15a4ba9": [
+      "images/464a6e39-190c-51b4-8aae-ba04017e1152.jpg"
+    ],
+    "aaeadd85f74ba060": [
+      "images/49f6bf31-c830-5ef4-8746-3ed351d2fc14.jpg"
+    ],
+    "ab996ec566b82f3b": [
+      "images/3b98b745-6b03-5c09-9d3b-404709ba7ad3.jpg"
+    ],
+    "abb41a46f986350b": [
+      "images/71cb4ff3-917e-5401-8af3-80b435abedee.jpg"
+    ],
+    "ad022d7b4e98e54d": [
+      "images/4036e80a-5835-5bb5-956a-6855e156c466.jpg"
+    ],
+    "afed5b223f3894cb": [
+      "images/866f76bc-8b5e-5175-96a8-071fc0dd5f99.jpg"
+    ],
+    "b0a94ce53317da15": [
+      "images/9b060baf-e88f-51a2-bd6f-b462441d1cd9.jpg"
+    ],
+    "b0f164f63f0416fb": [
+      "images/fdd0bdcb-b336-57f4-8101-e1ef769f92e2.jpg"
+    ],
+    "b111ea467a55fca1": [
+      "images/24b07a03-1bb0-5814-b671-0772282d0399.jpg",
+      "images/2e030ed7-7e7a-598e-bb60-7674ac6f217c.jpg",
+      "images/33317819-bbbb-5d5a-8568-35b681134999.jpg",
+      "images/676fa459-35be-5618-b1c7-5c8361908e1d.jpg",
+      "images/b8f6f8f3-0e75-5a7f-9910-f04f0871f620.jpg"
+    ],
+    "b1995615f723d333": [
+      "images/46842db7-0c7a-5e6e-83b8-bfbbe1b7a125.jpg"
+    ],
+    "b33adf6d784ac3a8": [
+      "images/3a2d0330-a40f-587e-a3bc-6ea2f8237758.jpg"
+    ],
+    "b3a2d1daa08d8ea6": [
+      "images/dbf18361-1e3a-5f45-871b-c25966a7e299.jpg"
+    ],
+    "b49949bfd53cb9ec": [
+      "images/226e4155-0e43-5d6e-9228-e35f0b153b49.jpg"
+    ],
+    "b733e779be079a60": [
+      "images/bac6dcc9-3044-5451-a309-9f44fea71a6b.jpg"
+    ],
+    "b7bf33b2f18b0136": [
+      "images/651cc9c2-2877-5296-91e3-f728839ef139.jpg"
+    ],
+    "b8501b2c97ad8130": [
+      "images/2a96c2fb-586c-5e6e-aa9e-32545bb24ef3.jpg"
+    ],
+    "b8fca8fd76a42cef": [
+      "images/b896dd74-2214-595f-a646-930510fbed2c.jpg"
+    ],
+    "b91f9cee81e18e6d": [
+      "images/64eb3401-9f48-576f-8a34-1e431a00078b.jpg"
+    ],
+    "baff76da12838799": [
+      "images/39bc7a1c-fb9f-5529-8542-c682de60571a.jpg"
+    ],
+    "bc98e05a840f1503": [
+      "images/c3c75c7b-0c56-539b-ac33-5f9340d1b508.jpg"
+    ],
+    "c3a3f0140d10f47b": [
+      "images/5ebd5a82-6c90-561e-9a07-97077a68771a.jpg"
+    ],
+    "c4c4b550ce2de5a2": [
+      "images/911be779-15f9-5498-a03a-99b2a61b1858.jpg"
+    ],
+    "c85149a527295c60": [
+      "images/585d9c81-1354-530c-9bd8-0997263397b5.jpg"
+    ],
+    "ca9f311882a45495": [
+      "images/58dcb2b3-4828-5b1b-8ae6-78246876a265.jpg"
+    ],
+    "ceca9bbc961e2699": [
+      "images/59d05848-36e4-5410-834b-56cb12330f40.jpg"
+    ],
+    "cfa02cfb8922a17f": [
+      "images/e3babe61-4b57-56a5-a811-0e0d8cd7caa3.jpg"
+    ],
+    "d2007b6acdc0555a": [
+      "images/caa09cc7-138b-5020-aa14-6a113dfc2889.jpg"
+    ],
+    "d21a1f7d883af96b": [
+      "images/2800dc3f-d017-5915-ac87-a11e890dc282.jpg"
+    ],
+    "d23b7067b8a0d11b": [
+      "images/321e42ab-cbb9-57c6-84f9-9ac2e4eed4fb.jpg"
+    ],
+    "d652f0168ffdc015": [
+      "images/629ce023-2192-50e8-a37e-fbabe01a119f.jpg"
+    ],
+    "d6c2b83f97d669a1": [
+      "images/154f134c-4fb4-538a-9d20-a6335022d2de.jpg"
+    ],
+    "d9747ca3dec668f6": [
+      "images/df33d39b-aa3a-5a90-a003-50b20a1a9b14.jpg"
+    ],
+    "d9c1f26a60aac869": [
+      "images/aa005f8d-fb8e-5852-84d0-a15586e914bf.jpg"
+    ],
+    "db6b0c7a1caa7f4e": [
+      "images/06c5c1c0-d158-5ac8-8782-4b3b9921ba96.jpg",
+      "images/06debe61-20f4-57c0-a6b5-30f86a403e0c.jpg",
+      "images/097b6ef3-0e68-5156-b242-2d9e322e600f.jpg",
+      "images/125995e8-e049-51b3-9099-80b6f6da8243.jpg",
+      "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "images/166e8917-ee84-5a8f-b798-8217c4470444.jpg",
+      "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg",
+      "images/2a1f6897-f0f1-52f4-9b4c-ee6f57f2e924.jpg",
+      "images/2c817932-e845-5f4a-80a8-d6eb30b66eea.jpg",
+      "images/37fc62fb-ab49-550c-9828-74408fcb9a29.jpg",
+      "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg",
+      "images/4013b8e0-3825-53de-9a7f-74f21ec70b5c.jpg",
+      "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "images/4d14544c-c989-58a7-8a48-543032f8cf20.jpg",
+      "images/4d1f3a99-9b57-5b29-bd9b-f33fe514e874.jpg",
+      "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg",
+      "images/5742cba0-5482-5e58-a0fe-e4c43b8cf269.jpg",
+      "images/57d95c62-f94a-56b3-ae4f-b9a637f8457d.jpg",
+      "images/59596bba-9312-5444-81d7-b539149bef84.jpg",
+      "images/5e47690e-6594-5c96-96d4-509953df4e88.jpg",
+      "images/6bad6e2f-2e52-5cd6-bc02-f86906a39319.jpg",
+      "images/6d511c32-4ee5-52dd-afe1-8295ff604c3a.jpg",
+      "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg",
+      "images/70162807-ce40-5c43-b3e3-e13f46f1c730.jpg",
+      "images/721d2fdf-0b24-5961-b15a-a1debdad95c3.jpg",
+      "images/76ffa385-5089-5532-8946-8341d85814a6.jpg",
+      "images/7731a309-db19-5f4e-ae56-34182d9a2a15.jpg",
+      "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "images/79dbf50b-4faa-586c-93cf-fb7e5a1428d1.jpg",
+      "images/911673f9-0ec1-512d-9ae1-c8e2c0a482ba.jpg",
+      "images/9605c950-ba2c-5203-82c5-4816809fe96e.jpg",
+      "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg",
+      "images/9a79a157-5753-596e-80c7-f3fa4a48fa6a.jpg",
+      "images/9bd7041c-7a6c-51b2-a366-f0bb5254f817.jpg",
+      "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg",
+      "images/aff204e5-0f82-5ddb-b061-6dc64874aa3e.jpg",
+      "images/b05a608d-be04-53e8-82d0-48c07e030db2.jpg",
+      "images/b52c5d99-6415-5a73-9800-d2318245b796.jpg",
+      "images/b54a8359-495d-53fd-8b7e-dc9cf04464ef.jpg",
+      "images/b853477a-9240-5878-9691-d9b328cf443f.jpg",
+      "images/bbd0f59e-805f-52ec-ab53-e30662c023f5.jpg",
+      "images/c1c066ed-6969-5335-a0fd-2634fa08b3f6.jpg",
+      "images/c95c3ff6-2fdd-5e73-99bf-435c1d15f1a1.jpg",
+      "images/d3a67bb4-13fe-577a-930e-73b2549a49a0.jpg",
+      "images/d3fdff22-4afd-53d8-ba56-04cd763597db.jpg",
+      "images/d9a1bc28-fd50-59cc-b695-e61c84e8edbe.jpg",
+      "images/dd4c9cd4-c018-5b7f-af5e-d0563602737b.jpg",
+      "images/ddfd4d70-f28f-5219-b94d-727691c5519a.jpg",
+      "images/e0e0e4d4-8c9d-5be1-ac80-14a6316d05a0.jpg",
+      "images/e3174199-4651-50c2-bdba-28059cb935ab.jpg",
+      "images/e4d4a733-b6bf-5706-b2d1-27cb055c8c7e.jpg",
+      "images/eb47c344-d1c2-55ed-aaf6-57853f4ee906.jpg",
+      "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg",
+      "images/f1b16d32-ec38-5ee5-8790-f06052a97161.jpg",
+      "images/f74daa4b-f6d3-5292-8c79-34b684c8a648.jpg"
+    ],
+    "dc084e78108b1b94": [
+      "images/42952a4d-4ce5-503d-b0c1-f8c2ff5da270.jpg"
+    ],
+    "dfdffdfd5c21b6b4": [
+      "images/c67bcfbd-184a-5189-a224-e29f06a1fc01.jpg"
+    ],
+    "e002ef7bbafbcd2c": [
+      "images/491d2f98-ddaf-52f1-b7f1-742c1eebe885.jpg"
+    ],
+    "e2da85bad98d3e5b": [
+      "images/fbaeff48-8d47-5515-be56-b51806a7b6f4.jpg"
+    ],
+    "e6add7e5a535378d": [
+      "images/2c308042-d62b-5a5b-b8bc-af02c230cfd5.jpg"
+    ],
+    "e798ad8011e94f36": [
+      "images/57c17441-180f-512f-b990-e6d74839807f.jpg",
+      "images/7e1a792b-3a5f-5e14-91ac-eec15dd955c1.jpg",
+      "images/9357618f-4ef1-5226-a130-9667c6485ce2.jpg",
+      "images/9499177a-7873-5a09-81a8-6a33b36ce036.jpg",
+      "images/d4db8108-d089-5fac-9541-865da56bca66.jpg",
+      "images/f306d3c9-a546-5a3c-b5d6-7a002aa6e80e.jpg"
+    ],
+    "eae1359fa92c491d": [
+      "images/7046c372-638b-5b0f-9c32-9a79599ce4c6.jpg"
+    ],
+    "ee170db936b6a018": [
+      "images/7aae6965-9d3c-5be5-9757-fc236719e2eb.jpg"
+    ],
+    "f466e2734fc57f1b": [
+      "images/9ac8dbde-fb27-5acf-a366-54efb15a298a.jpg"
+    ],
+    "f90414e97951e4e8": [
+      "images/6c08cdd5-5c19-5a95-a13a-15876280e0c8.jpg"
+    ],
+    "fb6d754a5c24d43d": [
+      "images/061f0c8b-e6e3-5f96-8d7e-8fa650bc7b3e.jpg"
+    ],
+    "fefe87ba69ddc69d": [
+      "images/3553e132-c13a-56d6-b697-7be68cd82c19.jpg"
+    ]
+  },
+  "near_duplicate_candidates": [
+    {
+      "a": "images/06c5c1c0-d158-5ac8-8782-4b3b9921ba96.jpg",
+      "b": "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/06c5c1c0-d158-5ac8-8782-4b3b9921ba96.jpg",
+      "b": "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/06c5c1c0-d158-5ac8-8782-4b3b9921ba96.jpg",
+      "b": "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/06c5c1c0-d158-5ac8-8782-4b3b9921ba96.jpg",
+      "b": "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/06c5c1c0-d158-5ac8-8782-4b3b9921ba96.jpg",
+      "b": "images/70162807-ce40-5c43-b3e3-e13f46f1c730.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/06c5c1c0-d158-5ac8-8782-4b3b9921ba96.jpg",
+      "b": "images/76ffa385-5089-5532-8946-8341d85814a6.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/06c5c1c0-d158-5ac8-8782-4b3b9921ba96.jpg",
+      "b": "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/06c5c1c0-d158-5ac8-8782-4b3b9921ba96.jpg",
+      "b": "images/aff204e5-0f82-5ddb-b061-6dc64874aa3e.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/06c5c1c0-d158-5ac8-8782-4b3b9921ba96.jpg",
+      "b": "images/b853477a-9240-5878-9691-d9b328cf443f.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/06c5c1c0-d158-5ac8-8782-4b3b9921ba96.jpg",
+      "b": "images/ddfd4d70-f28f-5219-b94d-727691c5519a.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/06c5c1c0-d158-5ac8-8782-4b3b9921ba96.jpg",
+      "b": "images/e0e0e4d4-8c9d-5be1-ac80-14a6316d05a0.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/06c5c1c0-d158-5ac8-8782-4b3b9921ba96.jpg",
+      "b": "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/06debe61-20f4-57c0-a6b5-30f86a403e0c.jpg",
+      "b": "images/bbd0f59e-805f-52ec-ab53-e30662c023f5.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/06debe61-20f4-57c0-a6b5-30f86a403e0c.jpg",
+      "b": "images/c95c3ff6-2fdd-5e73-99bf-435c1d15f1a1.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/097b6ef3-0e68-5156-b242-2d9e322e600f.jpg",
+      "b": "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/097b6ef3-0e68-5156-b242-2d9e322e600f.jpg",
+      "b": "images/ddfd4d70-f28f-5219-b94d-727691c5519a.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/097b6ef3-0e68-5156-b242-2d9e322e600f.jpg",
+      "b": "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/09ee70a7-51db-52a3-a7d5-a27db06b5d68.jpg",
+      "b": "images/c908017b-9b63-53ff-8d38-5302a88f4f6c.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/125995e8-e049-51b3-9099-80b6f6da8243.jpg",
+      "b": "images/166e8917-ee84-5a8f-b798-8217c4470444.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/125995e8-e049-51b3-9099-80b6f6da8243.jpg",
+      "b": "images/d9a1bc28-fd50-59cc-b695-e61c84e8edbe.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/125995e8-e049-51b3-9099-80b6f6da8243.jpg",
+      "b": "images/e0e0e4d4-8c9d-5be1-ac80-14a6316d05a0.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/125995e8-e049-51b3-9099-80b6f6da8243.jpg",
+      "b": "images/e4d4a733-b6bf-5706-b2d1-27cb055c8c7e.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "b": "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 0
+    },
+    {
+      "a": "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "b": "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "b": "images/2a1f6897-f0f1-52f4-9b4c-ee6f57f2e924.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "b": "images/37fc62fb-ab49-550c-9828-74408fcb9a29.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "b": "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "b": "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "b": "images/4d14544c-c989-58a7-8a48-543032f8cf20.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "b": "images/4d1f3a99-9b57-5b29-bd9b-f33fe514e874.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "b": "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "b": "images/5742cba0-5482-5e58-a0fe-e4c43b8cf269.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "b": "images/57d95c62-f94a-56b3-ae4f-b9a637f8457d.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "b": "images/6bad6e2f-2e52-5cd6-bc02-f86906a39319.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "b": "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "b": "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "b": "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 1
+    },
+    {
+      "a": "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "b": "images/b54a8359-495d-53fd-8b7e-dc9cf04464ef.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "b": "images/c1c066ed-6969-5335-a0fd-2634fa08b3f6.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "b": "images/dd4c9cd4-c018-5b7f-af5e-d0563602737b.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "b": "images/ddfd4d70-f28f-5219-b94d-727691c5519a.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "b": "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/1665aa23-555c-5723-9af7-f4058d17b814.jpg",
+      "b": "images/f1b16d32-ec38-5ee5-8790-f06052a97161.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/166e8917-ee84-5a8f-b798-8217c4470444.jpg",
+      "b": "images/59596bba-9312-5444-81d7-b539149bef84.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/166e8917-ee84-5a8f-b798-8217c4470444.jpg",
+      "b": "images/e0e0e4d4-8c9d-5be1-ac80-14a6316d05a0.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/171c5c14-b9e6-55bc-8fba-eb098f9ef63c.jpg",
+      "b": "images/34babd58-e338-54d2-b38c-95e062b087ae.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/171c5c14-b9e6-55bc-8fba-eb098f9ef63c.jpg",
+      "b": "images/825a4046-0cfb-5fb2-ac57-10e4262c23de.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "b": "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "b": "images/2a1f6897-f0f1-52f4-9b4c-ee6f57f2e924.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "b": "images/37fc62fb-ab49-550c-9828-74408fcb9a29.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "b": "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "b": "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "b": "images/4d14544c-c989-58a7-8a48-543032f8cf20.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "b": "images/4d1f3a99-9b57-5b29-bd9b-f33fe514e874.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "b": "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "b": "images/5742cba0-5482-5e58-a0fe-e4c43b8cf269.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "b": "images/57d95c62-f94a-56b3-ae4f-b9a637f8457d.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "b": "images/6bad6e2f-2e52-5cd6-bc02-f86906a39319.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "b": "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "b": "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "b": "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 1
+    },
+    {
+      "a": "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "b": "images/b54a8359-495d-53fd-8b7e-dc9cf04464ef.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "b": "images/c1c066ed-6969-5335-a0fd-2634fa08b3f6.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "b": "images/dd4c9cd4-c018-5b7f-af5e-d0563602737b.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "b": "images/ddfd4d70-f28f-5219-b94d-727691c5519a.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "b": "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/2195f18b-437b-53d4-b6ca-def3c0c1dabd.jpg",
+      "b": "images/f1b16d32-ec38-5ee5-8790-f06052a97161.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/24b07a03-1bb0-5814-b671-0772282d0399.jpg",
+      "b": "images/2e030ed7-7e7a-598e-bb60-7674ac6f217c.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/24b07a03-1bb0-5814-b671-0772282d0399.jpg",
+      "b": "images/33317819-bbbb-5d5a-8568-35b681134999.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 1
+    },
+    {
+      "a": "images/24b07a03-1bb0-5814-b671-0772282d0399.jpg",
+      "b": "images/676fa459-35be-5618-b1c7-5c8361908e1d.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg",
+      "b": "images/2c817932-e845-5f4a-80a8-d6eb30b66eea.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg",
+      "b": "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg",
+      "b": "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg",
+      "b": "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg",
+      "b": "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg",
+      "b": "images/70162807-ce40-5c43-b3e3-e13f46f1c730.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg",
+      "b": "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg",
+      "b": "images/911673f9-0ec1-512d-9ae1-c8e2c0a482ba.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg",
+      "b": "images/9a79a157-5753-596e-80c7-f3fa4a48fa6a.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg",
+      "b": "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg",
+      "b": "images/b52c5d99-6415-5a73-9800-d2318245b796.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg",
+      "b": "images/b54a8359-495d-53fd-8b7e-dc9cf04464ef.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg",
+      "b": "images/bbd0f59e-805f-52ec-ab53-e30662c023f5.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg",
+      "b": "images/c95c3ff6-2fdd-5e73-99bf-435c1d15f1a1.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg",
+      "b": "images/e3174199-4651-50c2-bdba-28059cb935ab.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg",
+      "b": "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/294e348f-f205-583f-abcc-f9ab5aaeae96.jpg",
+      "b": "images/f1b16d32-ec38-5ee5-8790-f06052a97161.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/2a1f6897-f0f1-52f4-9b4c-ee6f57f2e924.jpg",
+      "b": "images/37fc62fb-ab49-550c-9828-74408fcb9a29.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/2a1f6897-f0f1-52f4-9b4c-ee6f57f2e924.jpg",
+      "b": "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/2a1f6897-f0f1-52f4-9b4c-ee6f57f2e924.jpg",
+      "b": "images/b54a8359-495d-53fd-8b7e-dc9cf04464ef.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/2a1f6897-f0f1-52f4-9b4c-ee6f57f2e924.jpg",
+      "b": "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/2a1f6897-f0f1-52f4-9b4c-ee6f57f2e924.jpg",
+      "b": "images/f1b16d32-ec38-5ee5-8790-f06052a97161.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/2c817932-e845-5f4a-80a8-d6eb30b66eea.jpg",
+      "b": "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/2c817932-e845-5f4a-80a8-d6eb30b66eea.jpg",
+      "b": "images/5e47690e-6594-5c96-96d4-509953df4e88.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/2c817932-e845-5f4a-80a8-d6eb30b66eea.jpg",
+      "b": "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/2c817932-e845-5f4a-80a8-d6eb30b66eea.jpg",
+      "b": "images/70162807-ce40-5c43-b3e3-e13f46f1c730.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/2c817932-e845-5f4a-80a8-d6eb30b66eea.jpg",
+      "b": "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/2c817932-e845-5f4a-80a8-d6eb30b66eea.jpg",
+      "b": "images/911673f9-0ec1-512d-9ae1-c8e2c0a482ba.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/2c817932-e845-5f4a-80a8-d6eb30b66eea.jpg",
+      "b": "images/9a79a157-5753-596e-80c7-f3fa4a48fa6a.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/2c817932-e845-5f4a-80a8-d6eb30b66eea.jpg",
+      "b": "images/b52c5d99-6415-5a73-9800-d2318245b796.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/2c817932-e845-5f4a-80a8-d6eb30b66eea.jpg",
+      "b": "images/b853477a-9240-5878-9691-d9b328cf443f.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/2c817932-e845-5f4a-80a8-d6eb30b66eea.jpg",
+      "b": "images/bbd0f59e-805f-52ec-ab53-e30662c023f5.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/2c817932-e845-5f4a-80a8-d6eb30b66eea.jpg",
+      "b": "images/c95c3ff6-2fdd-5e73-99bf-435c1d15f1a1.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/2c817932-e845-5f4a-80a8-d6eb30b66eea.jpg",
+      "b": "images/ddfd4d70-f28f-5219-b94d-727691c5519a.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/2c817932-e845-5f4a-80a8-d6eb30b66eea.jpg",
+      "b": "images/e3174199-4651-50c2-bdba-28059cb935ab.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/2c817932-e845-5f4a-80a8-d6eb30b66eea.jpg",
+      "b": "images/f74daa4b-f6d3-5292-8c79-34b684c8a648.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 1
+    },
+    {
+      "a": "images/2e030ed7-7e7a-598e-bb60-7674ac6f217c.jpg",
+      "b": "images/33317819-bbbb-5d5a-8568-35b681134999.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/2e030ed7-7e7a-598e-bb60-7674ac6f217c.jpg",
+      "b": "images/676fa459-35be-5618-b1c7-5c8361908e1d.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/33317819-bbbb-5d5a-8568-35b681134999.jpg",
+      "b": "images/676fa459-35be-5618-b1c7-5c8361908e1d.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/33317819-bbbb-5d5a-8568-35b681134999.jpg",
+      "b": "images/b8f6f8f3-0e75-5a7f-9910-f04f0871f620.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/37fc62fb-ab49-550c-9828-74408fcb9a29.jpg",
+      "b": "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/37fc62fb-ab49-550c-9828-74408fcb9a29.jpg",
+      "b": "images/4d14544c-c989-58a7-8a48-543032f8cf20.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/37fc62fb-ab49-550c-9828-74408fcb9a29.jpg",
+      "b": "images/4d1f3a99-9b57-5b29-bd9b-f33fe514e874.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/37fc62fb-ab49-550c-9828-74408fcb9a29.jpg",
+      "b": "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/37fc62fb-ab49-550c-9828-74408fcb9a29.jpg",
+      "b": "images/5742cba0-5482-5e58-a0fe-e4c43b8cf269.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/37fc62fb-ab49-550c-9828-74408fcb9a29.jpg",
+      "b": "images/57d95c62-f94a-56b3-ae4f-b9a637f8457d.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/37fc62fb-ab49-550c-9828-74408fcb9a29.jpg",
+      "b": "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/37fc62fb-ab49-550c-9828-74408fcb9a29.jpg",
+      "b": "images/79dbf50b-4faa-586c-93cf-fb7e5a1428d1.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/37fc62fb-ab49-550c-9828-74408fcb9a29.jpg",
+      "b": "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/37fc62fb-ab49-550c-9828-74408fcb9a29.jpg",
+      "b": "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/37fc62fb-ab49-550c-9828-74408fcb9a29.jpg",
+      "b": "images/b54a8359-495d-53fd-8b7e-dc9cf04464ef.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/37fc62fb-ab49-550c-9828-74408fcb9a29.jpg",
+      "b": "images/ddfd4d70-f28f-5219-b94d-727691c5519a.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/37fc62fb-ab49-550c-9828-74408fcb9a29.jpg",
+      "b": "images/e4d4a733-b6bf-5706-b2d1-27cb055c8c7e.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/37fc62fb-ab49-550c-9828-74408fcb9a29.jpg",
+      "b": "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/37fc62fb-ab49-550c-9828-74408fcb9a29.jpg",
+      "b": "images/f1b16d32-ec38-5ee5-8790-f06052a97161.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg",
+      "b": "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg",
+      "b": "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg",
+      "b": "images/5742cba0-5482-5e58-a0fe-e4c43b8cf269.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg",
+      "b": "images/57d95c62-f94a-56b3-ae4f-b9a637f8457d.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg",
+      "b": "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg",
+      "b": "images/70162807-ce40-5c43-b3e3-e13f46f1c730.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg",
+      "b": "images/721d2fdf-0b24-5961-b15a-a1debdad95c3.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg",
+      "b": "images/911673f9-0ec1-512d-9ae1-c8e2c0a482ba.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg",
+      "b": "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg",
+      "b": "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg",
+      "b": "images/aff204e5-0f82-5ddb-b061-6dc64874aa3e.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg",
+      "b": "images/dd4c9cd4-c018-5b7f-af5e-d0563602737b.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg",
+      "b": "images/e0e0e4d4-8c9d-5be1-ac80-14a6316d05a0.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg",
+      "b": "images/e4d4a733-b6bf-5706-b2d1-27cb055c8c7e.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/3e222f61-18c7-507f-8a91-d30498a2dee2.jpg",
+      "b": "images/eb47c344-d1c2-55ed-aaf6-57853f4ee906.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/4013b8e0-3825-53de-9a7f-74f21ec70b5c.jpg",
+      "b": "images/9bd7041c-7a6c-51b2-a366-f0bb5254f817.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "b": "images/57d95c62-f94a-56b3-ae4f-b9a637f8457d.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "b": "images/5e47690e-6594-5c96-96d4-509953df4e88.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "b": "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "b": "images/70162807-ce40-5c43-b3e3-e13f46f1c730.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "b": "images/721d2fdf-0b24-5961-b15a-a1debdad95c3.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "b": "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "b": "images/911673f9-0ec1-512d-9ae1-c8e2c0a482ba.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "b": "images/9605c950-ba2c-5203-82c5-4816809fe96e.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "b": "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "b": "images/9a79a157-5753-596e-80c7-f3fa4a48fa6a.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "b": "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "b": "images/aff204e5-0f82-5ddb-b061-6dc64874aa3e.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "b": "images/b52c5d99-6415-5a73-9800-d2318245b796.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "b": "images/b853477a-9240-5878-9691-d9b328cf443f.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "b": "images/ddfd4d70-f28f-5219-b94d-727691c5519a.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "b": "images/e0e0e4d4-8c9d-5be1-ac80-14a6316d05a0.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "b": "images/e3174199-4651-50c2-bdba-28059cb935ab.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "b": "images/e4d4a733-b6bf-5706-b2d1-27cb055c8c7e.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/43b249b6-12ae-5874-9d44-90c2e67f8fa6.jpg",
+      "b": "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/44fe018e-8e28-58ce-9335-885056ba111c.jpg",
+      "b": "images/cec0bde5-56f0-56f1-a17f-7dbcaa382af4.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/4d14544c-c989-58a7-8a48-543032f8cf20.jpg",
+      "b": "images/4d1f3a99-9b57-5b29-bd9b-f33fe514e874.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 0
+    },
+    {
+      "a": "images/4d14544c-c989-58a7-8a48-543032f8cf20.jpg",
+      "b": "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/4d14544c-c989-58a7-8a48-543032f8cf20.jpg",
+      "b": "images/5742cba0-5482-5e58-a0fe-e4c43b8cf269.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/4d14544c-c989-58a7-8a48-543032f8cf20.jpg",
+      "b": "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/4d14544c-c989-58a7-8a48-543032f8cf20.jpg",
+      "b": "images/eb47c344-d1c2-55ed-aaf6-57853f4ee906.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/4d1f3a99-9b57-5b29-bd9b-f33fe514e874.jpg",
+      "b": "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/4d1f3a99-9b57-5b29-bd9b-f33fe514e874.jpg",
+      "b": "images/5742cba0-5482-5e58-a0fe-e4c43b8cf269.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/4d1f3a99-9b57-5b29-bd9b-f33fe514e874.jpg",
+      "b": "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/4d1f3a99-9b57-5b29-bd9b-f33fe514e874.jpg",
+      "b": "images/eb47c344-d1c2-55ed-aaf6-57853f4ee906.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/54f305fc-456a-593d-a807-ea8620c90bae.jpg",
+      "b": "images/f812ea31-8db4-5517-8b5c-1d1bed5e4c55.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg",
+      "b": "images/5742cba0-5482-5e58-a0fe-e4c43b8cf269.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg",
+      "b": "images/76ffa385-5089-5532-8946-8341d85814a6.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg",
+      "b": "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg",
+      "b": "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg",
+      "b": "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 1
+    },
+    {
+      "a": "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg",
+      "b": "images/b54a8359-495d-53fd-8b7e-dc9cf04464ef.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg",
+      "b": "images/c1c066ed-6969-5335-a0fd-2634fa08b3f6.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg",
+      "b": "images/dd4c9cd4-c018-5b7f-af5e-d0563602737b.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg",
+      "b": "images/ddfd4d70-f28f-5219-b94d-727691c5519a.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg",
+      "b": "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/565dc714-4fcb-5a9a-b6d8-2d79e1a3b59f.jpg",
+      "b": "images/f1b16d32-ec38-5ee5-8790-f06052a97161.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/5742cba0-5482-5e58-a0fe-e4c43b8cf269.jpg",
+      "b": "images/6bad6e2f-2e52-5cd6-bc02-f86906a39319.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/5742cba0-5482-5e58-a0fe-e4c43b8cf269.jpg",
+      "b": "images/6d511c32-4ee5-52dd-afe1-8295ff604c3a.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/5742cba0-5482-5e58-a0fe-e4c43b8cf269.jpg",
+      "b": "images/76ffa385-5089-5532-8946-8341d85814a6.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/5742cba0-5482-5e58-a0fe-e4c43b8cf269.jpg",
+      "b": "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/5742cba0-5482-5e58-a0fe-e4c43b8cf269.jpg",
+      "b": "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/5742cba0-5482-5e58-a0fe-e4c43b8cf269.jpg",
+      "b": "images/aff204e5-0f82-5ddb-b061-6dc64874aa3e.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/5742cba0-5482-5e58-a0fe-e4c43b8cf269.jpg",
+      "b": "images/dd4c9cd4-c018-5b7f-af5e-d0563602737b.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/5742cba0-5482-5e58-a0fe-e4c43b8cf269.jpg",
+      "b": "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/5742cba0-5482-5e58-a0fe-e4c43b8cf269.jpg",
+      "b": "images/f1b16d32-ec38-5ee5-8790-f06052a97161.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/57c17441-180f-512f-b990-e6d74839807f.jpg",
+      "b": "images/7e1a792b-3a5f-5e14-91ac-eec15dd955c1.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/57c17441-180f-512f-b990-e6d74839807f.jpg",
+      "b": "images/9357618f-4ef1-5226-a130-9667c6485ce2.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/57c17441-180f-512f-b990-e6d74839807f.jpg",
+      "b": "images/9499177a-7873-5a09-81a8-6a33b36ce036.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/57d95c62-f94a-56b3-ae4f-b9a637f8457d.jpg",
+      "b": "images/721d2fdf-0b24-5961-b15a-a1debdad95c3.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/57d95c62-f94a-56b3-ae4f-b9a637f8457d.jpg",
+      "b": "images/911673f9-0ec1-512d-9ae1-c8e2c0a482ba.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/57d95c62-f94a-56b3-ae4f-b9a637f8457d.jpg",
+      "b": "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/57d95c62-f94a-56b3-ae4f-b9a637f8457d.jpg",
+      "b": "images/e4d4a733-b6bf-5706-b2d1-27cb055c8c7e.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/5e47690e-6594-5c96-96d4-509953df4e88.jpg",
+      "b": "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/5e47690e-6594-5c96-96d4-509953df4e88.jpg",
+      "b": "images/76ffa385-5089-5532-8946-8341d85814a6.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/5e47690e-6594-5c96-96d4-509953df4e88.jpg",
+      "b": "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/5e47690e-6594-5c96-96d4-509953df4e88.jpg",
+      "b": "images/9605c950-ba2c-5203-82c5-4816809fe96e.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/5e47690e-6594-5c96-96d4-509953df4e88.jpg",
+      "b": "images/9a79a157-5753-596e-80c7-f3fa4a48fa6a.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/5e47690e-6594-5c96-96d4-509953df4e88.jpg",
+      "b": "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/5e47690e-6594-5c96-96d4-509953df4e88.jpg",
+      "b": "images/b05a608d-be04-53e8-82d0-48c07e030db2.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/5e47690e-6594-5c96-96d4-509953df4e88.jpg",
+      "b": "images/b52c5d99-6415-5a73-9800-d2318245b796.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/5e47690e-6594-5c96-96d4-509953df4e88.jpg",
+      "b": "images/b853477a-9240-5878-9691-d9b328cf443f.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 1
+    },
+    {
+      "a": "images/5e47690e-6594-5c96-96d4-509953df4e88.jpg",
+      "b": "images/bbd0f59e-805f-52ec-ab53-e30662c023f5.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/5e47690e-6594-5c96-96d4-509953df4e88.jpg",
+      "b": "images/c1c066ed-6969-5335-a0fd-2634fa08b3f6.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/5e47690e-6594-5c96-96d4-509953df4e88.jpg",
+      "b": "images/c95c3ff6-2fdd-5e73-99bf-435c1d15f1a1.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/5e47690e-6594-5c96-96d4-509953df4e88.jpg",
+      "b": "images/ddfd4d70-f28f-5219-b94d-727691c5519a.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/5e47690e-6594-5c96-96d4-509953df4e88.jpg",
+      "b": "images/e3174199-4651-50c2-bdba-28059cb935ab.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/5e47690e-6594-5c96-96d4-509953df4e88.jpg",
+      "b": "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/5e47690e-6594-5c96-96d4-509953df4e88.jpg",
+      "b": "images/f74daa4b-f6d3-5292-8c79-34b684c8a648.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/6bad6e2f-2e52-5cd6-bc02-f86906a39319.jpg",
+      "b": "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/6bad6e2f-2e52-5cd6-bc02-f86906a39319.jpg",
+      "b": "images/b05a608d-be04-53e8-82d0-48c07e030db2.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/6d511c32-4ee5-52dd-afe1-8295ff604c3a.jpg",
+      "b": "images/76ffa385-5089-5532-8946-8341d85814a6.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/6d511c32-4ee5-52dd-afe1-8295ff604c3a.jpg",
+      "b": "images/b05a608d-be04-53e8-82d0-48c07e030db2.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/6d511c32-4ee5-52dd-afe1-8295ff604c3a.jpg",
+      "b": "images/c1c066ed-6969-5335-a0fd-2634fa08b3f6.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg",
+      "b": "images/70162807-ce40-5c43-b3e3-e13f46f1c730.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg",
+      "b": "images/7731a309-db19-5f4e-ae56-34182d9a2a15.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg",
+      "b": "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg",
+      "b": "images/911673f9-0ec1-512d-9ae1-c8e2c0a482ba.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg",
+      "b": "images/9a79a157-5753-596e-80c7-f3fa4a48fa6a.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg",
+      "b": "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg",
+      "b": "images/b52c5d99-6415-5a73-9800-d2318245b796.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg",
+      "b": "images/b54a8359-495d-53fd-8b7e-dc9cf04464ef.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg",
+      "b": "images/b853477a-9240-5878-9691-d9b328cf443f.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg",
+      "b": "images/bbd0f59e-805f-52ec-ab53-e30662c023f5.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg",
+      "b": "images/c95c3ff6-2fdd-5e73-99bf-435c1d15f1a1.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg",
+      "b": "images/ddfd4d70-f28f-5219-b94d-727691c5519a.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg",
+      "b": "images/e3174199-4651-50c2-bdba-28059cb935ab.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg",
+      "b": "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/6e4bbd9f-5bb6-5716-9603-c0f3ed30ffee.jpg",
+      "b": "images/f74daa4b-f6d3-5292-8c79-34b684c8a648.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/70162807-ce40-5c43-b3e3-e13f46f1c730.jpg",
+      "b": "images/721d2fdf-0b24-5961-b15a-a1debdad95c3.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/70162807-ce40-5c43-b3e3-e13f46f1c730.jpg",
+      "b": "images/911673f9-0ec1-512d-9ae1-c8e2c0a482ba.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/70162807-ce40-5c43-b3e3-e13f46f1c730.jpg",
+      "b": "images/9a79a157-5753-596e-80c7-f3fa4a48fa6a.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/70162807-ce40-5c43-b3e3-e13f46f1c730.jpg",
+      "b": "images/b52c5d99-6415-5a73-9800-d2318245b796.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/70162807-ce40-5c43-b3e3-e13f46f1c730.jpg",
+      "b": "images/e3174199-4651-50c2-bdba-28059cb935ab.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/721d2fdf-0b24-5961-b15a-a1debdad95c3.jpg",
+      "b": "images/e4d4a733-b6bf-5706-b2d1-27cb055c8c7e.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/76ffa385-5089-5532-8946-8341d85814a6.jpg",
+      "b": "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/76ffa385-5089-5532-8946-8341d85814a6.jpg",
+      "b": "images/aff204e5-0f82-5ddb-b061-6dc64874aa3e.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/76ffa385-5089-5532-8946-8341d85814a6.jpg",
+      "b": "images/b853477a-9240-5878-9691-d9b328cf443f.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/76ffa385-5089-5532-8946-8341d85814a6.jpg",
+      "b": "images/ddfd4d70-f28f-5219-b94d-727691c5519a.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/76ffa385-5089-5532-8946-8341d85814a6.jpg",
+      "b": "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/7731a309-db19-5f4e-ae56-34182d9a2a15.jpg",
+      "b": "images/9a79a157-5753-596e-80c7-f3fa4a48fa6a.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/7731a309-db19-5f4e-ae56-34182d9a2a15.jpg",
+      "b": "images/b52c5d99-6415-5a73-9800-d2318245b796.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/7731a309-db19-5f4e-ae56-34182d9a2a15.jpg",
+      "b": "images/e3174199-4651-50c2-bdba-28059cb935ab.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "b": "images/79dbf50b-4faa-586c-93cf-fb7e5a1428d1.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "b": "images/9605c950-ba2c-5203-82c5-4816809fe96e.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "b": "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "b": "images/9a79a157-5753-596e-80c7-f3fa4a48fa6a.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "b": "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "b": "images/b05a608d-be04-53e8-82d0-48c07e030db2.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "b": "images/b52c5d99-6415-5a73-9800-d2318245b796.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "b": "images/b54a8359-495d-53fd-8b7e-dc9cf04464ef.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "b": "images/b853477a-9240-5878-9691-d9b328cf443f.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "b": "images/bbd0f59e-805f-52ec-ab53-e30662c023f5.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "b": "images/c1c066ed-6969-5335-a0fd-2634fa08b3f6.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "b": "images/c95c3ff6-2fdd-5e73-99bf-435c1d15f1a1.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "b": "images/d3a67bb4-13fe-577a-930e-73b2549a49a0.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "b": "images/ddfd4d70-f28f-5219-b94d-727691c5519a.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "b": "images/e3174199-4651-50c2-bdba-28059cb935ab.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/78598a1c-9ca2-5018-b3a3-f19a46ca2fa9.jpg",
+      "b": "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 1
+    },
+    {
+      "a": "images/79dbf50b-4faa-586c-93cf-fb7e5a1428d1.jpg",
+      "b": "images/b54a8359-495d-53fd-8b7e-dc9cf04464ef.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/79dbf50b-4faa-586c-93cf-fb7e5a1428d1.jpg",
+      "b": "images/bbd0f59e-805f-52ec-ab53-e30662c023f5.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/79dbf50b-4faa-586c-93cf-fb7e5a1428d1.jpg",
+      "b": "images/c95c3ff6-2fdd-5e73-99bf-435c1d15f1a1.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/79dbf50b-4faa-586c-93cf-fb7e5a1428d1.jpg",
+      "b": "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/7e1a792b-3a5f-5e14-91ac-eec15dd955c1.jpg",
+      "b": "images/9357618f-4ef1-5226-a130-9667c6485ce2.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/911673f9-0ec1-512d-9ae1-c8e2c0a482ba.jpg",
+      "b": "images/9a79a157-5753-596e-80c7-f3fa4a48fa6a.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/911673f9-0ec1-512d-9ae1-c8e2c0a482ba.jpg",
+      "b": "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/911673f9-0ec1-512d-9ae1-c8e2c0a482ba.jpg",
+      "b": "images/b52c5d99-6415-5a73-9800-d2318245b796.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/911673f9-0ec1-512d-9ae1-c8e2c0a482ba.jpg",
+      "b": "images/e3174199-4651-50c2-bdba-28059cb935ab.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/9357618f-4ef1-5226-a130-9667c6485ce2.jpg",
+      "b": "images/d4db8108-d089-5fac-9541-865da56bca66.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/9605c950-ba2c-5203-82c5-4816809fe96e.jpg",
+      "b": "images/b52c5d99-6415-5a73-9800-d2318245b796.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/9605c950-ba2c-5203-82c5-4816809fe96e.jpg",
+      "b": "images/d3a67bb4-13fe-577a-930e-73b2549a49a0.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/9605c950-ba2c-5203-82c5-4816809fe96e.jpg",
+      "b": "images/e3174199-4651-50c2-bdba-28059cb935ab.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg",
+      "b": "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg",
+      "b": "images/aff204e5-0f82-5ddb-b061-6dc64874aa3e.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg",
+      "b": "images/b54a8359-495d-53fd-8b7e-dc9cf04464ef.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg",
+      "b": "images/dd4c9cd4-c018-5b7f-af5e-d0563602737b.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg",
+      "b": "images/ddfd4d70-f28f-5219-b94d-727691c5519a.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg",
+      "b": "images/e0e0e4d4-8c9d-5be1-ac80-14a6316d05a0.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg",
+      "b": "images/e4d4a733-b6bf-5706-b2d1-27cb055c8c7e.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg",
+      "b": "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/9665ef7a-d3ad-5eea-a3fd-1a92e8904c2c.jpg",
+      "b": "images/f1b16d32-ec38-5ee5-8790-f06052a97161.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/9a79a157-5753-596e-80c7-f3fa4a48fa6a.jpg",
+      "b": "images/b52c5d99-6415-5a73-9800-d2318245b796.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/9a79a157-5753-596e-80c7-f3fa4a48fa6a.jpg",
+      "b": "images/b853477a-9240-5878-9691-d9b328cf443f.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/9a79a157-5753-596e-80c7-f3fa4a48fa6a.jpg",
+      "b": "images/bbd0f59e-805f-52ec-ab53-e30662c023f5.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/9a79a157-5753-596e-80c7-f3fa4a48fa6a.jpg",
+      "b": "images/c95c3ff6-2fdd-5e73-99bf-435c1d15f1a1.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/9a79a157-5753-596e-80c7-f3fa4a48fa6a.jpg",
+      "b": "images/e3174199-4651-50c2-bdba-28059cb935ab.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/9a79a157-5753-596e-80c7-f3fa4a48fa6a.jpg",
+      "b": "images/f74daa4b-f6d3-5292-8c79-34b684c8a648.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/9bd7041c-7a6c-51b2-a366-f0bb5254f817.jpg",
+      "b": "images/e0e0e4d4-8c9d-5be1-ac80-14a6316d05a0.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg",
+      "b": "images/b05a608d-be04-53e8-82d0-48c07e030db2.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg",
+      "b": "images/b54a8359-495d-53fd-8b7e-dc9cf04464ef.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg",
+      "b": "images/bbd0f59e-805f-52ec-ab53-e30662c023f5.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg",
+      "b": "images/c1c066ed-6969-5335-a0fd-2634fa08b3f6.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg",
+      "b": "images/c95c3ff6-2fdd-5e73-99bf-435c1d15f1a1.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg",
+      "b": "images/d3a67bb4-13fe-577a-930e-73b2549a49a0.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg",
+      "b": "images/ddfd4d70-f28f-5219-b94d-727691c5519a.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg",
+      "b": "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 1
+    },
+    {
+      "a": "images/ac792ce9-8fb4-5fed-b078-5ea82a8cfc9f.jpg",
+      "b": "images/f1b16d32-ec38-5ee5-8790-f06052a97161.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/b05a608d-be04-53e8-82d0-48c07e030db2.jpg",
+      "b": "images/bbd0f59e-805f-52ec-ab53-e30662c023f5.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/b05a608d-be04-53e8-82d0-48c07e030db2.jpg",
+      "b": "images/c1c066ed-6969-5335-a0fd-2634fa08b3f6.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 1
+    },
+    {
+      "a": "images/b05a608d-be04-53e8-82d0-48c07e030db2.jpg",
+      "b": "images/c95c3ff6-2fdd-5e73-99bf-435c1d15f1a1.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/b05a608d-be04-53e8-82d0-48c07e030db2.jpg",
+      "b": "images/d3a67bb4-13fe-577a-930e-73b2549a49a0.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/b52c5d99-6415-5a73-9800-d2318245b796.jpg",
+      "b": "images/b853477a-9240-5878-9691-d9b328cf443f.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/b52c5d99-6415-5a73-9800-d2318245b796.jpg",
+      "b": "images/bbd0f59e-805f-52ec-ab53-e30662c023f5.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/b52c5d99-6415-5a73-9800-d2318245b796.jpg",
+      "b": "images/c95c3ff6-2fdd-5e73-99bf-435c1d15f1a1.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/b52c5d99-6415-5a73-9800-d2318245b796.jpg",
+      "b": "images/e3174199-4651-50c2-bdba-28059cb935ab.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 0
+    },
+    {
+      "a": "images/b52c5d99-6415-5a73-9800-d2318245b796.jpg",
+      "b": "images/f74daa4b-f6d3-5292-8c79-34b684c8a648.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/b54a8359-495d-53fd-8b7e-dc9cf04464ef.jpg",
+      "b": "images/bbd0f59e-805f-52ec-ab53-e30662c023f5.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/b54a8359-495d-53fd-8b7e-dc9cf04464ef.jpg",
+      "b": "images/c95c3ff6-2fdd-5e73-99bf-435c1d15f1a1.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/b54a8359-495d-53fd-8b7e-dc9cf04464ef.jpg",
+      "b": "images/ddfd4d70-f28f-5219-b94d-727691c5519a.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/b54a8359-495d-53fd-8b7e-dc9cf04464ef.jpg",
+      "b": "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/b54a8359-495d-53fd-8b7e-dc9cf04464ef.jpg",
+      "b": "images/f1b16d32-ec38-5ee5-8790-f06052a97161.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/b853477a-9240-5878-9691-d9b328cf443f.jpg",
+      "b": "images/bbd0f59e-805f-52ec-ab53-e30662c023f5.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/b853477a-9240-5878-9691-d9b328cf443f.jpg",
+      "b": "images/c1c066ed-6969-5335-a0fd-2634fa08b3f6.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/b853477a-9240-5878-9691-d9b328cf443f.jpg",
+      "b": "images/c95c3ff6-2fdd-5e73-99bf-435c1d15f1a1.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/b853477a-9240-5878-9691-d9b328cf443f.jpg",
+      "b": "images/ddfd4d70-f28f-5219-b94d-727691c5519a.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/b853477a-9240-5878-9691-d9b328cf443f.jpg",
+      "b": "images/e3174199-4651-50c2-bdba-28059cb935ab.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/b853477a-9240-5878-9691-d9b328cf443f.jpg",
+      "b": "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/b853477a-9240-5878-9691-d9b328cf443f.jpg",
+      "b": "images/f74daa4b-f6d3-5292-8c79-34b684c8a648.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/bbd0f59e-805f-52ec-ab53-e30662c023f5.jpg",
+      "b": "images/c1c066ed-6969-5335-a0fd-2634fa08b3f6.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/bbd0f59e-805f-52ec-ab53-e30662c023f5.jpg",
+      "b": "images/c95c3ff6-2fdd-5e73-99bf-435c1d15f1a1.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 0
+    },
+    {
+      "a": "images/bbd0f59e-805f-52ec-ab53-e30662c023f5.jpg",
+      "b": "images/e3174199-4651-50c2-bdba-28059cb935ab.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/bbd0f59e-805f-52ec-ab53-e30662c023f5.jpg",
+      "b": "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/bbd0f59e-805f-52ec-ab53-e30662c023f5.jpg",
+      "b": "images/f74daa4b-f6d3-5292-8c79-34b684c8a648.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/c1c066ed-6969-5335-a0fd-2634fa08b3f6.jpg",
+      "b": "images/c95c3ff6-2fdd-5e73-99bf-435c1d15f1a1.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/c1c066ed-6969-5335-a0fd-2634fa08b3f6.jpg",
+      "b": "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/c908017b-9b63-53ff-8d38-5302a88f4f6c.jpg",
+      "b": "images/f812ea31-8db4-5517-8b5c-1d1bed5e4c55.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/c95c3ff6-2fdd-5e73-99bf-435c1d15f1a1.jpg",
+      "b": "images/e3174199-4651-50c2-bdba-28059cb935ab.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/c95c3ff6-2fdd-5e73-99bf-435c1d15f1a1.jpg",
+      "b": "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/c95c3ff6-2fdd-5e73-99bf-435c1d15f1a1.jpg",
+      "b": "images/f74daa4b-f6d3-5292-8c79-34b684c8a648.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/d3fdff22-4afd-53d8-ba56-04cd763597db.jpg",
+      "b": "images/dd4c9cd4-c018-5b7f-af5e-d0563602737b.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/d4db8108-d089-5fac-9541-865da56bca66.jpg",
+      "b": "images/f306d3c9-a546-5a3c-b5d6-7a002aa6e80e.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/ddfd4d70-f28f-5219-b94d-727691c5519a.jpg",
+      "b": "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 2
+    },
+    {
+      "a": "images/ddfd4d70-f28f-5219-b94d-727691c5519a.jpg",
+      "b": "images/f74daa4b-f6d3-5292-8c79-34b684c8a648.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/e0e0e4d4-8c9d-5be1-ac80-14a6316d05a0.jpg",
+      "b": "images/e4d4a733-b6bf-5706-b2d1-27cb055c8c7e.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    },
+    {
+      "a": "images/e3174199-4651-50c2-bdba-28059cb935ab.jpg",
+      "b": "images/f74daa4b-f6d3-5292-8c79-34b684c8a648.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 3
+    },
+    {
+      "a": "images/ebe4f7de-190c-54c5-b03e-d41047f959d0.jpg",
+      "b": "images/f1b16d32-ec38-5ee5-8790-f06052a97161.jpg",
+      "decision": "keep_together_conservative_candidate_not_proven_duplicate",
+      "distance": 4
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "vision": {"provider": "glm", "model": "glm-5.3-flash", "max_tokens": 8192, "timeout": 180, "retries": 1},
+  "optimizer": {"provider": "glm", "model": "glm-5.3-flash", "max_tokens": 4096, "timeout": 180, "retries": 1},
+  "budgets": {
+    "vision_calls": 17175,
+    "vision_reported_tokens": 100000000,
+    "optimizer_calls": 4,
+    "optimizer_reported_tokens": 200000
+  }
+}

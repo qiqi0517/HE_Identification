@@ -151,3 +151,54 @@ def review_report(results, samples, threshold, base_report):
         "stage_latency_seconds": round(sum(stage["latency_seconds"] for stage in stages), 3),
     }
     return final_report
+
+
+def validate_confidence_threshold(threshold):
+    """置信度复核阈值独立于类别，包含 0/1 边界。"""
+    if (
+        type(threshold) not in (int, float)
+        or not math.isfinite(threshold)
+        or not 0 <= threshold <= 1
+    ):
+        raise ValueError("--review-threshold must be a finite confidence in [0, 1]")
+
+
+def needs_confidence_review(prediction, threshold):
+    validate_confidence_threshold(threshold)
+    confidence = prediction.get("confidence")
+    return (
+        prediction.get("status") == "ok"
+        and type(confidence) in (int, float)
+        and math.isfinite(confidence)
+        and 0 <= confidence < threshold
+    )
+
+
+def predict_typing_stage(client, request, parser):
+    """独立分型调用，保留本次 confidence，不继承上次判断。"""
+    started = time.monotonic()
+    record = dict(
+        status="error",
+        predicted_type=None,
+        confidence=None,
+        findings=[],
+        fatal=False,
+        usage=None,
+        raw_answer=None,
+    )
+    try:
+        response = client.generate(request)
+        record.update(
+            response_id=response.response_id,
+            returned_model=response.model,
+            usage=response.usage,
+            finish_reason=response.finish_reason,
+            raw_answer=response.text,
+        )
+        record.update(parser(response))
+    except ModelError as error:
+        record.update(error=str(error), fatal=error.fatal)
+    except (ValueError, KeyError, IndexError, TypeError) as error:
+        record["error"] = f"Invalid input/response ({type(error).__name__})"
+    record["latency_seconds"] = round(time.monotonic() - started, 3)
+    return record

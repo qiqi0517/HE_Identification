@@ -1,4 +1,4 @@
-"""肝包虫病概率评估入口：校验数据、组织提示、调用模型并记录实验结果。
+"""基础 Agent 入口：默认输出分型及 confidence；历史概率函数保留供旧实验调用。
 
 阅读顺序：main → run → load_samples/build_request → parse_prediction → report。
 数据边界：测试标签仅存在于本地样本和评分中，不进入 ModelRequest。
@@ -236,7 +236,7 @@ def report(results, samples, threshold=0.5):
     return overall
 
 
-def run(args, model_client: ModelClient | None = None):
+def run_probability(args, model_client: ModelClient | None = None):
     """执行一次独立实验；可注入模拟客户端进行离线验证。
 
     先校验数据与配置，再创建新输出目录；逐图保存结果以保留中断前记录。
@@ -538,7 +538,7 @@ def run(args, model_client: ModelClient | None = None):
     return 1 if any(r["status"] == "error" for r in results) else 0
 
 
-def main():
+def probability_main():
     """解析命令行参数并启动 Agent。"""
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("--mode", choices=MODES, default="baseline")
@@ -606,9 +606,22 @@ def main():
     p.add_argument("--dry-run", action="store_true")
     args = p.parse_args()
     try:
-        return run(args)
+        return run_probability(args)
     except (ValueError, OSError, KeyError) as e:
         p.exit(2, f"{type(e).__name__}: {e}\n")
+
+
+def run(args, model_client=None):
+    """当前基础分型 Agent；历史调用需显式使用 run_probability。"""
+    from typing_agent import run as run_typing
+
+    return run_typing(args, model_client)
+
+
+def main():
+    from typing_agent import main as typing_main
+
+    return typing_main()
 
 
 if __name__ == "__main__":
